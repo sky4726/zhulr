@@ -39,7 +39,7 @@
 {"key":"csp_Kunyu77","name":"七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar"},
 {"key":"新视觉","name":"新视觉","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/新视觉.js","jar":"./jar/spider.jar"},
 {"key":"影探","name":"影探","type":3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://ytcms.lfytyl.com/api.php/app/"},
-{"key":"玩偶哥哥","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/玩偶哥哥.js","jar":"./jar/fm.jar"},
+{"key":"玩偶哥哥","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/玩偶哥哥.js","jar":"./jar/f.jar"},
 {"key":"csp_555","name":"五五五","type":3,"api":"csp_Ys555","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.555dyy1.com"},
 {"key":"大米星球","name":"大米星球","type":3,"api":"./JS/drpy.min.js","ext":"./JS/大米星球.js"},
 {"key":"csp_DiDuan","name":"低端影视","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0},
