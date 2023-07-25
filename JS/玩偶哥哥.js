@@ -5,7 +5,7 @@ var rule = {
     title:'玩偶哥哥',
     模板:'mxone5',
     host:'http://wogg.xyz',
-    url:'/index.php/fyclassfyfilter-----------.html',
+    url:'/index.php/fyclass/fyfilter-----------.html',
     filterable:1,//是否启用分类筛选,
     filter_url:'-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}----fypage---{{fl.year}}',
     filter: {
