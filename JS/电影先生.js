@@ -7,7 +7,7 @@ var rule = {
     host:'http://dyxs.vip',
     hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"p:eq(5)&&a&&href");print(src);HOST=src',
     // url:'/pianku-fyclass--------fypage---/',
-    url:'/pianku-fyclassfyfilter/',
+    url:'/v/fyclassfyfilter/',
     filterable:1,//是否启用分类筛选,
     filter_url:'-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}----fypage---{{fl.year}}',
     filter: {
