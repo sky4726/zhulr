@@ -27,5 +27,5 @@ var rule = {
         "tabs":".from-tabs&&label",
         "lists":".mn_list_li_movie:eq(#id) li"
     },
-    搜索:'.list_3&&li;a&&title;img&&src;.list_3&&p;p&&Text',
+    搜索:'*',
 }
