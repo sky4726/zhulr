@@ -3,7 +3,7 @@
     // 首页地址 用于获取 分类和首页推荐
 	"homeUrl": "https://www.mayi4k.com/",
     // 手动设置分类，如果手动设置了分类则不使用上面的分类xpath获取分类  例如 "cateManual": {"电影": "1", "电视剧": "2"},
-	"cateManual": {"蓝光原盘":"266","4K电影":"269","1080P":"284","剧集":"247","演唱会":"246""},
+	"cateManual": {"蓝光原盘":"266","4K电影":"269","1080P":"284","剧集":"247","演唱会":"246"},
     // 分类页地址 {cateId} 分类id {catePg} 当前页
 	"cateUrl": "https://www.mayi4k.com/vodshow/{cateId}--------{catePg}---.html",
     // 同上面的homeVod字段 分类列表中的视频信息
