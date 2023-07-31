@@ -34,13 +34,13 @@
 	"dtMark": "",
 	"dtMarkR": "",
     // 主演
-	"dtActor": "//div[@class='video-info-actor']",
+	//"dtActor": "//div[@class='video-info-actor']",
 	"dtActorR": "",
     // 导演
 	"dtDirector": "",
 	"dtDirectorR": "",
     // 视频简介
-	"dtDesc": "//div[@class='video-info-content']",
+	//"dtDesc": "//div[@class='video-info-content']",
 	"dtDescR": "",
     // 播放源节点
 	"dtFromNode": "//h2[contains(text(), '下载')][1]",
