@@ -11,7 +11,7 @@ var rule = {
 	},
 	searchUrl: '/e/search/index.php#classid=1,2&show=title&tempid=1&keyboard=**;post',
 	searchable:2,
-	quickSearch:1,
+	quickSearch:0,
 	filterable:1,
 	headers:{
 		'User-Agent': 'MOBILE_UA'
@@ -31,7 +31,7 @@ var rule = {
 			d.push({
 				title: pdfh(it, 'h2&&Text'),
 				desc: pdfh(it, '.me-auto&&Text') + '分 / ' + pdfh(it, '.small&&Text'),
-				pic_url: /!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'",""),
+				pic_url: pd(it, '/!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'","")'),
 				url: pd(it, 'a&&href')
 			});
 		})
@@ -50,7 +50,7 @@ var rule = {
 			d.push({
 				title: pdfh(it, 'h2&&Text'),
 				desc: pdfh(it, '.me-auto&&Text') + '分 / ' + pdfh(it, '.small&&Text'),
-				pic_url: pdfh(/!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'","")),
+				pic_url: pd(it, '/!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'","")'),
 				url: pd(it, 'a&&href')
 			});
 		})
@@ -61,6 +61,11 @@ var rule = {
 		desc:'p.mb-2:eq(1)&&Text;;;p.mb-2:eq(7)&&Text;p.mb-2:eq(5)&&Text',
 		img:'.rounded-2&&src',
 		content:'.mv_card_box&&Text',
+		// tabs:'js:TABS = ["道长磁力"]',
+		// lists:'.mv_down:eq(#id)&&.border-bottom',
+		// list_text:'a&&Text',
+		// list_url:'a&&href',
+
 		tabs:'js:TABS = ["磁力播放"]',
 		lists:`js:
 		log(TABS);
@@ -68,8 +73,8 @@ var rule = {
 		LISTS = [];
 		var dd=[];
 		TABS.forEach(function(tab) {
-			if (/磁力/.test(tab)) {
-				var d = pdfa(html, '.mv_down&&.border-bottom);
+			if (/磁力播放/.test(tab)) {
+				var d = pdfa(html, '.mv_down&&.border-bottom');
 				d = d.map(function(it) {
 					var title = pdfh(it, 'a&&Text');
 					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
@@ -89,6 +94,6 @@ var rule = {
 			}
 		});
 		`,
-		},
+	},
 	搜索:'.col;h2&&Text;.card-img&&style;.me-auto&&Text;a&&href',
 }
