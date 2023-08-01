@@ -56,7 +56,7 @@
     "线路列表数组规则": "body&&[id^=down]&&h2",
     "线路标题": "Text",
     "播放列表数组规则": '.download_url&&a[href^="magnet:"]',
-    "选集列表数组规则": "dede_content",
+    "选集列表数组规则": ".dede_content",
     "选集标题链接是否Jsoup写法": "1",
     "选集标题": "title",
     "选集链接": "href",
