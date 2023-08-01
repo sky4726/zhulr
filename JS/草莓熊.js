@@ -61,27 +61,11 @@ var rule = {
 		desc:'p.mb-2:eq(1)&&Text;;;p.mb-2:eq(7)&&Text;p.mb-2:eq(5)&&Text',
 		img:'.rounded-2&&src',
 		content:'.mv_card_box&&Text',
-
-		tabs:'js:TABS = ["磁力","在线预览"]',
-		lists:`js:
-		log(TABS);
-		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
-		LISTS = [];
-		var dd=[];
-		TABS.forEach(function(tab) {
-			(/磁力/.test(tab)) {
-				var d = pdfa(html, '.mv_down&&.border-bottom');
-				d = d.map(function(it) {
-					var title = pdfh(it, 'a&&Text');
-					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-					var burl = pd(it, 'body&&a[href^="magnet:"]');
-					log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-					return title + '$' + burl
-				});
-				LISTS.push(d)
-        	}
-		});
+		tabs:'js:TABS = ["磁力播放"]',
+		lists:'.mv_down:eq(#id)&&.border-bottom',
+		list_text:'a&&Text',
+		list_url:'a&&href',
+	     },
 		`,
-	},
 	搜索:'.col;h2&&Text;.card-img&&style;.me-auto&&Text;a&&href',
 }
