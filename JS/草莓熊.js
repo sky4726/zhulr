@@ -50,7 +50,7 @@ var rule = {
 			d.push({
 				title: pdfh(it, 'h2&&Text'),
 				desc: pdfh(it, '.me-auto&&Text') + '分 / ' + pdfh(it, '.small&&Text'),
-				pic_url: pd(it, '/!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'","")'),
+				pic_url: /!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'",""),
 				url: pd(it, 'a&&href')
 			});
 		})
@@ -61,11 +61,6 @@ var rule = {
 		desc:'p.mb-2:eq(1)&&Text;;;p.mb-2:eq(7)&&Text;p.mb-2:eq(5)&&Text',
 		img:'.rounded-2&&src',
 		content:'.mv_card_box&&Text',
-		// tabs:'js:TABS = ["道长磁力"]',
-		// lists:'.mv_down:eq(#id)&&.border-bottom',
-		// list_text:'a&&Text',
-		// list_url:'a&&href',
-
 		tabs:'js:TABS = ["磁力播放"]',
 		lists:`js:
 		log(TABS);
