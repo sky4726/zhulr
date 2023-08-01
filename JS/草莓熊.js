@@ -69,11 +69,11 @@ var rule = {
 		var dd=[];
 		TABS.forEach(function(tab) {
 			if (/磁力播放/.test(tab)) {
-				var d = pdfa(html, '.mv_down&&.border-bottom');
+				var d = pdfa(html, '.mv_down&&a[href^="magnet:"]');
 				d = d.map(function(it) {
-					var title = pdfh(it, 'a&&Text');
+					var title = pdfh(it, 'Text');
 					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-					var burl = pd(it, 'a&&href');
+					var burl = pd(it, 'href');
 					log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 					return title + '$' + burl
 				});
