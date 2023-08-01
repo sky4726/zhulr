@@ -62,9 +62,33 @@ var rule = {
 		img:'.rounded-2&&src',
 		content:'.mv_card_box&&Text',
 		tabs:'js:TABS = ["磁力播放"]',
-		lists:'.mv_down&&a[href^="magnet:"]',
-		list_text:'a&&Text',
-		list_url:'a&&href',
+		lists:`js:
+		log(TABS);
+		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+		LISTS = [];
+		var dd=[];
+		TABS.forEach(function(tab) {
+			if (/磁力/.test(tab)) {
+				var d = pdfa(html, '.mv_down&&a[href^="magnet:"]);
+				d = d.map(function(it) {
+					var title = pdfh(it, 'a&&Text');
+					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
+					var burl = pd(it, 'a&&href');
+					log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
+					return title + '$' + burl
+				});
+				LISTS.push(d)
+			} else if (/在线预览/.test(tab)) {
+				var d = pd(html, 'iframe&&src');
+				if (d) {
+					d=['第一集在线播放预览$' + d]
+				} else {
+					d=['没有预览不要点$']
+				}
+				LISTS.push(d)
+			}
+		});
+		`,
 		},
 	搜索:'.col;h2&&Text;.card-img&&style;.me-auto&&Text;a&&href',
 }
