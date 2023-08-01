@@ -56,7 +56,7 @@ var rule = {
 		})
 		setResult(d);
 	`,
-	二级:{
+	二级:
 		title:'h1&&Text;p.mb-2:eq(4)&&Text',
 		desc:'p.mb-2:eq(1)&&Text;;;p.mb-2:eq(7)&&Text;p.mb-2:eq(5)&&Text',
 		img:'.rounded-2&&src',
@@ -65,7 +65,6 @@ var rule = {
 		lists:'.mv_down:eq(#id)&&.border-bottom',
 		list_text:'a&&Text',
 		list_url:'a&&href',
-	     },
-		`,
+		
 	搜索:'.col;h2&&Text;.card-img&&style;.me-auto&&Text;a&&href',
 }
