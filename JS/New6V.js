@@ -6,7 +6,7 @@
     "PicNeedProxy": "0",
     "homeContent":"1",
     "firstpage": "1",
-    "class_url": "http://www.xb6v.com/{cateId}/index_{catePg}.html[firstPage=http://www.xb6v.com//{cateId}/index.html]",
+    "class_url": "http://www.xb6v.com/{cateId}/index_{catePg}.html[firstPage=http://www.xb6v.com/{cateId}/index.html]",
     "class_name": "动画片&综艺&纪录片&国产剧&日韩剧&欧美剧&喜剧片&动作片&爱情片&科幻片&恐怖片&剧情片&战争片",
     "class_value": "donghuapian&ZongYi&jilupian&dianshiju/guoju&dianshiju/rihanju&dianshiju/oumeiju&xijupian&dongzuopian&aiqingpian&kehuanpian&kongbupian&juqingpian&zhanzhengpian",
     "filterdata": {},
