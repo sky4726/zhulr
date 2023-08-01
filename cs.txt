@@ -31,8 +31,10 @@
 
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"./JS/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./JS/豆瓣.js"},
+{"key":"草莓熊","name":"草莓熊", "type": 3,"api": "./JS/drpy.min.js","searchable": 1,"quickSearch": 1,"filterable": 1, "ext": "./JS/草莓熊.js"},
 {"key":"北极狐","name":"北极狐","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
+{"key":"SeedHub","name":"SeedHub","type":3,"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"JOJO","name":"JOJO","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/JOJO.js"},
 {"key":"csp_Lib","name":"LibVio","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.libvio.cc/","jar":"./jar/lr.jar"},
 {"key":"HDmoli","name":"HDmoli","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/HDmoli.js"},
@@ -42,7 +44,6 @@
 {"key":"网飞TV","name":"网飞TV","type":3,"api": "./JS/drpy.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./JS/网飞.js"},
 {"key":"五五五","name":"五五五","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/五五五.js"},
 {"key":"大米星球","name":"大米星球","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大米星球.js"},
-{"key":"饭团影视","name":"饭团影视","type": 3,"api": "csp_XBPQ","searchable": 2,"quickSearch": 1,"filterable": 1,"ext": "./JS/饭团.js"}, 
 {"key":"低端影视","name":"低端影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/低端影视.js"},
 {"key":"独播库","name":"独播库","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/独播库.js"},
 {"key":"大师兄","name":"大师兄","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大师兄.js"},
@@ -61,14 +62,15 @@
 {"key":"影渣渣","name":"影渣渣","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/影渣渣.js"},
 {"key":"萌蛋蛋","name":"萌蛋蛋","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v1/"},
 {"key":"臭蛋蛋","name":"臭蛋蛋","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/PizazzGY/TVBox/raw/main/XYQHiker/臭蛋蛋.json"},
+{"key":"子子影视","name":"子子影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/子子影视.js"},
+{"key":"饭团影视","name":"饭团影视","type": 3,"api": "csp_XBPQ","searchable": 2,"quickSearch": 1,"filterable": 1,"ext": "./JS/饭团.js"}, 
 #磁力
 {"key":"New6v","name":"New6V｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/New6V.js"},
-{"key":"SeedHub","name":"SeedHub｜磁力","type":3,"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
-{"key":"Mp4Mov","name":"MP4｜磁力","type":3,"api":"csp_XPathAli","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/MP4dy.js"},
+{"key":"Mp4Mov","name":"MP4｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/MP4dy.js"},
 {"key":"电影港","name":"电影港｜磁力", "type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1, "ext": "./JS/电影港.js"},
 {"key":"美剧网","name":"美剧网｜磁力","type":3,"api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"蚂蚁4K","name":"蚂蚁┃磁力","type": 3,"api": "csp_XPathAli","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./JS/蚂蚁.js"},
-{"key":"酷吧","name":"酷吧｜磁力","type":3,"api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"酷吧","name":"酷吧｜磁力","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1, "ext": "./JS/酷吧.js"},
 #云盘
 {"key":"csp_search_七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/ali.jar"},
 {"key":"PanSou","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/ali.jar"},
