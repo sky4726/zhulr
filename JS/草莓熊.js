@@ -31,7 +31,7 @@ var rule = {
 			d.push({
 				title: pdfh(it, 'h2&&Text'),
 				desc: pdfh(it, '.me-auto&&Text') + '分 / ' + pdfh(it, '.small&&Text'),
-				pic_url: pd(it, '.card-img&&style'),
+				pic_url: pd(it, '.card-img&&background-image'),
 				url: pd(it, 'a&&href')
 			});
 		})
@@ -84,7 +84,7 @@ var rule = {
 				if (d) {
 					d=['第一集在线播放预览$' + d]
 				} else {
-					d=['没有预览不要点$http://www.sharenice.net/douyin/23852']
+					d=['没有预览不要点']
 				}
 				LISTS.push(d)
 			}
