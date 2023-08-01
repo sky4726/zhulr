@@ -12,7 +12,7 @@
     "filterdata": {},
     "cat_mode": "1",
     "catjson_twice": "",
-    "cat_arr_rule": "body&&.list_r&&a",
+    "cat_arr_rule": ".list_r&&a",
     "cat_is_jsoup": "1",
     "cat_title": "img&&alt",
     "cat_url": "a&&href",
