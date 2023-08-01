@@ -62,7 +62,7 @@ var rule = {
 		img:'.rounded-2&&src',
 		content:'.mv_card_box&&Text',
 		tabs:'js:TABS = ["磁力播放"]',
-		lists:'.mv_down:eq(#id)&&.border-bottom',
+		lists:'body&&.a[href^="magnet:"]',
 		list_text:'a&&Text',
 		list_url:'a&&href',
 		},
