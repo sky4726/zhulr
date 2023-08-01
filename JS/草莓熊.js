@@ -50,7 +50,7 @@ var rule = {
 			d.push({
 				title: pdfh(it, 'h2&&Text'),
 				desc: pdfh(it, '.me-auto&&Text') + '分 / ' + pdfh(it, '.small&&Text'),
-				pic_url: pdfh(it, '#card-img&&style'),
+				pic_url: /!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'",""),
 				url: pd(it, 'a&&href')
 			});
 		})
