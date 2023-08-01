@@ -69,7 +69,7 @@ var rule = {
 		var dd=[];
 		TABS.forEach(function(tab) {
 			if (/磁力/.test(tab)) {
-				var d = pdfa(html, '.mv_down&&a[href^="magnet:"]);
+				var d = pdfa(html, '.mv_down&&.border-bottom);
 				d = d.map(function(it) {
 					var title = pdfh(it, 'a&&Text');
 					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
