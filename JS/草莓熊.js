@@ -31,7 +31,7 @@ var rule = {
 			d.push({
 				title: pdfh(it, 'h2&&Text'),
 				desc: pdfh(it, '.me-auto&&Text') + '分 / ' + pdfh(it, '.small&&Text'),
-				pic_url: pd(it, '/!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'","")'),
+				pic_url: /!'/.test(pd(it, '.card-img&&style'))?pd(it, '.card-img&&style'):pd(it, '.card-img&&style').replaceAll("'",""),
 				url: pd(it, 'a&&href')
 			});
 		})
@@ -68,7 +68,7 @@ var rule = {
 		LISTS = [];
 		var dd=[];
 		TABS.forEach(function(tab) {
-			if (/磁力播放/.test(tab)) {
+			   (/磁力播放/.test(tab)) {
 				var d = pdfa(html, '.mv_down&&a[href^="magnet:"]');
 				d = d.map(function(it) {
 					var title = pdfh(it, 'Text');
@@ -77,14 +77,6 @@ var rule = {
 					log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 					return title + '$' + burl
 				});
-				LISTS.push(d)
-			} else if (/在线预览/.test(tab)) {
-				var d = pd(html, 'iframe&&src');
-				if (d) {
-					d=['第一集在线播放预览$' + d]
-				} else {
-					d=['没有预览不要点$']
-				}
 				LISTS.push(d)
 			}
 		});
