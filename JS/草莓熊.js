@@ -18,7 +18,7 @@ var rule = {
 	},
 	timeout:5000,
 	class_name:'电影&剧集&豆瓣电影Top250',
-	class_url:'1&2&/top250/',
+	class_url:'1&2&top250',
 	play_parse:true,
 	lazy:'',
 	limit:6,
