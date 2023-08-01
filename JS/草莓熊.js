@@ -68,7 +68,7 @@ var rule = {
 		LISTS = [];
 		var dd=[];
 		TABS.forEach(function(tab) {
-			   (/磁力播放/.test(tab)) {
+			if (/磁力播放/.test(tab)) {
 				var d = pdfa(html, '.mv_down&&a[href^="magnet:"]');
 				d = d.map(function(it) {
 					var title = pdfh(it, 'Text');
@@ -77,6 +77,14 @@ var rule = {
 					log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 					return title + '$' + burl
 				});
+				LISTS.push(d)
+			} else if (/在线预览/.test(tab)) {
+				var d = pd(html, 'iframe&&src');
+				if (d) {
+					d=['第一集在线播放预览$' + d]
+				} else {
+					d=['没有预览不要点$']
+				}
 				LISTS.push(d)
 			}
 		});
