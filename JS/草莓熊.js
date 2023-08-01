@@ -31,7 +31,7 @@ var rule = {
 			d.push({
 				title: pdfh(it, 'h2&&Text'),
 				desc: pdfh(it, '.me-auto&&Text') + '分 / ' + pdfh(it, '.small&&Text'),
-				pic_url: pd(it, '.card-img&&background-image'),
+				pic_url: pd(it, '.card-img&&span'),
 				url: pd(it, 'a&&href')
 			});
 		})
