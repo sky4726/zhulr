@@ -40,7 +40,7 @@
 {"key":"HDmoli","name":"HDmoli","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/HDmoli.js"},
 {"key":"Voflix","name":"Voflix","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/Voflix.js"},
 {"key":"玩偶哥哥","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://shuyuan.miaogongzi.net/shuyuan/1690369730.txt","jar":"./jar/f.jar"},
-{"key":"蚂蚁4K","name":"蚂蚁","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./JS/蚂蚁.js"},
+{"key":"蚂蚁4K","name":"蚂蚁","type": 3,"api": "csp_XPathAli","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./JS/蚂蚁.js"},
 {"key":"csp_Kunyu77","name":"七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar"},
 {"key":"网飞TV","name":"网飞TV","type":3,"api": "./JS/drpy.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./JS/网飞.js"},
 {"key":"五五五","name":"五五五","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/五五五.js"},
