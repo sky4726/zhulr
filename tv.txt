@@ -72,10 +72,10 @@
 {"key":"美剧网","name":"美剧网｜磁力","type":3,"api":"csp_MeijuTT","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"酷吧","name":"酷吧｜磁力","type":3,"api":"csp_KubaCL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 #云盘
-{"key":"csp_search_七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "http://shuyuan.miaogongzi.net/shuyuan/1690369730.txt","jar":"./jar/ali.jar"},
-{"key":"PanSou","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://shuyuan.miaogongzi.net/shuyuan/1690369730.txt"},
-{"key":"UpYun","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://shuyuan.miaogongzi.net/shuyuan/1690369730.txt"},
-{"key":"Zhaozy","name":"找资源｜云盘","type":3,"api":"csp_Zhaozy","ext":"http://shuyuan.miaogongzi.net/shuyuan/1690369730.txt$$$Pizazz$$$xiaosage"},
+{"key":"csp_search_七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/ali.jar"},
+{"key":"PanSou","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://127.0.0.1:9978/file/TVBox/token.txt"},
+{"key":"UpYun","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://127.0.0.1:9978/file/TVBox/token.txt"},
+{"key":"Zhaozy","name":"找资源｜云盘","type":3,"api":"csp_Zhaozy","ext":"http://127.0.0.1:9978/file/TVBox/token.txt$$$Pizazz$$$xiaosage"},
 {"key":"fenx","name":"分享社｜云盘","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/分享社.js"},
 #海外
 {"key":"泥巴","name":"泥巴✈️","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/lr.jar"},
