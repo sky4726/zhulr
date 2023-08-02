@@ -3,15 +3,15 @@
     // 首页地址 用于获取 分类和首页推荐
 	"homeUrl": "https://www.mayi4k.com/",
     // 手动设置分类，如果手动设置了分类则不使用上面的分类xpath获取分类  例如 "cateManual": {"电影": "1", "电视剧": "2"},
-	"cateManual": {"蓝光原盘":"266","4K电影":"269","1080P":"284","剧集":"247","演唱会":"246"},
+	"cateManual": {"蓝光原盘":"266","4K电影":"269","剧集":"247","演唱会":"246","最新上映":"267"},
     // 分类页地址 {cateId} 分类id {catePg} 当前页
 	"cateUrl": "https://www.mayi4k.com/vodshow/{cateId}--------{catePg}---.html",
     // 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": ".module-item",
-	"cateVodName": "a&&title",
-	"cateVodId": "a&&href",
-	"cateVodImg": "img&&data-src",
-	"cateVodMark": "span&&text",
+	"cateVodNode": "//div[@class='module-item']",
+	"cateVodName": "/div[2]/a/text()",
+	"cateVodId": "/div[2]/a/@href",
+	"cateVodImg": "/div[1]/div/img/@data-src",
+	"cateVodMark": "/div[3]/text()",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
 	"dtUrl": "https://www.mayi4k.com{vid}",
     // 详情节点
@@ -22,7 +22,7 @@
 	"dtImg": "//div[@class='video-cover']/div/div/img/@src",
 	"dtImgR": "",
     // 视频分类
-	"dtCate": "//div[@class='video-info-actor']/a/@text",
+	"dtCate": "",
 	"dtCateR": "",
     // 视频年份
 	"dtYear": "",
@@ -34,13 +34,13 @@
 	"dtMark": "",
 	"dtMarkR": "",
     // 主演
-	"dtActor": "//div[@class='video-info-actor']/a/@text",
+	"dtActor": "",
 	"dtActorR": "",
     // 导演
 	"dtDirector": "",
 	"dtDirectorR": "",
     // 视频简介
-	"dtDesc": "//div[@class='video-info-content']/span/@text",
+	"dtDesc": "//div[@class='video-info-content']/span/@Text",
 	"dtDescR": "",
     // 播放源节点
 	"dtFromNode": "//h2[contains(text(), '下载')][1]",
