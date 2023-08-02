@@ -40,7 +40,7 @@
 	"dtDirector": "",
 	"dtDirectorR": "",
     // 视频简介
-	"dtDesc": "//div['@vod_content']/span()",
+	"dtDesc": "//div['@vod_content']",
 	"dtDescR": "",
     // 播放源节点
 	"dtFromNode": "//h2[contains(text(), '下载')][1]",
