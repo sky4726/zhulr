@@ -7,11 +7,11 @@
     // 分类页地址 {cateId} 分类id {catePg} 当前页
 	"cateUrl": "https://www.mayi4k.com/vodshow/{cateId}--------{catePg}---.html",
     // 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": "//div[@class='module-item']",
-	"cateVodName": "/div[2]/a/text()",
-	"cateVodId": "/div[2]/a/@href",
-	"cateVodImg": "/div[1]/div/img/@data-src",
-	"cateVodMark": "/div[3]/text()",
+	"cateVodNode": ".module-item",
+	"cateVodName": "a&&title",
+	"cateVodId": "a&&href",
+	"cateVodImg": "img&&data-src",
+	"cateVodMark": "span&&text",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
 	"dtUrl": "https://www.mayi4k.com{vid}",
     // 详情节点
