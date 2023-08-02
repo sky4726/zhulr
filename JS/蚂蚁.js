@@ -22,7 +22,7 @@
 	"dtImg": "//div[@class='video-cover']/div/div/img/@src",
 	"dtImgR": "",
     // 视频分类
-	"dtCate": "",
+	"dtCate": "//div[@class='video-info-actor']/a/text",
 	"dtCateR": "",
     // 视频年份
 	"dtYear": "",
@@ -34,13 +34,13 @@
 	"dtMark": "",
 	"dtMarkR": "",
     // 主演
-	"dtActor": "//div[@class='video-info-actor']",
+	"dtActor": "//div[@class='video-info-actor']/a",
 	"dtActorR": "",
     // 导演
 	"dtDirector": "",
 	"dtDirectorR": "",
     // 视频简介
-	"dtDesc": "//div[@class='video-info-content']",
+	"dtDesc": "//div[@class='video-info-content']/span",
 	"dtDescR": "",
     // 播放源节点
 	"dtFromNode": "//h2[contains(text(), '下载')][1]",
