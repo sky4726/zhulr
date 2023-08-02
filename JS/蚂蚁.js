@@ -51,7 +51,7 @@
     // 播放列表节点  ///../../following-sibling::div/ul
 	"dtUrlNode": "//body",
     // 播放地址节点
-	"dtUrlSubNode": "//a[contains(@href, 'magnet') or contains(@href, 'aliyundrive.com')][1]",
+	"dtUrlSubNode": "//a[contains(@href*=magnet) or contains(@href*=aliyundrive.com)][1]",
     // 播放地址
 	"dtUrlId": "/@href",
     // 二次处理正则
