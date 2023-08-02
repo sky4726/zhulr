@@ -19,7 +19,7 @@
     // 视频名
 	"dtName": "//h1/text()",
 	    // 视频图片
-	"dtImg": "//div[@module-item-pic']/img/@data-src",
+	"dtImg": "//div['@module-item-pic']/img/@data-src",
 	"dtImgR": "",
     // 视频分类
 	"dtCate": "",
