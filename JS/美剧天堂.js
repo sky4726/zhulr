@@ -2,14 +2,15 @@ var rule = {
     title:'美剧天堂',
     host:'https://wap.meijutt.tv',
     //url:'/fypage_fyclass------.html',
-    url:'/file/listfyclass_fypage.html',
+    url:'/file/listfyclass_(fypage+1).html',
     searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
     headers:{
         'User-Agent':'MOBILE_UA'
     },
     timeout:5000,//网站的全局请求超时,默认是3000毫秒
-    class_parse: '.guide-footer;a&&Text;a&&href;.*/(.*?).html',
+    class_name:'魔幻科幻&灵异惊悚&都市情感&犯罪历史&选秀综艺&动漫卡通',
+    class_url:'1&2&3&4&5&6',
     play_parse:true,
 	lazy:'',
     limit:6,
