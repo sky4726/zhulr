@@ -20,7 +20,7 @@ var rule = {
         "title":".detailHeader&&h1",
         "img":".pic&&img",
         "desc":".jianjie&&ul&&li:eq(1)&&Text;.jianjie&&ul&&li:eq(2)&&Text;.jianjie&&ul&&li:eq(4)&&Text;.jianjie&&ul&&li:eq(5)&&Text",
-        "content":".jianjie&&ul&&span&&Text",
+        "content":".jianjie&&ul&&span",
         "tabs":".arconix-toggle-title&&span",
         "lists":".arconix-toggle-content&&li:eq(#id) li"
     },
