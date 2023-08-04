@@ -1,9 +1,8 @@
 var rule = {
 	title:'MP4dy',
 	host:'https://m.mp4us.com',
-	homeUrl:'/list/1-1.html',
 	// url: '/fyclass/index_(fypage-1).html',
-	url: '/list/fyfilter-fypage.html',
+	url: '/list/cateId-catePg.html',
 	searchUrl: '/search/;post?wd={wd}&nobot=1',
 	filter_url:'-{{fl.class or "0"}}',
 	filter:{
