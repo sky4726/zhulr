@@ -2,7 +2,7 @@ var rule = {
 	title:'MP4dy',
 	host:'https://m.mp4us.com',
 	// url: '/fyclass/index_(fypage-1).html',
-	url: '/fyfilter-(fypage-1).html',
+	url: '/fyfilter-fypage.html',
 	searchUrl: '/search/;post?wd={wd}&nobot=1',
 	searchable:2,
 	quickSearch:1,
