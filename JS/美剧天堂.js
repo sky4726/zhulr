@@ -1,6 +1,6 @@
 var rule = {
     title:'美剧天堂',
-    host:'https://www.dandanju.vip',
+    host:'https://wap.meijutt.tv',
     url:'/fypage_fyclass------.html',
     searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
