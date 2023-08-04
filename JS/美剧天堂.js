@@ -19,10 +19,10 @@ var rule = {
     二级:{
         "title":".detailHeader&&h1",
         "img":".pic&&img",
-        "desc":".jianjie&&ul&&li:eq(1)&&Text;.jianjie&&ul&&li:eq(2)&&Text;.jianjie&&ul&&li:eq(4)&&Text;.jianjie&&ul&&li:eq(5)&&Text",
-        "content":".jianjie&&ul&&span",
-        "tabs":".arconix-toggle-title&&span",
-        "lists":".arconix-toggle-content&&li:eq(#id) li"
+       // "desc":".jianjie&&ul&&li:eq(1)&&Text;.jianjie&&ul&&li:eq(2)&&Text;.jianjie&&ul&&li:eq(4)&&Text;.jianjie&&ul&&li:eq(5)&&Text",
+    //    "content":".jianjie&&ul&&span",
+      //  "tabs":".arconix-toggle-title&&span",
+       // "lists":".arconix-toggle-content&&li:eq(#id) li"
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
     搜索:'json:list;name;pic;;id',
