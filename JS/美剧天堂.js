@@ -19,8 +19,8 @@ var rule = {
     二级:{
         "title":".detailHeader&&h1",
         "img":".pic&&img&&src",
-        "desc":".jianjie&&ul&&li",
-        "content":".desc--a&&Text",
+        //"desc":".jianjie&&ul&&li",
+       // "content":".desc--a&&Text",
        // "tabs":".nav-tabs&&li",
         //"lists":".tab-pane:eq(#id)&&li"
     },
