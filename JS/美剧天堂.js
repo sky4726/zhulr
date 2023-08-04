@@ -9,7 +9,7 @@ var rule = {
         'User-Agent':'MOBILE_UA'
     },
     timeout:5000,//网站的全局请求超时,默认是3000毫秒
-    class_parse: '.index-nav li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
+    class_parse: '.index-nav;a&&Text;a&&href;.*/(.*?).html',
     play_parse:true,
 	lazy:'',
     limit:6,
