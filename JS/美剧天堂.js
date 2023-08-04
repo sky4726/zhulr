@@ -15,7 +15,7 @@ var rule = {
 	lazy:'',
     limit:6,
     推荐:'.tab-content&&li;*;*;*;*',
-    一级:'.book-title&&Text;.listimg&&img&&src;.book-cell&&em&&Text;.book-layout&&a&&href',
+    一级:'.book-li;.book-title&&Text;.listimg&&img&&src;.book-cell&&em&&Text;.book-layout&&a&&href',
     二级:{
         "title":".detailHeader&&h1",
         "img":".pic&&img&&src",
