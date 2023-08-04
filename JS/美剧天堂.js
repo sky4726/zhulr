@@ -1,31 +1,68 @@
-var rule = {
-    title:'美剧天堂',
-    host:'https://wap.meijutt.tv',
-    //url:'/fypage_fyclass------.html',
-    url:'/file/listfyclass_(fypage+1).html',
-    searchable:2,//是否启用全局搜索,
-    quickSearch:1,//是否启用快速搜索,
-    headers:{
-        'User-Agent':'MOBILE_UA'
-    },
-    timeout:5000,//网站的全局请求超时,默认是3000毫秒
-    class_name:'魔幻科幻&灵异惊悚&都市情感&犯罪历史&选秀综艺&动漫卡通',
-    class_url:'1&2&3&4&5&6',
-    play_parse:true,
-	lazy:'',
-    limit:6,
-    推荐:'.tab-content&&li;*;*;*;*',
-    一级:'.book-li;.book-title&&Text;.listimg&&img&&src;.book-cell&&em&&Text;a&&href',
-    二级:{
-        "title":".picture&&title;.data--span:eq(0)&&Text",
-        "img":".picture&&img&&data-original",
-        "desc":".pic-text:eq(0)&&Text;;;.data--span:eq(1)&&Text;.data--span:eq(2)&&Text",
-        "content":".desc--a&&Text",
-        "tabs":".nav-tabs&&li",
-        "lists":".tab-pane:eq(#id)&&li"
-    },
+{
+        "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+        "homeUrl": "https://www.btdx8.com",
+        "dcPlayUrl": "true",
+    https://www.btdx8.com/category/xuanyi
+        "cateNode": "//a[contains(@href,'/s/')]",
+        "cateName": "concat(//span[contains(@class,'nav-link-title')]/text(),//a[contains(@class,'dropdown-item')]/text())",
+        "cateId": "/@href",
+        "cateIdR": "/s/(\\w+)",
+        "cateManual": {
+                "首页推荐": "page",
+            "蓝光原盘电影": "topic/bluray-movie/movie/page",
+                "蓝光原盘纪录片": "topic/bluray-movie/documentry/page",
+                "4K": "topic/4k/page"
+        },
 
-    searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
-    detailUrl:'/video/fyid.html', //非必填,二级详情拼接链接
-    搜索:'json:list;name;pic;;id',
+        "homeVodNode": "//div[contains(@class,'mainleft')]/ul/li/div[contains(@class,'thumbnail')]",
+        "homeVodName": "/a/@title",
+        "homeVodId": "/a/@href",
+        "homeVodIdR": "https://www.btdx8.com/movie/(\\S+)",
+        "homeVodImg": "/a/img/@src",
+        "homeVodImgR": "\\S+(http\\S+)",
+        "homeVodMark": "../div[contains(@class,'info')]/span[2]/a/text()",
+
+        "cateUrl": "https://www.btdx8.com/{cateId}/{catePg}",
+        "cateVodNode": "//div[contains(@class,'mainleft')]/ul/li/div[contains(@class,'thumbnail')]",
+        "cateVodName": "/a/@title",
+        "cateVodId": "/a/@href",
+        "cateVodIdR": "https://www.btdx8.com/movie/(\\S+)",
+        "cateVodImg": "/a/img/@src",
+        "cateVodImgR": "\\S+(http\\S+)",
+        "cateVodMark": "../div[contains(@class,'info')]/span[2]/a/text()",
+
+        "dtUrl": "https://www.btdx8.com/movie/{vid}",
+        "dtNode": "//div[@class='mainleft']",
+        "dtName": "/div[1]/h1/text()",
+        "dtNameR": "",
+        "dtImg": "/div[1]//div[@class='context']/div[1]/p[1]/a/@href",
+        "dtImgR": "",
+        "dtCate": "/div[1]//div[@class='context']/div[1]/p[2]/text()[5]",
+        "dtArea": "/div[1]//div[@class='context']/div[1]/p[2]/text()[4]",
+        "dtAreaR": "",
+    "dtYear": "/div[1]//div[@class='context']/div[1]/p[2]/text()[7]",
+    "dtYearR": "",
+        "dtActor": "/div[1]//div[@class='context']/div[1]/p[2]/text()[14]",
+        "dtDirector": "/div[1]//div[@class='context']/div[1]/p[2]/text()[13]",
+        "dtDesc": "/div[1]//div[@class='context']/div[1]/p[4]/text()",
+
+        "dtFromNode": "//div[@class='tab-pane active']",
+        "dtFromName": "//div[@class='btn-group']/label[1]/text()",
+
+        "dtUrlNode": "//table[@id='cili']/tbody",
+        "dtUrlSubNode": "/tr[1]/td/a",
+        "dtUrlId": "@href",
+        "dtUrlIdR": "",
+        "dtUrlName": "concat(//span/span[1]/text(),'--', //span[@class='label label-warning']/text())",
+        "playUrl": "",
+       
+
+        "playUa": "",
+        "searchUrl": "",
+        "scVodNode": "json:list",
+        "scVodName": "name",
+        "scVodId": "id",
+        "scVodIdR": "",
+        "scVodImg": "pic",
+        "scVodMark": ""
 }
