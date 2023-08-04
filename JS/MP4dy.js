@@ -1,70 +1,88 @@
-{
-    "规则名": "MP4电影",
-    "规则作者": "香雅情",
-    "请求头参数": "手机",
-    "网页编码格式": "UTF-8",
-    "图片是否需要代理": "0",
-    "是否开启获取首页数据": "1",
-    "首页推荐链接": "https://m.mp4us.com/custom/update.html",
-    "首页列表数组规则": "body&&.list-group",
-    "首页片单列表数组规则": "li",
-    "首页片单是否Jsoup写法": "0",
-    "首页片单标题": "《&&》",
-    "首页片单链接": "href=\"&&\"",
-    "首页片单图片": "",
-    "首页片单副标题": "title=\"&&《",
-    "首页片单链接加前缀": "https://m.mp4us.com",
-    "首页片单链接加后缀": "",
-    "分类起始页码": "1",
-    "分类链接": "https://m.mp4us.com/list/{cateId}-{catePg}.html",
-    "分类名称": "电影&电视剧&动画片",
-    "分类名称替换词": "1&10&9",
-    "筛选数据": "ext",
-    "筛选子分类名称": "动作&科幻&爱情&喜剧&恐怖&战争&剧情&纪录",
-    "筛选子分类替换词": "1&2&3&4&5&6&7&8",
-    "分类截取模式": "1",
-    "分类列表数组规则": "#list_all&&ul&&li",
-    "分类片单是否Jsoup写法": "0",
-    "分类片单标题": "alt=\"《&&》",
-    "分类片单链接": "href=\"&&\"",
-    "分类片单图片": "data-original=\"&&\"",
-    "分类片单副标题": "badge\">&&</span>",
-    "分类片单链接加前缀": "https://m.mp4us.com",
-    "分类片单链接加后缀": "",
-    "搜索请求头参数": "User-Agent$手机",
-    "搜索链接": "https://m.mp4us.com/search/;post",
-    "POST请求数据": "wd={wd}&nobot=1",
-    "搜索截取模式": "1",
-    "搜索列表数组规则": "#list_all&&ul&&li",
-    "搜索片单是否Jsoup写法": "0",
-    "搜索片单图片": "data-original=\"&&\"",
-    "搜索片单标题": "alt=\"《&&》",
-    "搜索片单链接": "href=\"&&\"",
-    "搜索片单副标题": "rate badge\">&&</span>",
-    "搜索片单链接加前缀": "https://m.mp4us.com",
-    "搜索片单链接加后缀": "",
-    "链接是否直接播放": "0",
-    "直接播放链接加前缀": "",
-    "直接播放链接加后缀": "",
-    "直接播放直链视频请求头": "",
-    "详情是否Jsoup写法": "0",
-    "类型详情": "类型：</em>&&</a>",
-    "年代详情": "年份：</em>&&</span>",
-    "地区详情": "地区：</em>&&</p>",
-    "演员详情": "主演：</em>&&</p>",
-    "简介详情": "剧情介绍</h2>&&</p>",
-    "线路列表数组规则": "body&&[id^=down]&&h2",
-    "线路标题": "Text",
-    "播放列表数组规则": ".url-left",
-    "选集列表数组规则": "a",
-    "选集标题链接是否Jsoup写法": "1",
-    "选集标题": "a&&title",
-    "选集链接": "a&&href",
-    "是否反转选集序列": "1",
-    "选集链接加前缀": "",
-    "选集链接加后缀": "",
-    "分析MacPlayer": "0",
-    "是否开启手动嗅探": "0",
-    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv",
-    "手动嗅探视频链接过滤词": ".html#=http"
+var rule = {
+	title:'MP4dy',
+	host:'https://m.mp4us.com',
+	// url: '/fyclass/index_(fypage-1).html',
+	url: '/fyclass-fypage.html',
+	searchUrl: '/search/;post?wd={wd}&nobot=1',
+	searchable:2,
+	quickSearch:1,
+	filterable:1,
+	headers:{
+		'User-Agent': 'MOBILE_UA'
+	},
+	timeout:5000,
+	class_name:'动漫&剧集&记录片',
+	class_url:'9&10&8',
+	play_parse:true,
+	lazy:'',
+	limit:6,
+	推荐: `js:
+		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+		var d = [];
+		var html = request(input);
+		var list = pdfa(html, '#list_all&&ul&&li');
+		list.forEach(it => {
+			d.push({
+				title: pdfh(it, 'alt=\'《&&》'),
+				desc: pdfh(it, 'rate badge\'>&&</span>'),
+				pic_url: pd(it, 'data-original=\'&&\''),
+				url: pd(it, 'href=\'&&\'')
+			});
+		})
+		setResult(d);
+	`,
+	一级: `js:
+		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+		var d = [];
+		if (MY_CATE !== '1' && MY_CATE !== '2') {
+			let turl = (MY_PAGE === 1)? 'index' : 'index_'+ MY_PAGE;
+			input = HOST + MY_CATE + turl + '.html';
+		}
+		var html = request(input);
+		var list = pdfa(html, '#list_all&&ul&&li');
+		list.forEach(it => {
+			d.push({
+				title: pdfh(it, 'alt=\'《&&》'),
+				desc: pdfh(it, 'rate badge\'>&&</span>'),
+				pic_url: pd(it, 'data-original=\'&&\''),
+				url: pd(it, 'href=\'&&\'')
+			});
+		})
+		setResult(d);
+	`,
+	二级:{
+		title:'h1&&Text;p.mb-2:eq(4)&&Text',
+		desc:'p.mb-2:eq(1)&&Text;;;p.mb-2:eq(7)&&Text;p.mb-2:eq(5)&&Text',
+		img:'.rounded-2&&src',
+		content:'.mv_card_box&&Text',
+		tabs:'js:TABS = ["磁力播放"]',
+		lists:`js:
+		log(TABS);
+		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+		LISTS = [];
+		var dd=[];
+		TABS.forEach(function(tab) {
+			if (/磁力播放/.test(tab)) {
+				var d = pdfa(html, '.mv_down&&a[href^="magnet:"]');
+				d = d.map(function(it) {
+					var title = pdfh(it, 'Text');
+					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
+					var burl = pd(it, 'href');
+					log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
+					return title + '$' + burl
+				});
+				LISTS.push(d)
+			} else if (/在线预览/.test(tab)) {
+				var d = pd(html, 'iframe&&src');
+				if (d) {
+					d=['第一集在线播放预览$' + d]
+				} else {
+					d=['没有预览不要点$']
+				}
+				LISTS.push(d)
+			}
+		});
+		`,
+	},
+	搜索:'.col;h2&&Text;.card-img&&style;.me-auto&&Text;a&&href',
 }
