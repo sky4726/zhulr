@@ -18,11 +18,11 @@ var rule = {
     一级:'.book-li;.book-title&&Text;.listimg&&img&&src;.book-cell&&em&&Text;a&&href',
     二级:{
         "title":".detailHeader&&h1",
-        "img":".pic&&img&&src",
-        //"desc":".jianjie&&ul&&li",
-       // "content":".desc--a&&Text",
-       // "tabs":".nav-tabs&&li",
-        //"lists":".tab-pane:eq(#id)&&li"
+        "img":".pic&&img",
+        "desc":".jianjie&&ul&&li:eq(1)&&Text;.jianjie&&ul&&li:eq(2)&&Text;.jianjie&&ul&&li:eq(4)&&Text;.jianjie&&ul&&li:eq(5)&&Text",
+        "content":".jianjie&&ul&&span&&Text",
+        "tabs":".arconix-toggle-title&&span",
+        "lists":".arconix-toggle-content&&li:eq(#id) li"
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
     搜索:'json:list;name;pic;;id',
