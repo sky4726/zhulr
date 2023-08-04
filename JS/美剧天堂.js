@@ -19,12 +19,11 @@ var rule = {
     二级:{
         "title":".detailHeader&&h1",
         "img":".pic&&img&&src",
-        "desc":".jianjie&&ul&&li:eq(0)&&Text;;;.data--span:eq(1)&&Text;.data--span:eq(2)&&Text",
+        "desc":".jianjie&&ul&&li",
         "content":".desc--a&&Text",
-        "tabs":".nav-tabs&&li",
-        "lists":".tab-pane:eq(#id)&&li"
+       // "tabs":".nav-tabs&&li",
+        //"lists":".tab-pane:eq(#id)&&li"
     },
-
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
     detailUrl:'/video/fyid.html', //非必填,二级详情拼接链接
     搜索:'json:list;name;pic;;id',
