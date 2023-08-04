@@ -15,7 +15,7 @@ var rule = {
 	lazy:'',
     limit:6,
     推荐:'.tab-content&&li;*;*;*;*',
-    一级:'.book-li;.book-title&&Text;.listimg&&img&&src;.book-cell&&em&&Text;.book-layout&&a&&href',
+    一级:'.book-li;.book-title&&Text;.listimg&&img&&src;.book-cell&&em&&Text;a&&href',
     二级:{
         "title":".detailHeader&&h1",
         "img":".pic&&img&&src",
@@ -25,6 +25,5 @@ var rule = {
         //"lists":".tab-pane:eq(#id)&&li"
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
-    detailUrl:'/video/fyid.html', //非必填,二级详情拼接链接
     搜索:'json:list;name;pic;;id',
 }
