@@ -2,7 +2,7 @@ var rule = {
     title:'美剧天堂',
     host:'https://wap.meijutt.tv',
     //url:'/fypage_fyclass------.html',
-    url:'/file/listfyclassfyfilter_(fypage-1)html',
+    url:'/file/listfyclass_(fypage+1)html',
     searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
     headers:{
