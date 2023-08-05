@@ -6,7 +6,7 @@ var rule = {
     searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
     headers:{
-        get;gbk:{'User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36'}
+        'get;gbk':{'User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36'}
     },
     timeout:5000,//网站的全局请求超时,默认是3000毫秒
     //class_parse:'.guide-footer;a&&Text;a&&href;.*/(.*?).html',
