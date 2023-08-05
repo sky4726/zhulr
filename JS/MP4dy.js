@@ -2,11 +2,11 @@ var rule = {
 	title:'MP4dy',
 	host:'https://m.mp4us.com',
 	// url: '/fyclass/index_(fypage-1).html',
-	url: '/list/fyfilter-fypage.html',
+	url: '/list/fyclassfyfilter-fypage.html',
 	searchUrl: '/search/;post?wd={wd}&nobot=1',
 	filter_url:'-{{fl.class or "0"}}',
 	filter:{
-		"77":[{"key":"class","name":"类型","value":[{"n":"动作","v":"1"},{"n":"科幻","v":"2"},{"n":"爱情","v":"3"},{"n":"喜剧","v":"4"},{"n":"恐怖","v":"5"},{"n":"战争","v":"6"},{"n":"剧情","v":"7"}]}],
+		"1":[{"key":"class","name":"类型","value":[{"n":"动作","v":"1"},{"n":"科幻","v":"2"},{"n":"爱情","v":"3"},{"n":"喜剧","v":"4"},{"n":"恐怖","v":"5"},{"n":"战争","v":"6"},{"n":"剧情","v":"7"}]}],
 		"8":[],
 		"10":[],
 		"9":[]
@@ -19,7 +19,7 @@ var rule = {
 	},
 	timeout:5000,
 	class_name:'电影&剧集&动漫&记录片',
-	class_url:'77&10&9&8',
+	class_url:'1&10&9&8',
 	play_parse:true,
 	lazy:'',
 	limit:6,
