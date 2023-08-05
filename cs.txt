@@ -56,6 +56,7 @@
 {"key":"真不卡","name":"真不卡","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/真不卡.js"},
 {"key":"去看吧","name":"去看吧","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/去看吧.js"},
 {"key":"农民影视","name":"农民影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/农民影视.js"},
+{"key":"蚂蚁","name":"蚂蚁","type":3,"api": "./JS/drpy.min.js","searchable": 2,"quickSearch": 1,"filterable": 1,"ext": "./JS/蚂蚁.js"},
 {"key":"ikan","name":"爱看","type":3,"api": "./JS/drpy.min.js","searchable": 2,"quickSearch": 1,"filterable": 1,"ext": "./JS/ikan.js"},
 {"key":"红领巾","name":"红领巾","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/红领巾.js"},
 {"key":"达达龟","name":"达达龟","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/达达龟.js"},
