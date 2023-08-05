@@ -20,10 +20,10 @@ var rule = {
     二级:{
         'title':'.pic&&img&&title',
         'img':'.pic&&img&&src',
-        'desc':'.jianjie&&ul&&li:eq(5)&&Text',
+        'desc':'.jianjie&&ul&&li:eq(4)&&Text',
         'content':'.jianjie&&ul&&span&&Text',
-        'tabs':'#bfpx;arconix-toggle-title&&span',
-        'lists':'.arconix-toggle-content&&li;a&&title:eq(#id) li'
+        'tabs':'.arconix-toggle-title&&cili',
+        'lists':'.arconix-toggle-content&&li:eq(#id) li'
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
     搜索:'json:list;name;pic;;id',
