@@ -21,8 +21,8 @@ var rule = {
         'title':'.pic&&img&&title',
         'img':'.pic&&img&&src',
         'desc':'.jianjie&&ul&&li:eq(1)&&Text;.jianjie&&ul&&li:eq(2)&&Text;.jianjie&&ul&&li:eq(4)&&Text;.jianjie&&ul&&li:eq(5)&&Text',
-        'content':'.jianjie&&ul&&span',
-        'tabs':'.arconix-toggle-title&&span',
+        'content':'.jianjie&&ul&&span&&Text',
+        'tabs':'#playtab;arconix-toggle-title&&span',
         'lists':'.arconix-toggle-content&&li:eq(#id) li'
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
