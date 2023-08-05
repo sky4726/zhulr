@@ -14,7 +14,7 @@ var rule = {
 	lazy:'',
     limit:6,
     推荐:'*',
-    一级:'.module-item;.a&&title;.lazyloaded&&data-src;.module-item-caption&&span:eq(0);.a&&href',
+    一级:'.module-item;a&&title;.lazyloaded&&data-src;.module-item-caption&&span:eq(0);a&&href',
     二级:{
         'title':'.pic&&img&&title',
         'img':'.pic&&img&&src',
