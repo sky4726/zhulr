@@ -22,7 +22,7 @@ var rule = {
         'img':'.pic&&img&&src',
         'desc':'.jianjie&&ul&&li:eq(4)&&Text',
         'content':'.jianjie&&ul&&span&&Text',
-        'tabs':'#bfpx&&l bflb',
+        'tabs':'#bfpx&&.bflb',
         'lists':'.arconix-toggle-content&&ul:eq(#id) li'
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
