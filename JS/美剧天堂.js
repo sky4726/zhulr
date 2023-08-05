@@ -20,7 +20,7 @@ var rule = {
     二级:{
         'title':'.pic&&img&&title',
         'img':'.pic&&img&&src',
-        'desc':'.jianjie&&ul&&li:eq(3)&&Text;.jianjie&&ul&&li:eq(2)&&Text;.jianjie&&ul&&li:eq(4)&&Text',
+        'desc':'.jianjie&&ul&&li:eq(2)&&Text;.jianjie&&ul&&li:eq(5)&&Text',
         'content':'.jianjie&&ul&&span&&Text',
         'tabs':'#bfpx;arconix-toggle-title&&span',
         'lists':'.arconix-toggle-content&&li:eq(#id) li'
