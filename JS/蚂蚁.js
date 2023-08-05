@@ -1,8 +1,5 @@
-muban.mxpro.二级.desc = '.module-info-item:(3)&&Text;;;.module-info-item-content:eq(1)&&Text;.module-info-item-content:eq(0)&&Text';
-muban.mxpro.二级.img = '.lazyload&&data-src';
 var rule = {
 	title:'蚂蚁',
-	模板:'mxpro',
 	host:'https://www.mayi4k.com',
 	url:'/vodshow/fyclass--------fypage---.html',
 	filterable:0,//是否启用分类筛选,
