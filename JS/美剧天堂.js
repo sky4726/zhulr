@@ -2,7 +2,7 @@ var rule = {
     title:'美剧天堂',
     host:'https://wap.meijutt.tv',
     //url:'/fypage_fyclass------.html',
-    url:'/file/listfyclass_(fypage+1).html',
+    url:'/file/listfyclass.html',
     searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
     headers:{
@@ -19,7 +19,7 @@ var rule = {
     推荐:'*',
     一级:'.book-li;.book-title&&Text;.listimg&&img&&src;.book-cell&&em&&Text;a&&href',
     二级:{
-        'title':'.pic&&img&&title,
+        'title':'.pic&&img&&title',
         'img':'.pic&&img&&src',
         'desc':'.jianjie&&ul&&li:eq(1)&&Text;.jianjie&&ul&&li:eq(2)&&Text;.jianjie&&ul&&li:eq(4)&&Text;.jianjie&&ul&&li:eq(5)&&Text',
         'content':'.jianjie&&ul&&span',
