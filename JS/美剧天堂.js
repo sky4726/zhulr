@@ -22,35 +22,8 @@ var rule = {
         'img':'.pic&&img&&src',
         'desc':'.jianjie&&ul&&li:eq(4)&&Text',
         'content':'.jianjie&&ul&&span&&Text',
-        //'tabs':'#&&.cili',
-        tabs:'js:TABS = ["磁力播放"]',
-		lists:`js:
-		log(TABS);
-		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
-		LISTS = [];
-		var dd=[];
-		TABS.forEach(function(tab) {
-			if (/磁力播放/.test(tab)) {
-				var d = pdfa(html, '#playtab&&a[href^="magnet:"]');
-				d = d.map(function(it) {
-					var title = pdfh(it, 'Text');
-					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-					var burl = pd(it, 'href');
-					log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-					return title + '$' + burl
-				});
-				LISTS.push(d)
-			} else if (/在线预览/.test(tab)) {
-				var d = pd(html, '.pic&&img&&src');
-				if (d) {
-					d=['第一集在线播放预览$' + d]
-				} else {
-					d=['没有预览不要点$']
-				}
-				LISTS.push(d)
-			}
-		});
-		`,
+        'tabs':'#playtab&&.cili',
+        'lists':'#playtab&&a[href^="magnet:"]'
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
     搜索:'json:list;name;pic;;id',
