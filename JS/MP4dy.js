@@ -10,8 +10,8 @@ var rule = {
 		'User-Agent': 'MOBILE_UA'
 	},
 	timeout:5000,
-	class_name:'电影&剧集&动漫&记录片',
-	class_url:'1&10&9&8',
+	class_name:'剧集&动漫&记录片',
+	class_url:'10&9&8',
 	play_parse:true,
 	lazy:'',
 	limit:6,
@@ -41,10 +41,10 @@ var rule = {
 		var list = pdfa(html, '#list_all&&ul&&li');
 		list.forEach(it => {
 			d.push({
-				title: pdfh(it, 'alt=\'《&&》'),
-				desc: pdfh(it, 'rate badge\'>&&</span>'),
-				pic_url: pd(it, 'data-original=\'&&\''),
-				url: pd(it, 'href=\'&&\'')
+				title: pdfh(it, 'img&&alt=\'《&&》'),
+				desc: pdfh(it, 'a&&rate badge\'>&&</span>'),
+				pic_url: pd(it, 'img&&data-original=\'&&\''),
+				url: pd(it, 'a&&href=\'&&\'')
 			});
 		})
 		setResult(d);
