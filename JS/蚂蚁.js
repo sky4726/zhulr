@@ -12,7 +12,7 @@ var rule = {
 	timeout:5000,
 	class_name:'蓝光圆盘&4K电影&剧集&演唱会',
 	class_url:'266&269&247&246',
-	一级:'.module-item-pic;a&&title;.lazyloaded&&data-src;.module-item-caption&&span:eq(0);a&&href',
+	一级:'.module-item;.a&&title;.lazyloaded&&data-src;.module-item-caption&&span:eq(0);.a&&href',
 	推荐:'.tab-list.active;a.module-poster-item.module-item;.module-poster-item-title&&Text;.lazyload&&data-original;.module-item-note&&Text;a&&href',
 	searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
 	搜索:'json:list;name;pic;;id',
