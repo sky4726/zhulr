@@ -1,8 +1,8 @@
 var rule = {
     title:'美剧天堂',
     host:'https://wap.meijutt.tv',
-    //url:'/fypage_fyclass------.html',
-    url:'/file/listfyclass_(fypage+1).html',
+    url:'/fypage_fyclass______.html',
+    //url:'/file/listfyclass_(fypage+1).html',
     searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
     headers:{
@@ -22,8 +22,8 @@ var rule = {
         'img':'.pic&&img&&src',
         'desc':'.jianjie&&ul&&li:eq(4)&&Text',
         'content':'.jianjie&&ul&&span&&Text',
-        'tabs':'#bfpx&&.bflb',
-        'lists':'.arconix-toggle-content&&ul:eq(#id) li'
+        'tabs':'#playtab&&.bflb',
+        'lists':'#playtab&&.arconix-toggle-content&&ul:eq(#id) li'
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
     搜索:'json:list;name;pic;;id',
