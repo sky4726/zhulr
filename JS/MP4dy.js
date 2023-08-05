@@ -15,7 +15,7 @@ var rule = {
 	lazy:'',
     limit:6,
     推荐:'*',
-    一级:'#list_all&&li;.img&&alt=\'《&&》;.img&&data-original;badge\">&&</span>;a&&href',
+    一级:'#list_all&&li;.img&&alt;.img&&data-original;a&&href',
     二级:{
         'title':'.pic&&img&&title',
         'img':'.pic&&img&&src',
