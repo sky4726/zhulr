@@ -23,7 +23,7 @@ var rule = {
         'desc':'.jianjie&&ul&&li:eq(4)&&Text',
         'content':'.jianjie&&ul&&span&&Text',
         'tabs':'#playtab&&.cili',
-        'lists':'#playtab&&.fn-clear:eq(#a[href^="magnet:"])'
+        'lists':'#playtab&&.fn-clear:eq(a[href^="magnet:"]) a'
     },
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
     搜索:'json:list;name;pic;;id',
