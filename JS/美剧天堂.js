@@ -28,8 +28,3 @@ var rule = {
     searchUrl:'/index.php/ajax/suggest?mid=fypage&wd=**',
     搜索:'json:list;name;pic;;id',
 }
-
-http%3A%2F%2Ftracker.trackerfix.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2880&tr=udp%3A%2F%2F9.rarbg.to%3A2830&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13790&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15740
-
-第1集
-
