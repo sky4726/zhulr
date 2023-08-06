@@ -56,7 +56,7 @@
     "线路列表数组规则": "#download1&&h2",
     "线路标题": "Text",
     "播放列表数组规则": "#download1&&ul",
-    "选集列表数组规则": ".url-left",
+    "选集列表数组规则": "a[href^=magnet]||a[href^=ed2K]",
     "选集标题链接是否Jsoup写法": "1",
     "选集标题": "a&&Text",
     "选集链接": "a&&href",
