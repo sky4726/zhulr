@@ -16,7 +16,7 @@
     "首页片单链接加前缀": "https://app.syrme.top",
     "首页片单链接加后缀": "",
     "分类起始页码": "1",
-    "分类链接": "https://app.syrme.top/video/{cateId}?page={catePg}&size=18;;u0",
+    "分类链接": "https://app.syrme.top/video/{cateId}?page={catePg}&size=18",
     "分类名称": "电影&美剧&韩剧&日剧&动漫&记录",
     "分类名称替换词": "电影&美剧&韩剧&日剧&动漫&记录",
     "筛选数据": "",
