@@ -87,7 +87,7 @@ var rule = {
 			header: JSON.stringify({
 				"user-agent": "Lavf/58.12.100"
 			})
-		} : /m3u8/.test(input) ? input : "https://jx.jsonplayer.com/player/?url=" + input
+		} : /m3u8/.test(input) ? input : "http://lflong.lyyytv.cn/json.php?url=" + input
 	`,
 	limit:6,
 	推荐:'json:list;vlist;*;*;*;*',
