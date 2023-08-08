@@ -1,4 +1,4 @@
->var rule = {
+var rule = {
 	title: '如意', // csp_AppYsV2
 	host: 'http://4k.953365.cn:8090',
 	homeUrl:'/xgapp.php/v1/index_video',
