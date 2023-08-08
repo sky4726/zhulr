@@ -73,9 +73,9 @@ var rule = {
 				d = d.map(function(it) {
 					var title = pdfh(it, 'Text');
 					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-					var burl = pd(it, 'href');
-					log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-					return title + '$' + burl
+					var url = pd(it, 'href');
+					log('url >>>>>>>>>>>>>>>>>>>>>>>>>>' + url);
+					return title + '$' + url
 				});
 				LISTS.push(d)
 			} else if (/在线预览/.test(tab)) {
@@ -90,5 +90,5 @@ var rule = {
 		});
 		`,
 	},
-	搜索:'.col;h2&&Text;.card-img&&url;.me-auto&&Text;a&&href',
+	搜索:'.col;h2&&Text;.card-img&&style;.me-auto&&Text;a&&href',
 }
