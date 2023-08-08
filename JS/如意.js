@@ -23,7 +23,7 @@ var rule = {
 	class_url:'2&1&4&3',
 	play_parse:true,
 	pagecount:{"20":1},
-	lazy:'js:if(/m3u8|mp4/.test(input)){input}else if(/qiqi|zyz_ff|FYNB|ZJDR|ZJZY|Feiyun/.test(input)){let purl=request("http://htp.behds.cn/json/520237app7/mlzjphp111.php?url="+input);input={jx:0,url:JSON.parse(purl).url,parse:0}}',
+	lazy:'js:if(/m3u8|mp4/.test(input)){input}else if(/qiqi|zyz_ff|FYNB|ZJDR|ZJZY|Feiyun/.test(input)){let purl=request("http://json.953365.cn/4k/4k.php?url="+input);input={jx:0,url:JSON.parse(purl).url,parse:0}}',
 	limit:6,
 	推荐:'json:data[0].vlist;*;*;*;*',
 	一级:'json:data;vod_name;vod_pic;vod_remarks;vod_id',
