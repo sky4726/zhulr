@@ -90,5 +90,5 @@ var rule = {
 		});
 		`,
 	},
-	搜索:'.col;h2&&Text;.card-img&&background-image;.me-auto&&Text;a&&href',
+	搜索:'.col;h2&&Text;.card-img&&url;.me-auto&&Text;a&&href',
 }
