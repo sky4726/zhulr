@@ -32,7 +32,7 @@
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"./JS/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./JS/豆瓣.js"},
 {"key":"草莓熊","name":"草莓熊","type": 3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable": 1,"ext":"./JS/草莓熊.js"},
-{"key":"素白白","name":"素白白","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/素白白.js"},
+{"key":"素白白","name":"素白白","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/素白白.js"},
 {"key":"北极狐","name":"北极狐","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"影探","name":"影探","type":3,"api":"csp_YT","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar"},
