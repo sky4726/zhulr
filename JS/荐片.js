@@ -33,8 +33,8 @@ var rule = {
 	推荐:'json:.video;*;*;*;*',
 	一级:'json:data;title;path;playlist.title;id',
     二级:{
-    title:'data.title',
-    desc:'data.score;data.year.title;data.area.title;data.writers[*].name;data.directors[*].name',
+    title:'data.title;data.types[0].name',
+    desc:'data.score;data.year.title;data.area.title;data.actors[*].name;data.directors[*].name',
     img:'data.thumbnail',
     content:'data.description',
     is_json:1,
