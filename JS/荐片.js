@@ -34,12 +34,38 @@ var rule = {
 	一级:'json:data;title;path;playlist.title;id',
     二级:{
     title:'data.title;data.types[0].name',
-    desc:'data.score;data.year.title;data.area.title;data.actors[*id].name;data.directors[*].name',
+    desc:'data.score;data.year.title;data.area.title;data.actors.name;data.directors[*].name',
     img:'data.thumbnail',
     content:'data.description',
     is_json:1,
-    tabs:'js:TABS=[];if(html.data.have_ftp_ur == 1){TABS.push("高清[记得清理缓存]")}if(html.data.have_m3u8_ur == 1){TABS.push("普清")}',
-    lists:'js:log(TABS);LISTS=[];TABS.forEach(function(tab){if(/高清/.test(tab)){let ftp=html.data.new_ftp_list;let d=ftp.map(function(it){return it.title+"$"+(/m3u8/.test(it.url)?play_url+it.url:"tvbox-xg:"+it.url)});LISTS.push(d)}else if(/普清/.test(tab)){let m3u=html.data.new_m3u8_list;let d=m3u.map(function(it){return it.title+"$"+(/m3u8/.test(it.url)?play_url+it.url:"tvbox-xg:"+it.url)});LISTS.push(d)}});',
+    tabs:`js:
+            TABS = [];
+            if (html.data.have_ftp_ur == 1) {
+                TABS.push("超清[观影后,记得清理缓存]")
+            }
+            if (html.data.have_m3u8_ur == 1) {
+                TABS.push("普清")
+            }
+        `,
+        lists:`js:
+            log(TABS);
+            LISTS = [];
+            TABS.forEach(function(tab) {
+                if (/超清/.test(tab)) {
+                    let ftp = html.data.new_ftp_list;
+                    let d = ftp.map(function(it) {
+                        return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
+                    });
+                    LISTS.push(d)
+                } else if (/普清/.test(tab)) {
+                    let m3u = html.data.new_m3u8_list;
+                    let d = m3u.map(function(it) {
+                        return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
+                    });
+                    LISTS.push(d)
+                }
+            });
+        `,
     },
     搜索:'json:data;*;thumbnail;mask;*',
 }
