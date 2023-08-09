@@ -34,7 +34,7 @@ var rule = {
 	一级:'json:data;title;path;playlist.title;id',
     二级:{
     title:'data.title',
-    desc:';data.year;data.types',
+    desc:'data.year.title;data.area.title;data.actors[0].name;data.directors[0].name',
     img:'data.thumbnail',
     content:'data.description',
     is_json:1,
