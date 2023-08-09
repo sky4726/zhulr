@@ -34,7 +34,7 @@ var rule = {
 	一级:'json:data;title;path;playlist.title;id',
     二级:{
     title:'data.title;data.types[0].name',
-    desc:'data.score;data.year.title;data.area.title;data.actors[*id].name;data.directors[*].name',
+    desc:'data.score;data.year.title;data.area.title;data.actors[*].name;data.directors[*].name',
     img:'data.thumbnail',
     content:'data.description',
     is_json:1,
@@ -60,7 +60,7 @@ var rule = {
                 } else if (/普清/.test(tab)) {
                     let m3u = html.data.new_m3u8_list;
                     let d = m3u.map(function(it) {
-                        return it.title + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
+                        return it.title + (/m3u8/.test(it.url) ? play_url)
                     });
                     LISTS.push(d)
                 }
