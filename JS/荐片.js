@@ -43,7 +43,7 @@ var rule = {
             if (html.data.have_ftp_ur == 1) {
                 TABS.push("超清[观影后,记得清理缓存]")
             }
-            if (html.data.have_m3u8_ur == 1) {
+            if (html.data.have_m3u8_ur == 0) {
                 TABS.push("普清")
             }
         `,
@@ -60,7 +60,7 @@ var rule = {
                 } else if (/普清/.test(tab)) {
                     let m3u = html.data.new_m3u8_list;
                     let d = m3u.map(function(it) {
-                        return it.title + (/m3u8/.test(it.url) ? play_url)
+                        return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
                     });
                     LISTS.push(d)
                 }
