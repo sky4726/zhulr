@@ -60,7 +60,7 @@ var rule = {
                 } else if (/普清/.test(tab)) {
                     let m3u = html.data.new_m3u8_list;
                     let d = m3u.map(function(it) {
-                        return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
+                        return it.title + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
                     });
                     LISTS.push(d)
                 }
