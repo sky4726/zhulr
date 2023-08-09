@@ -1,5 +1,4 @@
 {
-
   "站名": "素白白影视",
   "主页url": "https://www.subaibaiys.com",
   "请求头":"Referer$https://www.subaibaiys.com/",
