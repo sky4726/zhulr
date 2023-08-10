@@ -22,8 +22,8 @@ var rule = {
     play_json:[{
       re:'*',
       json:{
-          parse:0,
-          jx:1
+          parse:1,
+          jx:0
       }
     }],
     lazy:'',
