@@ -46,7 +46,7 @@
       "jar":"https://qu.ax/xDRt.jpg",
       "ext": "http://yt22106.lfytyl.com/api.php/app"
     },
-    { "key": "dr_ruyi", "name": "💐┃如意┃4K", "type": 3, "api": "https://agit.ai/Yemaozhi123/yemao/raw/branch/master/lib/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": "https://jihulab.com/ymz1231/js/-/raw/main/%E5%A6%82%E6%84%8F_V2_.js"},
+    { "key": "dr_ruyi", "name": "💐┃如意┃4K", "type": 3, "api": "https://agit.ai/Yemaozhi123/yemao/raw/branch/master/lib/drpy2.min.js", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": "./JS/如意.js"},
 {"key":"酷酷","name":"酷酷","type":3,"api":"csp_Kuying","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/f.jar"},
 {"key":"乐迪","name":"乐迪","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
 {"key":"csp_Kunyu77","name":"七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar"},
