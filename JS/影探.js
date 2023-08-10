@@ -57,10 +57,10 @@ var rule = {
 	class_url:'20&21&47&48&50&5&45&44&49&46&1&2&4&3',
 	play_parse:true,
 	play_json:[{
-        re:'*',
+        re:'YT_4k,qiqi',
         json:{
-            jx:1,
-            parse:0,
+            jx:0,
+            parse:1,
         },
     }],
 	limit:6,
