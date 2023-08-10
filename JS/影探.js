@@ -56,6 +56,13 @@ var rule = {
 	class_name:'新电影&新剧&好莱坞&港台经典&少儿动画&邵氏老电影&明星专辑&六公主&豆瓣Top250电影&豆瓣Top100影视剧&电影综合&电视剧综合&动漫&综艺',
 	class_url:'20&21&47&48&50&5&45&44&49&46&1&2&4&3',
 	play_parse:true,
+	play_json:[{
+        re:'*',
+        json:{
+            jx:1,
+            parse:1,
+        },
+    }],
 	limit:6,
 	推荐:'json:list;vlist;*;*;*;*',
 	double: true,
