@@ -61,7 +61,7 @@ var rule = {
 		desc:'p.mb-2:eq(1)&&Text;;;p.mb-2:eq(7)&&Text;p.mb-2:eq(5)&&Text',
 		img:'.rounded-2&&src',
 		content:'.mv_card_box&&Text',
-		tabs:'js:TABS = ["磁力播放"]',
+		tabs:'js:TABS = ["磁力播放[播放后,记得清理缓存]"]',
 		lists:`js:
 		log(TABS);
 		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
