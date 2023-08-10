@@ -44,7 +44,7 @@
       "type": 3,
       "api": "csp_AppYsV2",
       "jar":"https://qu.ax/xDRt.jpg",
-      "ext": "http://yt22106.lfytyl.com/api.php/app"
+      "ext": "http://ytcms.lfytyl.com/api.php/app"
     },
 {"key":"酷酷","name":"酷酷","type":3,"api":"csp_Kuying","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/f.jar"},
 {"key":"乐迪","name":"乐迪","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
