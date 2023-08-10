@@ -64,7 +64,7 @@ var rule = {
 			header: JSON.stringify({
 				"user-agent": "Lavf/58.12.100"
 			})
-		} : /m3u8/.test(input) ? input : "http://lflong.lyyytv.cn/json.php?url=" + input
+		} : /4k/.test(input) ? input : "http://lflong.lyyytv.cn/json.php?url=" + input
 	`,
 	limit:6,
 	推荐:'json:list;vlist;*;*;*;*',
