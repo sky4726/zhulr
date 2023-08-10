@@ -22,7 +22,7 @@ var rule = {
     play_json:[{
       re:'*',
       json:{
-          parse:1,
+          parse:0,
           jx:0
       }
     }],
