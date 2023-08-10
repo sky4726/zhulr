@@ -16,7 +16,7 @@ try {
 		vod_content: node["vod_content"].strip(),
 	};
 	VOD["vod_play_from"] = node["vod_play_from"];
-	VOD["vod_play_url"] = node["vod_play_url"]
+	VOD["vod_url_with_player"] = node["vod_url_with_player"]
 } catch (e) {
 	log("获取二级详情页发生错误:" + e.message)
 }
@@ -64,7 +64,7 @@ var rule = {
 			header: JSON.stringify({
 				"user-agent": "Lavf/58.12.100"
 			})
-		} : /4k/.test(input) ? input : "http://lflong.lyyytv.cn/json.php?url=" + input
+		} : /YT_4k/.test(input) ? input : "http://lflong.lyyytv.cn/json.php?url=" + input
 	`,
 	limit:6,
 	推荐:'json:list;vlist;*;*;*;*',
