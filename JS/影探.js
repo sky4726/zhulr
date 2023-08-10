@@ -15,31 +15,8 @@ try {
 		vod_director: node["vod_director"],
 		vod_content: node["vod_content"].strip(),
 	};
-	// let episodes = node.vod_url_with_player;
-	// let playMap = {};
-	// if (typeof play_url === "undefined") {
-	// 	var play_url = ""
-	// }
-	// episodes.forEach(function(ep) {
-	// 	let source = ep["name"];
-	// 	if (!playMap.hasOwnProperty(source)) {
-	// 		playMap[source] = []
-	// 	}
-	// 	// playMap[source].append(ep["url"])
-	// 	playMap[source].append(ep["url"].replace(/影探lfytv.cn(.*).mp4#/,''))
-	// });
-	// let playFrom = [];
-	// let playList = [];
-	// Object.keys(playMap).forEach(function(key) {
-	// 	playFrom.append(key);
-	// 	playList.append(playMap[key])
-	// });
-	// let vod_play_from = playFrom.join("$$$");
-	// let vod_play_url = playList.join("$$$");
-	// VOD["vod_play_from"] = vod_play_from;
 	VOD["vod_play_from"] = node["vod_play_from"];
-	// VOD["vod_play_url"] = vod_play_url
-	VOD["vod_play_url"] = node["vod_play_url"].replace(/影探lfytv(.*?)mp4#/g,'')
+	VOD["vod_play_url"] = node["vod_play_url"]
 } catch (e) {
 	log("获取二级详情页发生错误:" + e.message)
 }
@@ -71,24 +48,14 @@ var rule = {
 	},
 	detailUrl:'/api.php/app/video_detail?id=fyid',
 	searchUrl: '/api.php/app/search?text=**&pg=fypage',
-	searchable: 2,
-	quickSearch: 0,
+	searchable: 1,
+	quickSearch: 1,
 	filterable:1,
 	headers:{'User-Agent':'Dart/2.14 (dart:io)'},
 	timeout:5000,
 	class_name:'新电影&新剧&好莱坞&港台经典&少儿动画&邵氏老电影&明星专辑&六公主&豆瓣Top250电影&豆瓣Top100影视剧&电影综合&电视剧综合&动漫&综艺',
 	class_url:'20&21&47&48&50&5&45&44&49&46&1&2&4&3',
 	play_parse:true,
-	lazy:`js:
-		input = /mp4|mkv/.test(input) ? {
-			jx: 0,
-			url: input,
-			parse: 0,
-			header: JSON.stringify({
-				"user-agent": "Lavf/58.12.100"
-			})
-		} : /m3u8/.test(input) ? input : "http://lflong.lyyytv.cn/json.php?url=" + input
-	`,
 	limit:6,
 	推荐:'json:list;vlist;*;*;*;*',
 	double: true,
