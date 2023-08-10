@@ -56,16 +56,13 @@ var rule = {
 	class_name:'新电影&新剧&好莱坞&港台经典&少儿动画&邵氏老电影&明星专辑&六公主&豆瓣Top250电影&豆瓣Top100影视剧&电影综合&电视剧综合&动漫&综艺',
 	class_url:'20&21&47&48&50&5&45&44&49&46&1&2&4&3',
 	play_parse:true,
-	lazy:`js:
-		input = /mp4|mkv/.test(input) ? {
-			jx: 0,
-			url: input,
-			parse: 1,
-			header: JSON.stringify({
-				"user-agent": "Lavf/58.12.100"
-			})
-		} : /m3u8/.test(input) ? input : "http://lflong.lyyytv.cn/json.php?url=" + input
-	`,
+	play_json:[{
+        re:'*',
+        json:{
+            jx:0,
+            parse:1,
+        },
+    }],
 	limit:6,
 	推荐:'json:list;vlist;*;*;*;*',
 	double: true,
