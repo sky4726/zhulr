@@ -60,7 +60,7 @@ var rule = {
 		input = /mp4|mkv/.test(input) ? {
 			jx: 0,
 			url: input,
-			parse: 1,
+			parse: 0,
 			header: JSON.stringify({
 				"user-agent": "Lavf/58.12.100"
 			})
