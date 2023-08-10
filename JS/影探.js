@@ -59,8 +59,8 @@ var rule = {
 	play_json:[{
         re:'*',
         json:{
-            jx:0,
-            parse:0,
+            jx:1,
+            parse:1,
         },
     }],
 	limit:6,
