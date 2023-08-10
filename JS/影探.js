@@ -16,7 +16,7 @@ try {
 		vod_content: node["vod_content"].strip(),
 	};
 	VOD["vod_play_from"] = node["vod_play_from"];
-	VOD["vod_play_url"] = node["vod_play_url"]
+	VOD["vod_play_url"] = node["vod_play_url"].replace(/影探lfytv.cn(.*).mp4#/,''))
 } catch (e) {
 	log("获取二级详情页发生错误:" + e.message)
 }
@@ -57,7 +57,7 @@ var rule = {
 	class_url:'20&21&47&48&50&5&45&44&49&46&1&2&4&3',
 	play_parse:true,
 	play_json:[{
-        re:'YT_4k,qiqi',
+        re:'*',
         json:{
             jx:0,
             parse:1,
