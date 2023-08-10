@@ -16,7 +16,7 @@ try {
 		vod_content: node["vod_content"].strip(),
 	};
 	VOD["vod_play_from"] = node["vod_play_from"];
-	VOD["vod_play_url"] = node["vod_play_url"].replace(/影探lfytv.cn(.*).mp4#/,''))
+	VOD["vod_play_url"] = node["vod_play_url"]
 } catch (e) {
 	log("获取二级详情页发生错误:" + e.message)
 }
@@ -60,7 +60,7 @@ var rule = {
         re:'*',
         json:{
             jx:0,
-            parse:1,
+            parse:0,
         },
     }],
 	limit:6,
