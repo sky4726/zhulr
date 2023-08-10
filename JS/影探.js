@@ -16,7 +16,7 @@ try {
 		vod_content: node["vod_content"].strip(),
 	};
 	VOD["vod_play_from"] = node["vod_play_from"];
-	VOD["vod_url_with_player"] = node["vod_url_with_player"]
+	VOD["vod_play_url"] = node["vod_play_url"]
 } catch (e) {
 	log("获取二级详情页发生错误:" + e.message)
 }
