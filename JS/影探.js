@@ -58,7 +58,7 @@ var rule = {
 	play_parse:true,
 	lazy:`js:
 		input = /mp4|mkv/.test(input) ? {
-			jx: 0,
+			jx: 1,
 			url: input,
 			parse: 0,
 			header: JSON.stringify({
