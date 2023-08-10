@@ -37,7 +37,7 @@
 {"key":"萌蛋蛋","name":"萌蛋蛋","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v1/"},
 {"key":"荐片","name":"荐片","type":3,"api":"./JS/drpy.min.js","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/荐片.js"},
 {"key":"csp_YT","name":"影探","type":3,"api":"csp_YT","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar"},
-{"key":"影探","name":"影探2","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/影视.js"},
+{"key":"影探","name":"影探2","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/影探.js"},
 {
       "key": "飞速",
       "name": "🚄┃影探┃影视",
