@@ -76,6 +76,7 @@
         {"name":"解析聚合","type":3,"url":"Demo"},
         {"name":"Json轮询","type":2,"url":"Sequence"},
         {"name":"小米","type":1,"url":"http://xhww.fun:63/小米特别爱肥猫.php?url="},
+        {"name":"巴拉","type":1,"url":"https://api.jxjson.cf/api/?key=BriYDyAUiU6sSlgAwf&url=","header":{"Referer":"https://w.mgtv.com/","Host":"titan.mgtv.com","Origin":"https://w.mgtv.com","User-Agent":"ios Edg/112.0.0.0"}},
         {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
         {"name":"肥猫","type":1,"url":"http://jx.fuqizhishi.com:63/接口地址www.肥猫.love/肥猫专用.php?url="},
         {"name":"刚佬","type":1,"url":"http://json.g9.pub:66/?url="},
