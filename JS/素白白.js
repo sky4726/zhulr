@@ -7,7 +7,7 @@
   "分类url": "https://www.subaibaiys.com/{cateId}/page/{catePg};;aks2",
   "数组": "<li>&&</li>",
   "副标题": "class=\"jidi\"><span>&&</span>",
-  "搜索模式": "1",
+  "搜索模式": "2",
   "搜索url": "https://www.subaibaiys.com/search?q={wd}",
   "影片年代": "年份：&&</li>",
   "影片地区": "地区：&&</li>",
