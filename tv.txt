@@ -1,4 +1,4 @@
->{
+{
 "spider":"./jar/spider.jar",
 "wallpaper":"https://api.likepoems.com/img/bing",
   "lives": [
