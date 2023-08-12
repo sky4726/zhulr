@@ -41,7 +41,7 @@
 {"key":"csp_Kunyu77","name":"七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar"},
 {"key":"csp_Lib","name":"LibVio","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.libvio.cc/","jar":"./jar/f.jar"},
 {"key":"Voflix","name":"Voflix","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/Voflix.js"},
-{"key":"csp_WoGG","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar","ext":"https://shuyuan.miaogongzi.net/shuyuan/1691460316.txt$$$http://wogg.xyz/"},
+{"key":"csp_WoGG","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar","ext":"9e0d15bfaa6945f4930d76c628439a0f$$$http://wogg.xyz/"},
 {"key":"在线之家","name":"在线之家","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/在线之家.js"},
 {"key":"看看剧","name":"看看剧","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kankanju.cc/api.php/app/"},
 {"key":"五五五","name":"五五五","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/五五五.js"},
@@ -60,9 +60,9 @@
 {"key":"子子影视","name":"子子影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/子子影视.js"},
 {"key":"饭团影视","name":"饭团影视","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./JS/饭团.js"}, 
 #云盘
-{"key":"csp_search_七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "http://shuyuan.miaogongzi.net/shuyuan/1691460316.txt","jar":"./jar/yun.jar"},
-{"key":"PanSou","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://shuyuan.miaogongzi.net/shuyuan/1691460316.txt","jar":"./jar/yun.jar"},
-{"key":"UpYun","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://shuyuan.miaogongzi.net/shuyuan/1691460316.txt","jar":"./jar/yun.jar"},
+{"key":"csp_search_七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable":1,"ext": "9e0d15bfaa6945f4930d76c628439a0f","jar":"./jar/yun.jar"},
+{"key":"PanSou","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "9e0d15bfaa6945f4930d76c628439a0f","jar":"./jar/yun.jar"},
+{"key":"UpYun","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "9e0d15bfaa6945f4930d76c628439a0f","jar":"./jar/yun.jar"},
 {"key":"fenx","name":"分享社｜云盘","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/分享社.js"},
 {"key":"push_agent","name":"数据来源于互联网｜LR","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0}
 ],
