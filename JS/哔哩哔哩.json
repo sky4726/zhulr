@@ -5,6 +5,10 @@
       "type_id": "VLOG"
     },
     {
+      "type_name": "影视剪辑",
+      "type_id": "影视剪辑"
+    },
+    {
       "type_name": "影视解说",
       "type_id": "影视解说"
     },
