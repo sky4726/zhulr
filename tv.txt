@@ -53,7 +53,6 @@
 {"key":"一三九","name":"一三九","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/一三九.js"},
 {"key":"路漫漫","name":"路漫漫","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/路漫漫.js"},
 {"key":"动漫岛","name":"动漫岛","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/动漫岛.js"},
-{"key":"蘑菇影视","name":"蘑菇影视","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.moguys.xyz/api.php/app/"},
 {"key":"鸭鸭影视","name":"鸭鸭影视","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://yayayaaapp.ynf.icu/api.php/app/"},
 {"key":"ikan","name":"爱看Bot","type":3,"api": "./JS/drpy.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./JS/ikan.js"},
 {"key":"达达龟","name":"达达龟","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/达达龟.js"},
