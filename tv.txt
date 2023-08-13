@@ -74,7 +74,7 @@
         {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
         {"name":"LR","type":1,"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url="},
         {"name":"影探","type":1,"url":"http://lflong.lyyytv.cn/json.php?url=","ext":{"flag":["YT_4k"],"header":{"User-Agent":"okhttp/3.12.0"}}},
-        {"name":"qiqi","type":1,"url":http://lgg.llwwwll.com:5477/home/api?type=ys&uid=387611&key=ahnrvxyzCDGJKPY137&url=","ext":{"flag":["qiqi"]}},
+        {"name":"qiqi","type":1,"url":"http://lgg.llwwwll.com:5477/home/api?type=ys&uid=387611&key=ahnrvxyzCDGJKPY137&url=","ext":{"flag":["qiqi"]}},
         {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"布雷","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url="},
