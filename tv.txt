@@ -31,7 +31,7 @@
 
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"./JS/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./JS/豆瓣.js"},
-{"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":0,"changeable":0,"recordable":0,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":""},"jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
+{"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":0,"changeable":0,"recordable":1,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":""},"jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
 {"key":"北极狐","name":"北极狐","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/","jar":"https://jihulab.com/duomv/duox/-/raw/main/custom_spider.jar"},
 {"key":"荐片","name":"荐片","type":3,"api":"./JS/drpy.min.js","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/荐片.js"},
