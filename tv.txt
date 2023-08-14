@@ -34,7 +34,7 @@
 
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"./JS/drpy.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./JS/豆瓣.js"},
-{"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":1,"changeable":1,"recordable":0,"style":{"type":"rect","ratio":1.597},"ext":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.js","jar":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/jar/f.jar"},
+{"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":1,"changeable":1,"recordable":0,"style":{"type":"rect","ratio":1.597},"ext":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","jar":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/jar/f.jar"},
 {"key":"北极狐","name":"北极狐","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/","jar":"https://jihulab.com/duomv/duox/-/raw/main/custom_spider.jar"},
 {"key":"奇奇","name":"奇奇","type":1,"api":"http://www.csykkj.club/api.php/provide/vod/from/qiqi","searchable":1,"quickSearch":1,"categories":["综艺","连续剧","电影","动漫"]},
