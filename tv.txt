@@ -49,7 +49,7 @@
 {"key": "csp_wogg_cli","name": "玩偶哥哥","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"9e0d15bfaa6945f4930d76c628439a0f"},
 {"key":"大米星球","name":"大米星球","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://dami7.vip/api.php/app/"},
 //{"key":"csp_WoGG","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar","ext":"9e0d15bfaa6945f4930d76c628439a0f$$$http://wogg.xyz/"},
-{"key":"次元动漫","name":"次元动漫","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.95189371.cn/ciyuancheng.php/v6/"},
+{"key":"次元动漫","name":"次元动漫","type":3,"api":"csp_Cycdm","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.95189371.cn/ciyuancheng.php/v6/"},
 {"key":"动漫岛","name":"动漫岛","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/动漫岛.js"},
 {"key":"五五五","name":"五五五","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/五五五.js"},
 {"key":"萌蛋蛋","name":"萌蛋蛋","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v2/"},
