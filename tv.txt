@@ -48,7 +48,7 @@
 {"key":"Voflix","name":"Voflix","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/Voflix.js"},
 {"key": "csp_wogg_cli","name": "玩偶哥哥","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"9e0d15bfaa6945f4930d76c628439a0f"},
 //{"key":"csp_WoGG","name":"玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar","ext":"9e0d15bfaa6945f4930d76c628439a0f$$$http://wogg.xyz/"},
-{"key":"五五五","name":"五五五","type":3,"api": "csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://555dy5s.com/api.php/app/"},
+{"key":"五五五","name":"五五五","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.555dyy14.com/api.php/app/"},
 {"key":"大米星球","name":"大米星球","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://dmxq1x.com/api.php/app/"},
 {"key":"看看剧","name":"看看剧","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kankanju.cc/api.php/app/"},
 {"key":"独播库","name":"独播库","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/独播库.js"},
