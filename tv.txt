@@ -50,7 +50,7 @@
 {"key":"csp_wogg_cli","name":"玩偶哥哥","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"0bec59716cbd492796ea1d5b14f2ca67"},
 {"key":"大米星球","name":"大米星球","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大米星球.js"},
 {"key":"次元动漫","name":"次元动漫","type":3,"api":"csp_Cycdm","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.95189371.cn/ciyuancheng.php/v6/"},
-{"key":"爱其艺","name":"爱其艺","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://172.247.173.20/aiqiyi.php/v6/"},
+{"key":"爱其艺","name":"爱其艺","type":3,"api":"csp_lqy","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://172.247.173.20/aiqiyi.php/v6/"},
 {"key":"草莓熊","name":"草莓熊", "type": 3,"api": "./JS/drpy.min.js","searchable": 1,"quickSearch": 1,"filterable": 1, "ext": "./JS/草莓熊.js"},
 {"key":"五五五","name":"五五五","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/五五五.js"},
 {"key":"萌蛋蛋","name":"萌蛋蛋","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v2/"},
