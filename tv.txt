@@ -44,7 +44,6 @@
 {"key":"酷酷","name":"酷酷","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://cms.realdou.cn:35264/api.php/app/","jar":"https://jihulab.com/duomv/duox/-/raw/main/custom_spider.jar"},
 {"key":"乐迪","name":"乐迪","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/","jar":"https://jihulab.com/duomv/duox/-/raw/main/custom_spider.jar"},
 {"key":"七七","name":"七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/f.jar"},
-{"key":"LR","name":"LR","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://pg.senls.cn/icciu_api.php/v1.vod"},
 {"key":"emoFun","name":"emoFun","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://154.31.2.112:8869/mogai_api.php/v1.vod"},
 {"key":"csp_Lib","name":"LibVio","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.libvio.la/","jar":"./jar/f.jar"},
 {"key":"HDmoli","name":"HDmoli","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/HDmoli.js"},
@@ -58,6 +57,7 @@
 {"key":"独播库","name":"独播库","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/独播库.js"},
 {"key":"一三九","name":"一三九","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/一三九.js"},
 {"key":"ikan","name":"爱看Bot","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/ikan.js"},
+{"key":"熊猫影视","name":"熊猫影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://pg.senls.cn/icciu_api.php/v1.vod"},
 {"key":"鸭鸭影视","name":"鸭鸭影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://yayayaaapp.ynf.icu/api.php/app/"},
 {"key":"子子影视","name":"子子影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/子子影视.js"},
 {"key":"腐剧影视","name":"腐剧影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://121.127.249.200:233/ruifenglb_api.php/v1.vod"},
@@ -85,7 +85,7 @@
         ],
         
 "flags":
-["youku","qq","QQ","iqiyi","qiqi","qiyi","letv","sohu","tudou","pptv","PPTV","mgtv","ltnb","rx","SLYS4k","BYGA","luanzi","dxzy","QEYSS","aliyun","AliS","122","chuangying","CL4K","xfyun","wuduzy","wasu","bilibili","renrenmi","ppayun","haiwaikan","cool","dbm3u8","xmm","xigua","m1905","funshion","imgo","ruyi1080","ruyib1080","YQK","优酷","芒果","腾讯","爱奇艺","奇艺","哔哩哔哩","哔哩","西瓜视频","腾讯视频","奇艺视频","优酷视频","芒果视频","乐视视频","厂长资源","非凡资源","云","视频列表","线路"],
+["youku","qq","QQ","iqiyi","qiqi","qiyi","letv","sohu","tudou","pptv","PPTV","mgtv","ltnb","rx","SLYS4k","BYGA","luanzi","dxzy","QEYSS","aliyun","AliS","122","chuangying","CL4K","xfyun","wuduzy","wasu","bilibili","renrenmi","ppayun","haiwaikan","cool","dbm3u8","xmm","xigua","m1905","funshion","imgo","ruyi1080","ruyib1080"],
 
 "ijk":[
 {"group":"软解码","options":[
