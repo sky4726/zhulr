@@ -82,7 +82,8 @@
         {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"布雷","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url="},
-        {"name":"盘古","type":0,"url":"https://www.pangujiexi.com/pangu/?url="}
+        {"name":"盘古","type":0,"url":"https://www.pangujiexi.com/pangu/?url="},
+        {"name":"测试","type":1,"url":"http://137.220.194.123/bf.php?url="}
         ],
         
 "flags":
