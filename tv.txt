@@ -61,7 +61,7 @@
 {"key":"七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable":1,"ext": "12efb0a4372f447da3b06d368f5f49b5","jar":"./jar/yun.jar"},
 {"key":"PanSou","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "12efb0a4372f447da3b06d368f5f49b5","jar":"./jar/yun.jar"},
 {"key":"UpYun","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "12efb0a4372f447da3b06d368f5f49b5","jar":"./jar/yun.jar"},
-{"key":"云盘网","name":"云盘网｜云盘","type":3,"api":"csp_XYQHikerAL","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/aliyunpan.js?token=12efb0a4372f447da3b06d368f5f49b5"},
+{"key":"云盘网","name":"云盘网｜云盘","type":3,"api":"csp_XYQHikerAL","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/aliyunpan.js","token":"12efb0a4372f447da3b06d368f5f49b5"},
 {"key":"push_agent","name":"数据来源于互联网｜LR","type":0,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0}
 ],
 
