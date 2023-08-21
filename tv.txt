@@ -5,15 +5,11 @@
     {
       "name": "直播",
       "type": 0,
-      "url": "https://raw.iqiq.io/dxawi/0/main/tvlive.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch\u003d{name}\u0026date\u003d{date}"
-    },
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "live",
-          "urls": ["proxy://do\u003dlive\u0026type\u003dtxt\u0026ext\u003daHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9DYXQvdHYvbGl2ZS50eHQ\u003d"]}],"epg": "http://epg.51zmt.top:8000/api/diyp/"}
+      "url": "./直播.txt",
+      "playerType": 2,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
   ],
 "rules":[
 {"name":"量子","hosts":["vip.lz","hd.lz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
