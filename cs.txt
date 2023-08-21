@@ -31,6 +31,14 @@
 
 "sites":[
 {
+      "key": "csp_Auete",
+      "name": "🐼奥特",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,,"jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431"},
+{
       "key": "lf_js_search",
       "name": "路飞┃搜索",
       "type": 3,
