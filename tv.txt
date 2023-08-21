@@ -71,7 +71,7 @@
         {"name":"LR","type":1,"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url="},
         {"name":"迷你","type":1,"url":"https://vip.mosangkeji.com/api/?key=afcQ0C7vUiNOy4tnvG&url="},
         {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
-        {"name":"奇奇","type":1,"url":"http://42.157.128.109:2323/CH/zy/qiqi.php?url=","ext":{"flag":["qiqi"]}},
+        //{"name":"奇奇","type":1,"url":"http://42.157.128.109:2323/CH/zy/qiqi.php?url=","ext":{"flag":["qiqi"]}},
         {"name":"稻香","type":1,"url":"https://jx.lvdoui.com/api/?key=27e1bea86001c8fd511a1556e0c6f665&url=","ext":{"flag":["kuying-you","YuMi-vip","NBY"]}},
         {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"布雷","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
