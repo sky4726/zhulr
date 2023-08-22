@@ -1,7 +1,7 @@
 var rule = {
     title:'剧圈',
     host:'http://211.101.233.143:7788'
-    homeUrl:'http://211.101.233.143:7788/appto/v1/home/getSectionsMore',
+    homeUrl:'http://211.101.233.143:7788/appto/v1/home/cateData?id=1',
 	url:'/appto/v1/vod/getLists?type_id=fyclass',
     class_name:'电影&剧集&动漫&综艺',
     class_url:'20&21&30&31',
