@@ -22,7 +22,7 @@ var rule = {
       }
     }],
     lazy:'',
-	一级:'json:data;data;vod_name;vod_pic;vod_score;vod_id',
+	一级:'json:data;data;data.vod_name;vod_pic;vod_score;vod_id',
     二级:{
     title:'data.title;data.types[0].name',
     desc:'data.score;data.year.title;data.area.title;data.actors[*].name;data.directors[*].name',
