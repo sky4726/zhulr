@@ -23,7 +23,7 @@ var rule = {
     }],
     lazy:'',
 	推荐:'json:data;sections;items;vod_name;vod_pic;vod_score;vod_id',
-	一级:'json:data;vod_name;vod_score;vod_pic;vod_id',
+	一级:'json:data;sections;items;vod_name;vod_pic;vod_score;vod_id',
     二级:{
     title:'data.title;data.types[0].name',
     desc:'data.score;data.year.title;data.area.title;data.actors[*].name;data.directors[*].name',
