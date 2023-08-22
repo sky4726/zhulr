@@ -24,7 +24,7 @@ try {
 var rule = {
 	title: 'A8影视',
 	host: 'https://aaa.a8ys.xyz',
-	homeUrl:'ruifenglb_api.php/v1.vod/vodPhbAll',
+	homeUrl:'/ruifenglb_api.php/v1.vod/vodPhbAll',
 	url: '/ruifenglb_api.php/v1.vod?type=fypage',
 	detailUrl:'/ruifenglb_api.php/v1.vod/detail?vod_id=fyid',
 	searchUrl: '/ruifenglb_api.php/v1.vod?wd?**&page=fypage',
