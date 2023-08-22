@@ -31,7 +31,7 @@ var rule = {
 	searchable: 1,
 	quickSearch: 1,
 	filterable:1,
-	headers:{'User-Agent':'okhttp/4.1.0''},
+	headers:{'User-Agent':'okhttp/4.1.0'},
 	timeout:5000,
 	class_name:'电影&电视剧&综艺&动漫&记录&解说',
 	class_url:'1&2&3&4&5&530',
