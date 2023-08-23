@@ -30,7 +30,7 @@
 {"host": "*","rule": ["http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*|http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)|http((?!http).)*?xg.php\\?id\u003d|http((?!http).)*?/m3/(.*)\\.css"]}],
 
 "sites":[
-{"key":"轻简","name":"轻简","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://mdy.ahailove.cn/api.php/app/","jar":"./jar/ly.jar"},
+{"key":"轻简","name":"轻简","api":"csp_AppYsV2","type":1,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://mdy.ahailove.cn/api.php/app/","jar":"./jar/ly.jar"},
 
         {"key": "csp_XYQHiker_348电影网","name":"348电影网(HM2)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/348电影网.js"},
 
