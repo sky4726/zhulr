@@ -30,7 +30,7 @@
 {"host": "*","rule": ["http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*|http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)|http((?!http).)*?xg.php\\?id\u003d|http((?!http).)*?/m3/(.*)\\.css"]}],
 
 "sites":[
-{"key":"往往","name":"往往","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://xn--p3t3aa3044b.com/api.php/app/"},
+{"key":"往往","name":"往往","api":"csp_ww","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://oftens.top/api.php/app/"},
 
         {"key": "csp_XYQHiker_348电影网","name":"348电影网(HM2)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/348电影网.js"},
 
