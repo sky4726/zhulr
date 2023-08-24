@@ -38,7 +38,7 @@
 {"key":"草莓熊","name":"草莓熊", "type": 3,"api": "./JS/drpy.min.js","searchable": 1,"quickSearch": 1,"filterable": 1, "ext": "./JS/草莓熊.js"},
 {"key":"北极狐","name":"奈飞","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":{"api":"https://netfly.tv/api.php/app/","header": {
           "User-Agent": "Mozilla/5.0(Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36"
-        }}"viewType":3},
+        }}},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"SeedHub","name":"SeedHub","type":3,"api":"csp_SeedHub","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"JOJO","name":"JOJO","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/JOJO.js"},
