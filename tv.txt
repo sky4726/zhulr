@@ -50,10 +50,10 @@
 {"key":"腐剧影视","name":"腐剧影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://121.127.249.200:233/ruifenglb_api.php/v1.vod"},
 {"key":"子子影视","name":"子子影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/子子影视.js"},
 #云盘
-{"key":"七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable":1,"ext":"eb444aed725d450fa310a89410797826"},
-{"key":"PanSou","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "eb444aed725d450fa310a89410797826"},
-{"key":"UpYun","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "eb444aed725d450fa310a89410797826"},
-{"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"filterable":1,"ext":"eb444aed725d450fa310a89410797826"},
+{"key":"七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable":1,"ext":"eb444aed725d450fa310a89410797826","jar":"./jar/yt.jar"},
+{"key":"PanSou","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "eb444aed725d450fa310a89410797826","jar":"./jar/yt.jar"},
+{"key":"UpYun","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "eb444aed725d450fa310a89410797826","jar":"./jar/yt.jar"},
+{"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"filterable":1,"ext":"eb444aed725d450fa310a89410797826","jar":"./jar/yt.jar"},
 {"key":"push_agent","name":"数据来源于互联网｜LR","type":0,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0}
 ],
 
