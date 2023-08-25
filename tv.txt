@@ -57,7 +57,7 @@
 {"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/Ali.jar"},
 {"key":"易搜","name":"易搜｜云盘","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext": "http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/Ali.jar"},
 {"key":"盘搜","name":"盘搜｜云盘","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/Ali.jar"},
-{"key":"push_agent","name":"数据来源于互联网｜LR","type":3,"api":"csp_KungFu404","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/Ali.jar"}
+{"key":"LR","name":"数据来源于互联网｜LR","type":0,"api":"0","searchable":0,"quickSearch":0,"filterable":0}
 ],
 
 "parses":[
