@@ -63,7 +63,7 @@
 "parses":[
         {"name":"解析聚合","type":3,"url":"Demo"},
         {"name":"Json轮询","type":2,"url":"Sequence"},
-        {"name":"LR","type":1,"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url="},
+        {"name":"LR","type":1,"url":"http://124.222.30.115/xiafanapi/tucheng.php?url="},
         {"name":"迷你","type":1,"url":"https://vip.mosangkeji.com/api/?key=afcQ0C7vUiNOy4tnvG&url="},
         {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
         {"name":"飞云","type":1,"url":"https://daina.hk/api/?key=507ebdc402a6314e35f950c4c40fdf27&url="},
