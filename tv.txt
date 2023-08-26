@@ -34,9 +34,6 @@
 {"key":"荐片","name":"荐片","type":3,"api":"./JS/drpy.min.js","playerType":1,"ext":"./JS/荐片.js"},
 {"key":"酷酷","name":"酷酷","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://ys.realdou.cn:2683/api.php/app/","jar":"https://jihulab.com/duomv/duox/-/raw/main/custom_spider.jar"},
 {"key":"乐迪","name":"乐迪","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
-{"key":"泡泡","name":"泡泡","api":"http://www.csykkj.club/api.php/provide/vod/","type":1,"searchable":1,"quickSearch":1,"changeable":1,"categories":["电影","电视剧","综艺","动漫","记录"],"header": {
-        "User-Agent":"okhttp/4.11.0"
-      }},
 {"key":"emoFun","name":"emoFun","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://154.31.2.112:8869/mogai_api.php/v1.vod"},
 {"key":"HDmoli","name":"HDmoli","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/HDmoli.js"},
 {"key":"VoFlix","name":"VoFlix","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/Voflix.js"},
