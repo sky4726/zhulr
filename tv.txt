@@ -71,6 +71,7 @@
         {"name":"玉米","type":1,"url":"http://42.157.128.109:2323/CH/zy/Yumi.php?url="},
         {"name":"土菜","type":1,"url":"https://110.42.2.98:22222/api/mp4jiexifile.php?key=DuTmhnodh2iqXO00LQ&url="},
         {"name":"影探","type":1,"url":"http://mao.lyyytv.cn/json.php?url="},
+        {"name":"酷影","type":1,"url":"http://1k.953365.cn/josn/index.php?ulr="},
         {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"布雷","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url="},
