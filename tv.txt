@@ -70,8 +70,7 @@
         {"name":"奇奇","type":1,"url":"http://42.157.128.109:2323/CH/zy/qiqi.php?url="},
         {"name":"玉米","type":1,"url":"http://42.157.128.109:2323/CH/zy/Yumi.php?url="},
         {"name":"土菜","type":1,"url":"https://110.42.2.98:22222/api/mp4jiexifile.php?key=DuTmhnodh2iqXO00LQ&url="},
-        {"name":"酷酷","type":0,"url":"http://box.realdou.cn/api/?api_id=4&vod_url=","header": {
-        "User-Agent": "okhttp/5.0.0-alpha.10"}},
+        {"name":"酷酷","type":0,"url":"http://box.realdou.cn/api/?api_id=4&vod_url="},
         {"name":"探探","type":1,"url":"http://jiexi.lyyytv.cn/json.php?url="},
         {"name":"追剧","type":1,"url":"http://1k.953365.cn/josn/index.php?ulr="},
         {"name":"光速","type":0,"url":"https://www.gszyv.com/m3u8/?url="},
