@@ -167,8 +167,6 @@ J2,http://r.jdshipin.com/ndGgS
 
 TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 
-澳門蓮花,https://p.ggiptv.com/v/macaulotustv.php
-澳门莲花,http://anren.live/HK/BiIOU11uLA.m3u8
 
 少儿频道,#genre#
 金鹰卡通,https://live.goodiptv.club/api/cqyx.php?id=jinyingSD
