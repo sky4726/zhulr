@@ -75,28 +75,28 @@ CCTV17,https://live.goodiptv.club/api/cqyx.php?id=cctv17HD
 CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
 
 卫视频道,#genre#
-江苏卫视,https://live.goodiptv.club/api/bestv.php?id=jswshd8m/8000000
 江苏卫视,https://live.goodiptv.club/api/cqyx.php?id=jiangsuHD
+江苏卫视,https://live.goodiptv.club/api/bestv.php?id=jswshd8m/8000000
 
-广西卫视,https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
 广西卫视,https://live.goodiptv.club/api/cqyx.php?id=guangxiHD
+广西卫视,https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
 
-四川卫视,https://live.goodiptv.club/api/bestv.php?id=scwshd/8000000
 四川卫视,https://live.goodiptv.club/api/cqyx.php?id=sichuanHD
+四川卫视,https://live.goodiptv.club/api/bestv.php?id=scwshd/8000000
 
-湖南卫视,https://live.goodiptv.club/api/bestv.php?id=hunanwshd8m/8000000
 湖南卫视,https://live.goodiptv.club/api/cqyx.php?id=hunanHiD
+湖南卫视,https://live.goodiptv.club/api/bestv.php?id=hunanwshd8m/8000000
 
-浙江卫视,https://live.goodiptv.club/api/bestv.php?id=zjwshd8m/8000000
 浙江卫视,https://live.goodiptv.club/api/cqyx.php?id=zhejiangHD
+浙江卫视,https://live.goodiptv.club/api/bestv.php?id=zjwshd8m/8000000
 
 东方卫视,https://live.goodiptv.club/api/cqyx.php?id=dongfangHD
 
-北京卫视,https://live.goodiptv.club/api/bestv.php?id=bjwshd8m/8000000
 北京卫视,https://live.goodiptv.club/api/cqyx.php?id=beijingHD
+北京卫视,https://live.goodiptv.club/api/bestv.php?id=bjwshd8m/8000000
 
-天津卫视,https://live.goodiptv.club/api/bestv.php?id=tjwshd8m/8000000
 天津卫视,https://live.goodiptv.club/api/cqyx.php?id=tianjinHD
+天津卫视,https://live.goodiptv.club/api/bestv.php?id=tjwshd8m/8000000
 
 辽宁卫视,https://live.goodiptv.club/api/cqyx.php?id=liaoningHD
 辽宁卫视,https://live.goodiptv.club/api/bestv.php?id=lnwshd8m/8000000
@@ -129,30 +129,16 @@ CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
 甘肃卫视,https://live.goodiptv.club/api/cqyx.php?id=gansuHD
 甘肃卫视,https://live.goodiptv.club/api/bestv.php?id=gswshd8m/8000000
 
-重庆卫视,https://live.goodiptv.club/api/bestv.php?id=cqws8m/8000000
 重庆卫视,https://live.goodiptv.club/api/cqyx.php?id=chongqingHD
+重庆卫视,https://live.goodiptv.club/api/bestv.php?id=cqws8m/8000000
 
-云南卫视,https://live.goodiptv.club/api/bestv.php?id=ynwshd8m/8000000
 云南卫视,https://live.goodiptv.club/api/cqyx.php?id=yunnanHD
+云南卫视,https://live.goodiptv.club/api/bestv.php?id=ynwshd8m/8000000
 
-贵州卫视,https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
 贵州卫视,https://live.goodiptv.club/api/cqyx.php?id=guizhouHD
+贵州卫视,https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
 
 海南卫视,https://live.goodiptv.club/api/cqyx.php?id=hainanHD
-
-少儿频道,#genre#
-金鹰卡通,https://live.goodiptv.club/api/cqyx.php?id=jinyingSD
-金鹰卡通,http://223.151.51.27:85/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-
-浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8?k=1a7559a51eeb880b021619a07f463ac4&t=1577153787
-浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
-浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-
-青春动漫,https://live.v1.mk/api/bestv.php?id=qcdm8m/8000000
-
-卡酷少儿,https://live.v1.mk/api/bestv.php?id=kkse8m/8000000
-
-动漫秀场,https://live.v1.mk/api/bestv.php?id=dmxc8m/8000000
 
 港澳台,#genre#
 翡翠台,http://r.jdshipin.com/qClQf
@@ -176,6 +162,26 @@ CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
 
 香港32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
 
+J2,http://r.jdshipin.com/Nr5jq
+J2,http://r.jdshipin.com/ndGgS
+
+TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
+
 澳門蓮花,https://p.ggiptv.com/v/macaulotustv.php
+澳门莲花,http://hz752.live:63/vvs/lotus.php
 澳門蓮花,http://anren.live/HK/BiIOU11uLA.m3u8
 澳門蓮花,http://nettvpro.live/hls/lotustv.php?zgangd
+
+少儿频道,#genre#
+金鹰卡通,https://live.goodiptv.club/api/cqyx.php?id=jinyingSD
+金鹰卡通,http://223.151.51.27:85/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
+
+浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8?k=1a7559a51eeb880b021619a07f463ac4&t=1577153787
+浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
+浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+
+青春动漫,https://live.v1.mk/api/bestv.php?id=qcdm8m/8000000
+
+卡酷少儿,https://live.v1.mk/api/bestv.php?id=kkse8m/8000000
+
+动漫秀场,https://live.v1.mk/api/bestv.php?id=dmxc8m/8000000
