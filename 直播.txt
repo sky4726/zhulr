@@ -153,6 +153,8 @@ CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
 
 凤凰香港台,http://kkwk1122.top/fh.php?id=fhhk
 
+TVBS星河,http://r.jdshipin.com/sXuuD
+
 翡翠台,http://r.jdshipin.com/n90gt
 翡翠台,http://r.jdshipin.com/62WM7
 翡翠台,http://r.jdshipin.com/qrfbg
