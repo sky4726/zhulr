@@ -1,120 +1,184 @@
-{
-"spider":"./jar/spider.jar",
-"wallpaper":"https://api.likepoems.com/img/bing",
-  "lives": [
-    {
-      "name": "直播",
-      "type": 0,
-      "url": "./直播.txt",
-      "playerType": 1,
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
-      },
-      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp.112114.xyz/logo/{name}.png"
-    }
-  ],
-"rules":[
-{"name":"量子","hosts":["vip.lz","hd.lz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-{"name":"暴风","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-{"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-{"name":"极速","hosts":["vip.js","hd.js"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-{"name":"火山","hosts":["huoshan.com"],"regex":["item_id="]},
-{"name":"抖音",hosts":["douyin.com"],"regex":["is_play_url="]}],
+央视频道,#genre#
+CCTV1,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226231/index.m3u8
+CCTV1,https://live.goodiptv.club/api/cqyx.php?id=cctv1HD
+CCTV1,https://live.goodiptv.club/api/bestv.php?id=cctv1hd8m/8000000
+CCTV1,https://live.goodiptv.club/api/ghyx.php?id=CCTV1HD_6000
 
-"sites":[
-{"key":"豆瓣","name":"豆瓣","type":3,"api":"./JS/drpy.min.js","ext":"./JS/豆瓣.js"},
-{"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":""},"jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
-{"key":"北极狐","name":"北极狐","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/"},
-{"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
-{"key":"次元城","name":"次元城","type":3,"api":"csp_Cycdm","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.95189371.cn/ciyuancheng.php/v6/"},
-//{"key":"稀饭","name":"稀饭","type":3,"api":"csp_AppSk","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://gun.moedot.net/sk-api/"},
-{"key":"奇奇","name":"奇奇","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://ttsp.live/api.php/app/"},
-{"key":"追剧","name":"追剧","type":3,"api":"csp_Zjdros","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://1k.953365.cn/zhuijuos.php/v6/"},
-{"key":"探探","name":"探探","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ytcms.lyyytv.cn/api.php/app/"},
-{"key":"荐片","name":"荐片","type":3,"api":"./JS/drpy.min.js","playerType":1,"ext":"./JS/荐片.js"},
-//{"key":"酷酷","name":"酷酷","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://ys.realdou.cn:2683/api.php/app/"},
-{"key":"乐迪","name":"乐迪","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
-{"key":"emoFun","name":"emoFun","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://154.31.2.112:8869/mogai_api.php/v1.vod"},
-{"key":"HDmoli","name":"HDmoli","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/HDmoli.js"},
-{"key":"VoFlix","name":"VoFlix","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/Voflix.js"},
-{"key":"Cokemv","name":"Cokemv","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cokemv.org/xgapp.php/v3/"},
-{"key":"玩偶哥哥","name":"玩偶哥哥","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt"},
-{"key":"大米星球","name":"大米星球","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大米星球.js"},
-{"key":"五五五","name":"五五五","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/五五五.js"},
-{"key":"萌蛋蛋","name":"萌蛋蛋","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v2/"},
-{"key":"ikan","name":"爱看Bot","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"./JS/lf_ikanbot5_1_min.js"},
-{"key":"看看剧","name":"看看剧","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kankanju.cc/api.php/app/"},
-{"key":"毛毛子","name":"毛毛子","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ys.qtw.asia/lvdou_api.php/v1.vod"},
-{"key":"圆涂影视","name":"圆涂影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://m51.gotto.top/api.php/v1.vod"},
-{"key":"鸭鸭影视","name":"鸭鸭影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://yayayaaapp.ynf.icu/api.php/app/"},
-{"key":"熊猫影视","name":"熊猫影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://pg.senls.cn/icciu_api.php/v1.vod"},
-{"key":"腐剧影视","name":"腐剧影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://121.127.249.200:233/ruifenglb_api.php/v1.vod"},
-{"key":"子子影视","name":"子子影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/子子影视.js"},
-{"key":"速看影视","name":"速看影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://sk100.tv/api.php/app/"},
+CCTV2,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8
+CCTV2,https://live.goodiptv.club/api/cqyx.php?id=cctv2HD
+CCTV2,https://live.goodiptv.club/api/bestv.php?id=cctv2hd8m/8000000
 
-#云盘
-{"key":"七夜","name": "七夜｜云盘","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/Ali.jar"},
-{"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/Ali.jar"},
-{"key":"易搜","name":"易搜｜云盘","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/Ali.jar"},
-{"key":"盘搜","name":"盘搜｜云盘","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/token.txt","jar":"./jar/Ali.jar"},
-{"key":"LR","name":"数据来源于互联网｜LR","type":0,"api":"0","searchable":0,"quickSearch":0,"filterable":0}
-],
+CCTV3,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226397/index.m3u8
+CCTV3,https://live.goodiptv.club/api/cqyx.php?id=cctv3HD
+CCTV3,https://live.goodiptv.club/api/bestv.php?id=cctv38m/8000000
 
-"parses":[
-        {"name":"解析聚合","type":3,"url":"Demo"},
-        {"name":"Json轮询","type":2,"url":"Sequence"},
-        {"name":"LR","type":1,"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url="},
-        {"name":"迷你","type":1,"url":"https://vip.mosangkeji.com/api/?key=afcQ0C7vUiNOy4tnvG&url="},
-        {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
-        {"name":"飞云","type":1,"url":"http://124.222.30.115/xiafanapi/fy.php?url="},
-        {"name":"奇奇","type":1,"url":"http://42.157.128.109:2323/CH/zy/qiqi.php?url="},
-        {"name":"玉米","type":1,"url":"http://42.157.128.109:2323/CH/zy/Yumi.php?url="},
-        {"name":"土菜","type":1,"url":"https://110.42.2.98:22222/api/mp4jiexifile.php?key=DuTmhnodh2iqXO00LQ&url="},
-        {"name":"酷酷","type":0,"url":"http://box.realdou.cn/api/?api_id=4&vod_url="},
-        {"name":"探探","type":1,"url":"http://jiexi.lyyytv.cn/json.php?url="},
-        {"name":"追剧","type":1,"url":"http://1k.953365.cn/josn/index.php?ulr="},
-        {"name":"光速","type":0,"url":"https://www.gszyv.com/m3u8/?url="},
-        {"name":"量子","type":0,"url":"https://lziplayer.com/?url="}
-        ],
-        
-"flags":
-["youku","qq","QQ","iqiyi","qiqi","qiyi","letv","sohu","tudou","pptv","PPTV","mgtv","ltnb","rx","SLYS4k","BYGA","luanzi","dxzy","QEYSS","aliyun","AliS","122","chuangying","CL4K","xfyun","wuduzy","wasu","bilibili","renrenmi","ppayun","haiwaikan","cool","dbm3u8","xmm","xigua","m1905","funshion","imgo","ruyi1080","ruyib1080"],
+CCTV4,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8
+CCTV4,https://live.goodiptv.club/api/cqyx.php?id=cctv4HD
+CCTV4,https://live.goodiptv.club/api/bestv.php?id=cctv4hd8m/8000000
 
-"ijk":[
-{"group":"软解码","options":[
-{"category":4,"name":"opensles","value":"0"},
-{"category":4,"name":"overlay-format","value":"842225234"},
-{"category":4,"name":"framedrop","value":"1"},
-{"category":4,"name":"soundtouch","value":"1"},
-{"category":4,"name":"start-on-prepared","value":"1"},
-{"category":1,"name":"http-detect-range-support","value":"0"},
-{"category":1,"name":"fflags","value":"fastseek"},
-{"category":2,"name":"skip_loop_filter","value":"48"},
-{"category":4,"name":"reconnect","value":"1"},
-{"category":4,"name":"enable-accurate-seek","value":"0"},
-{"category":4,"name":"mediacodec","value":"0"},
-{"category":4,"name":"mediacodec-auto-rotate","value":"0"},
-{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},
-{"category":4,"name":"mediacodec-hevc","value":"0"},
-{"category":1,"name":"dns_cache_timeout","value":"600000000"}
-]},
-{"group":"硬解码","options":[
-{"category":4,"name":"opensles","value":"0"},
-{"category":4,"name":"overlay-format","value":"842225234"},
-{"category":4,"name":"framedrop","value":"1"},
-{"category":4,"name":"soundtouch","value":"1"},
-{"category":4,"name":"start-on-prepared","value":"1"},
-{"category":1,"name":"http-detect-range-support","value":"0"},
-{"category":1,"name":"fflags","value":"fastseek"},
-{"category":2,"name":"skip_loop_filter","value":"48"},
-{"category":4,"name":"reconnect","value":"1"},
-{"category":4,"name":"enable-accurate-seek","value":"0"},
-{"category":4,"name":"mediacodec","value":"1"},
-{"category":4,"name":"mediacodec-auto-rotate","value":"1"},
-{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},
-{"category":4,"name":"mediacodec-hevc","value":"1"},
-{"category":1,"name":"dns_cache_timeout","value":"600000000"}
-]}],
-"ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com","https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"]
-}
+CCTV5,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
+CCTV5,https://live.goodiptv.club/api/cqyx.php?id=cctv5HD
+CCTV5,https://live.goodiptv.club/api/bestv.php?id=cctv58m/8000000
+
+CCTV5+,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226221/index.m3u8
+CCTV5+,https://live.goodiptv.club/api/cqyx.php?id=cctv5SportHD
+CCTV5+,https://live.goodiptv.club/api/bestv.php?id=cctv5phd8m/8000000
+
+CCTV6,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8
+CCTV6,https://live.goodiptv.club/api/cqyx.php?id=cctv6HD
+CCTV6,https://live.goodiptv.club/api/bestv.php?id=cctv6hd8m/8000000
+
+CCTV7,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8
+CCTV7,https://live.goodiptv.club/api/cqyx.php?id=cctv7HD
+CCTV7,https://live.goodiptv.club/api/bestv.php?id=cctv7hd8m/8000000
+
+CCTV8,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226391/index.m3u8
+CCTV8,https://live.goodiptv.club/api/cqyx.php?id=cctv8HD
+CCTV8,https://live.goodiptv.club/api/bestv.php?id=cctv8hd8m/8000000
+
+CCTV9,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8
+CCTV9,https://live.goodiptv.club/api/cqyx.php?id=cctv9HD
+CCTV9,https://live.goodiptv.club/api/bestv.php?id=cctv9hd8m/8000000
+
+CCTV10,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8
+CCTV10,https://live.goodiptv.club/api/cqyx.php?id=cctv10HD
+CCTV10,https://live.goodiptv.club/api/bestv.php?id=cctv10hd8m/8000000
+
+CCTV11,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226240/index.m3u8
+CCTV11,https://live.goodiptv.club/api/cqyx.php?id=cctv11HD
+CCTV11,https://live.goodiptv.club/api/bestv.php?id=cctv11hd8m/8000000
+
+CCTV12,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8
+CCTV12,https://live.goodiptv.club/api/cqyx.php?id=cctv12HD
+CCTV12,https://live.goodiptv.club/api/bestv.php?id=cctv12hd8m/8000000
+
+CCTV13,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8
+CCTV13,https://live.goodiptv.club/api/cqyx.php?id=CCTVNewsHD
+CCTV13,https://live.goodiptv.club/api/bestv.php?id=cctv13xwhd8m/8000000
+
+CCTV14,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8
+CCTV14,https://live.goodiptv.club/api/cqyx.php?id=cctvseHD
+CCTV14,https://live.goodiptv.club/api/bestv.php?id=cctvsehd8m/8000000
+
+CCTV15,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8
+CCTV15,https://live.goodiptv.club/api/cqyx.php?id=cctv15HD
+CCTV15,https://live.goodiptv.club/api/bestv.php?id=cctv15hd8m/8000000
+
+CCTV16,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
+CCTV16,https://live.goodiptv.club/api/cqyx.php?id=cctv16HD
+CCTV16,https://live.goodiptv.club/api/bestv.php?id=cctv16hd8m/8000000
+
+CCTV17,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8
+CCTV17,https://live.goodiptv.club/api/cqyx.php?id=cctv17HD
+CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
+
+卫视频道,#genre#
+江苏卫视,https://live.goodiptv.club/api/cqyx.php?id=jiangsuHD
+江苏卫视,https://live.goodiptv.club/api/bestv.php?id=jswshd8m/8000000
+
+广西卫视,https://live.goodiptv.club/api/cqyx.php?id=guangxiHD
+广西卫视,https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
+
+四川卫视,https://live.goodiptv.club/api/cqyx.php?id=sichuanHD
+四川卫视,https://live.goodiptv.club/api/bestv.php?id=scwshd/8000000
+
+湖南卫视,https://live.goodiptv.club/api/cqyx.php?id=hunanHiD
+湖南卫视,https://live.goodiptv.club/api/bestv.php?id=hunanwshd8m/8000000
+
+浙江卫视,https://live.goodiptv.club/api/cqyx.php?id=zhejiangHD
+浙江卫视,https://live.goodiptv.club/api/bestv.php?id=zjwshd8m/8000000
+
+东方卫视,https://live.goodiptv.club/api/cqyx.php?id=dongfangHD
+
+北京卫视,https://live.goodiptv.club/api/cqyx.php?id=beijingHD
+北京卫视,https://live.goodiptv.club/api/bestv.php?id=bjwshd8m/8000000
+
+天津卫视,https://live.goodiptv.club/api/cqyx.php?id=tianjinHD
+天津卫视,https://live.goodiptv.club/api/bestv.php?id=tjwshd8m/8000000
+
+辽宁卫视,https://live.goodiptv.club/api/cqyx.php?id=liaoningHD
+辽宁卫视,https://live.goodiptv.club/api/bestv.php?id=lnwshd8m/8000000
+
+安徽卫视,https://live.goodiptv.club/api/cqyx.php?id=anhuiHD
+安徽卫视,https://live.goodiptv.club/api/bestv.php?id=ahwshd8m/8000000
+
+黑龙江卫视,https://live.goodiptv.club/api/cqyx.php?id=heilongjiangHD
+黑龙江卫视,https://live.goodiptv.club/api/bestv.php?id=hljwshd8m/8000000
+
+广东卫视,https://live.goodiptv.club/api/cqyx.php?id=guangdongHD
+广东卫视,https://live.goodiptv.club/api/bestv.php?id=gdwshd8m/8000000
+
+深圳卫视,https://live.goodiptv.club/api/cqyx.php?id=shenzhenHD
+深圳卫视,https://live.goodiptv.club/api/bestv.php?id=szwshd8m/8000000
+
+湖北卫视,https://live.goodiptv.club/api/cqyx.php?id=hubeiHD
+
+吉林卫视,https://live.goodiptv.club/api/cqyx.php?id=jilinHD
+吉林卫视,https://live.goodiptv.club/api/bestv.php?id=jlwshd8m/8000000
+
+山东卫视,https://live.goodiptv.club/api/cqyx.php?id=shandongHD
+
+江西卫视,https://live.goodiptv.club/api/cqyx.php?id=jiangxiHD
+
+河南卫视,https://live.goodiptv.club/api/cqyx.php?id=henanHD
+
+河北卫视,https://live.goodiptv.club/api/cqyx.php?id=hebeiHD
+
+甘肃卫视,https://live.goodiptv.club/api/cqyx.php?id=gansuHD
+甘肃卫视,https://live.goodiptv.club/api/bestv.php?id=gswshd8m/8000000
+
+重庆卫视,https://live.goodiptv.club/api/cqyx.php?id=chongqingHD
+重庆卫视,https://live.goodiptv.club/api/bestv.php?id=cqws8m/8000000
+
+云南卫视,https://live.goodiptv.club/api/cqyx.php?id=yunnanHD
+云南卫视,https://live.goodiptv.club/api/bestv.php?id=ynwshd8m/8000000
+
+贵州卫视,https://live.goodiptv.club/api/cqyx.php?id=guizhouHD
+贵州卫视,https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
+
+海南卫视,https://live.goodiptv.club/api/cqyx.php?id=hainanHD
+
+港澳台,#genre#
+翡翠台,http://r.jdshipin.com/qClQf
+
+明珠台,http://r.jdshipin.com/ZQ4kN
+
+凤凰中文台,http://r.jdshipin.com/cCCzW
+
+凤凰资讯台,http://r.jdshipin.com/0Rp07
+
+凤凰资讯台,http://kkwk1122.top/fh.php?id=fhzx
+
+凤凰中文台,http://kkwk1122.top/fh.php?id=fhzw
+
+凤凰香港台,http://kkwk1122.top/fh.php?id=fhhk
+
+TVBS星河,http://r.jdshipin.com/sXuuD
+
+翡翠台,http://r.jdshipin.com/n90gt
+翡翠台,http://r.jdshipin.com/62WM7
+翡翠台,http://r.jdshipin.com/qrfbg
+翡翠台,http://113.117.74.20:8081/hls/25/index.m3u8
+
+香港32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
+
+J2,http://r.jdshipin.com/Nr5jq
+J2,http://r.jdshipin.com/ndGgS
+
+TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
+
+澳門蓮花,https://p.ggiptv.com/v/macaulotustv.php
+
+少儿频道,#genre#
+金鹰卡通,https://live.goodiptv.club/api/cqyx.php?id=jinyingSD
+金鹰卡通,http://223.151.51.27:85/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
+
+浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8?k=1a7559a51eeb880b021619a07f463ac4&t=1577153787
+浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
+浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+
+青春动漫,https://live.v1.mk/api/bestv.php?id=qcdm8m/8000000
+
+卡酷少儿,https://live.v1.mk/api/bestv.php?id=kkse8m/8000000
+
+动漫秀场,https://live.v1.mk/api/bestv.php?id=dmxc8m/8000000
