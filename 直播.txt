@@ -1,9 +1,7 @@
 央视频道,#genre#
-
 CCTV1,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226231/index.m3u8
 CCTV1,https://live.goodiptv.club/api/cqyx.php?id=cctv1HD
 CCTV1,https://live.goodiptv.club/api/bestv.php?id=cctv1hd8m/8000000
-CCTV1,https://live.goodiptv.club/api/yqgd.php?id=cctv1hd
 CCTV1,https://live.goodiptv.club/api/ghyx.php?id=CCTV1HD_6000
 
 CCTV2,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8
