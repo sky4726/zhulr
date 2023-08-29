@@ -40,15 +40,18 @@ CCTV9,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/322122619
 CCTV9,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8
 CCTV9,https://live.goodiptv.club/api/cqyx.php?id=cctv9HD
 
-
+CCTV10,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8
 CCTV10,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8
 CCTV10,https://live.goodiptv.club/api/cqyx.php?id=cctv10HD
 
+CCTV11,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226240/index.m3u8
 CCTV11,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226240/index.m3u8
 CCTV11,https://live.goodiptv.club/api/cqyx.php?id=cctv11HD
 
+CCTV12,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8
 CCTV12,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226190/index.m3u8
 CCTV12,https://live.goodiptv.club/api/cqyx.php?id=cctv12HD
+
 
 CCTV13,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8
 CCTV13,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8
@@ -58,6 +61,7 @@ CCTV14,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32212261
 CCTV14,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8
 CCTV14,https://live.goodiptv.club/api/cqyx.php?id=cctvseHD
 
+CCTV15,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8
 CCTV15,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8
 CCTV15,https://live.goodiptv.club/api/cqyx.php?id=cctv15HD
 CCTV-15,http://111.40.196.31:443/PLTV/88888888/224/3221225500/1.m3u8
@@ -66,6 +70,7 @@ CCTV16,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32212269
 CCTV16,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 CCTV16,https://live.goodiptv.club/api/cqyx.php?id=cctv16HD
 
+CCTV17,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8
 CCTV17,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8
 CCTV17,https://live.goodiptv.club/api/cqyx.php?id=cctv17HD
 
@@ -134,6 +139,63 @@ CCTV17,https://live.goodiptv.club/api/cqyx.php?id=cctv17HD
 贵州卫视,https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
 
 海南卫视,https://live.goodiptv.club/api/cqyx.php?id=hainanHD
+
+影视频道,#genre#
+CHC动作电影,http://219.140.210.177:4022/rtp/239.69.1.242:11094
+CHC动作电影,http://111.20.35.103:6610/yinhe/2/ch00000090990000002055/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+
+CHC高清电影,http://219.140.210.177:4022/rtp/239.69.1.241:11088
+CHC高清电影,http://111.20.35.103:6610/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+
+CHC家庭影院,http://219.140.210.177:4022/rtp/239.69.1.243:11100
+CHC家庭影院,http://111.20.35.103:6610/yinhe/2/ch00000090990000002085/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+
+CHC动作电影,http://111.20.40.170/PLTV/88888893/224/3221226465/index.m3u8
+
+CHC高清电影,http://111.20.40.170/PLTV/88888893/224/3221226463/index.m3u8
+
+CHC家庭影院,http://111.20.40.170/PLTV/88888893/224/3221226462/index.m3u8
+
+峨眉电影,http://183.223.157.33:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+
+1905电影,http://angtv.cn/test/1905.php
+
+邵氏影院,http://mmitv.top/test/douyu.php?id=4246519
+吃米滴虫,http://mmitv.top/test/douyu.php?id=315457
+高分电影,http://mmitv.top/test/douyu.php?id=7254536
+豆瓣高分,http://mmitv.top/test/douyu.php?id=8770422
+漫威影院,http://mmitv.top/test/douyu.php?id=6140589
+特辑电影,http://mmitv.top/test/douyu.php?id=3637778
+粤语电影,http://mmitv.top/test/douyu.php?id=1226741
+喜剧电影,http://mmitv.top/test/douyu.php?id=323876
+恐怖电影,http://mmitv.top/test/douyu.php?id=218859
+恐怖鬼怪,http://mmitv.top/test/douyu.php?id=1165374
+童年阴影,http://mmitv.top/test/douyu.php?id=2935323
+惊悚电影,http://mmitv.top/test/douyu.php?id=96577
+粤语电影,http://mmitv.top/test/douyu.php?id=6566671
+华语影视,http://mmitv.top/test/douyu.php?id=3928
+神乐影视,http://mmitv.top/test/douyu.php?id=85894
+冰冰影厅,http://mmitv.top/test/douyu.php?id=74374
+刀刀影院,http://mmitv.top/test/douyu.php?id=747764
+奶虫影院,http://mmitv.top/test/douyu.php?id=263824
+贝爷壹厅,http://mmitv.top/test/douyu.php?id=252802
+贝爷贰厅,http://mmitv.top/test/douyu.php?id=4332
+贝爷叁厅,http://mmitv.top/test/douyu.php?id=36337
+云宝影院,http://mmitv.top/test/douyu.php?id=7305938
+花卷影院,http://mmitv.top/test/douyu.php?id=52787
+菜园小饼,http://mmitv.top/test/douyu.php?id=1735337
+橙記港剧,http://mmitv.top/test/douyu.php?id=4549169
+大宝影视,http://mmitv.top/test/douyu.php?id=805235
+蚂蚱影视,http://mmitv.top/test/douyu.php?id=6079455
+怡寶影视,http://mmitv.top/test/douyu.php?id=434971
+圆子影视,http://mmitv.top/test/douyu.php?id=6566658
+贝贝影视,http://mmitv.top/test/douyu.php?id=431460
+可乐影视,http://mmitv.top/test/douyu.php?id=20415
+下饭神剧,http://mmitv.top/test/douyu.php?id=276200
+古装神剧,http://mmitv.top/test/douyu.php?id=338759
+晚湾影视,http://mmitv.top/test/douyu.php?id=9461178
+酒染影视,http://mmitv.top/test/douyu.php?id=7550220
+芊珏影视,http://mmitv.top/test/douyu.php?id=8814650
 
 港澳台,#genre#
 翡翠台,http://r.jdshipin.com/qClQf
