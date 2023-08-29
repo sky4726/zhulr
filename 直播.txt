@@ -152,13 +152,17 @@ CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
 凤凰中文台,http://kkwk1122.top/fh.php?id=fhzw
 
 凤凰香港台,http://kkwk1122.top/fh.php?id=fhhk
+凤凰香港台,http://113.117.74.12:8081/hls/38/index.m3u8
 
 TVBS星河,http://r.jdshipin.com/sXuuD
+TVB星河,http://113.117.74.12:8081/hls/135/index.m3u8
 
 翡翠台,http://r.jdshipin.com/n90gt
 翡翠台,http://r.jdshipin.com/62WM7
 翡翠台,http://r.jdshipin.com/qrfbg
 翡翠台,http://113.117.74.20:8081/hls/25/index.m3u8
+
+面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 
 香港32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
 
@@ -168,6 +172,13 @@ J2,http://r.jdshipin.com/ndGgS
 TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 
 澳門蓮花,https://p.ggiptv.com/v/macaulotustv.php
+
+环球电视台,http://zb.xzxwhcb.com:9999/hls/world.m3u8
+
+耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
+耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
+耀才财经,http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
 
 少儿频道,#genre#
 金鹰卡通,https://live.goodiptv.club/api/cqyx.php?id=jinyingSD
@@ -182,3 +193,7 @@ TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 卡酷少儿,https://live.v1.mk/api/bestv.php?id=kkse8m/8000000
 
 动漫秀场,https://live.v1.mk/api/bestv.php?id=dmxc8m/8000000
+
+亚洲频道,#genre#
+新加坡,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
+新加坡,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
