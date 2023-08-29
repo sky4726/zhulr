@@ -64,7 +64,7 @@ CCTV14,https://live.goodiptv.club/api/cqyx.php?id=cctvseHD
 CCTV15,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8
 CCTV15,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8
 CCTV15,https://live.goodiptv.club/api/cqyx.php?id=cctv15HD
-CCTV-15,http://111.40.196.31:443/PLTV/88888888/224/3221225500/1.m3u8
+CCTV15,http://111.40.196.31:443/PLTV/88888888/224/3221225500/1.m3u8
 
 CCTV16,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 CCTV16,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
