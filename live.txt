@@ -69,7 +69,6 @@ CCTV15,http://111.40.196.31:443/PLTV/88888888/224/3221225500/1.m3u8
 
 CCTV16,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
 CCTV16,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8
-CCTV16,http://61.138.167.36:9901/tsfile/live/1053_1.m3u8
 CCTV16,http://111.20.40.165/PLTV/88888893/224/3221226921/index.m3u8
 
 CCTV17,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226198/index.m3u8
@@ -101,70 +100,66 @@ CCTV17,http://hms224nc1972679578.live.aikan.miguvideo.com/wh7f454c46tw1594433061
 CCTV17,http://hms3656nc3747353862.live.aikan.miguvideo.com/wh7f454c46tw1195381379_-1848754975/migu/kailu/20200324/cctv17hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=101.204.121.195&timestamp=20230830064551&ContentId=265667526&timezone=UTC&mtv_session=cf0eba00bb748e887de93099106546d7&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=9c61134aaefb1647a89414b4e562d10b
 
 卫视频道,#genre#
+江苏卫视,http://171.116.189.56:9999/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 江苏卫视,https://live.goodiptv.club/api/cqyx.php?id=jiangsuHD
-江苏卫视,https://live.goodiptv.club/api/bestv.php?id=jswshd8m/8000000
 
 广西卫视,https://live.goodiptv.club/api/cqyx.php?id=guangxiHD
-广西卫视,https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
 
+四川卫视,http://171.116.189.56:9999/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 四川卫视,https://live.goodiptv.club/api/cqyx.php?id=sichuanHD
-四川卫视,https://live.goodiptv.club/api/bestv.php?id=scwshd/8000000
 
-湖南卫视,https://live.goodiptv.club/api/cqyx.php?id=hunanHiD
-湖南卫视,https://live.goodiptv.club/api/bestv.php?id=hunanwshd8m/8000000
+湖南卫视,http://171.116.189.56:9999/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 
+浙江卫视,http://171.116.189.56:9999/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 浙江卫视,https://live.goodiptv.club/api/cqyx.php?id=zhejiangHD
-浙江卫视,https://live.goodiptv.club/api/bestv.php?id=zjwshd8m/8000000
 
-东方卫视,https://live.goodiptv.club/api/cqyx.php?id=dongfangHD
+东方卫视,http://171.116.189.56:9999/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 
+北京卫视,http://171.116.189.56:9999/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 北京卫视,https://live.goodiptv.club/api/cqyx.php?id=beijingHD
-北京卫视,https://live.goodiptv.club/api/bestv.php?id=bjwshd8m/8000000
 
+天津卫视,http://171.116.189.56:9999/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 天津卫视,https://live.goodiptv.club/api/cqyx.php?id=tianjinHD
-天津卫视,https://live.goodiptv.club/api/bestv.php?id=tjwshd8m/8000000
+
+安徽卫视,http://171.116.189.56:9999/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+
+广东卫视,http://171.116.189.56:9999/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
+广东卫视,https://live.goodiptv.club/api/cqyx.php?id=guangdongHD
+
+深圳卫视,http://171.116.189.56:9999/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+深圳卫视,https://live.goodiptv.club/api/cqyx.php?id=shenzhenHD
+
+湖北卫视,http://hms3655nc3747353868.live.aikan.miguvideo.com/wh7f454c46tw501427025_-970228725/migu/kailu/hubeiwshd/57/20220712/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=152.136.200.69&timestamp=20230830171831&ContentId=531261978&timezone=UTC&mtv_session=e86ff5e85aecadcebbcc98b232f3fa2b&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=7f8bf449d4e55cb390a48ec5938398cf
+
+黑龙江卫视,http://171.116.189.56:9999/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
+黑龙江卫视,https://live.goodiptv.club/api/cqyx.php?id=heilongjiangHD
+
+吉林卫视,http://171.116.189.56:9999/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
+吉林卫视,https://live.goodiptv.club/api/cqyx.php?id=jilinHD
 
 辽宁卫视,https://live.goodiptv.club/api/cqyx.php?id=liaoningHD
-辽宁卫视,https://live.goodiptv.club/api/bestv.php?id=lnwshd8m/8000000
 
-安徽卫视,https://live.goodiptv.club/api/cqyx.php?id=anhuiHD
-安徽卫视,https://live.goodiptv.club/api/bestv.php?id=ahwshd8m/8000000
+山东卫视,http://171.116.189.56:9999/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 
-黑龙江卫视,https://live.goodiptv.club/api/cqyx.php?id=heilongjiangHD
-黑龙江卫视,https://live.goodiptv.club/api/bestv.php?id=hljwshd8m/8000000
-
-广东卫视,https://live.goodiptv.club/api/cqyx.php?id=guangdongHD
-广东卫视,https://live.goodiptv.club/api/bestv.php?id=gdwshd8m/8000000
-
-深圳卫视,https://live.goodiptv.club/api/cqyx.php?id=shenzhenHD
-深圳卫视,https://live.goodiptv.club/api/bestv.php?id=szwshd8m/8000000
-
-湖北卫视,https://live.goodiptv.club/api/cqyx.php?id=hubeiHD
-
-吉林卫视,https://live.goodiptv.club/api/cqyx.php?id=jilinHD
-吉林卫视,https://live.goodiptv.club/api/bestv.php?id=jlwshd8m/8000000
-
-山东卫视,https://live.goodiptv.club/api/cqyx.php?id=shandongHD
-
+江西卫视,http://171.116.189.56:9999/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 江西卫视,https://live.goodiptv.club/api/cqyx.php?id=jiangxiHD
 
+河南卫视,http://171.116.189.56:9999/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 河南卫视,https://live.goodiptv.club/api/cqyx.php?id=henanHD
 
-河北卫视,https://live.goodiptv.club/api/cqyx.php?id=hebeiHD
+河北卫视,http://171.116.189.56:9999/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 
-甘肃卫视,https://live.goodiptv.club/api/cqyx.php?id=gansuHD
-甘肃卫视,https://live.goodiptv.club/api/bestv.php?id=gswshd8m/8000000
+甘肃卫视,http://hms3660nc3747353859.live.aikan.miguvideo.com/wh7f454c46tw796974169_-922350213/envivo_v/2018/SD/gansu/1000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=152.136.200.69&timestamp=20230830172327&ContentId=531261933&timezone=UTC&mtv_session=a23c27d6e9f75673f364b7a9d7a3a9bc&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=348fa024b2ffa7ad1f59d48294d433f1
 
+重庆卫视,http://171.116.189.56:9999/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 重庆卫视,https://live.goodiptv.club/api/cqyx.php?id=chongqingHD
-重庆卫视,https://live.goodiptv.club/api/bestv.php?id=cqws8m/8000000
 
-云南卫视,https://live.goodiptv.club/api/cqyx.php?id=yunnanHD
-云南卫视,https://live.goodiptv.club/api/bestv.php?id=ynwshd8m/8000000
+云南卫视,http://171.116.189.56:9999/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 
+贵州卫视,http://171.116.189.56:9999/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 贵州卫视,https://live.goodiptv.club/api/cqyx.php?id=guizhouHD
-贵州卫视,https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
 
-海南卫视,https://live.goodiptv.club/api/cqyx.php?id=hainanHD
+海南卫视,http://171.116.189.56:9999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 
 影视频道,#genre#
 CHC动作电影,http://219.140.210.177:4022/rtp/239.69.1.242:11094
