@@ -274,6 +274,8 @@ TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 美国频道,#genre#
 CNN,http://ip2121.com:8081/live/cnn/playlist.m3u8
 
+FOX NEWS,http://fox-foxnewsnow-samsungus.amagi.
+
 30A Darcizzle Offshore,https://30a-tv.com/darcizzle.m3u8
 
 30A Investment Pitch,https://www.30a-tv.com/InvPit.m3u8
@@ -299,19 +301,19 @@ CNN,http://ip2121.com:8081/live/cnn/playlist.m3u8
 
 ABC 2 Baton Rouge LA,http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/chunklist_b1300000.m3u8
 ABC 2 Baton Rouge LA,http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/playlist.m3u8
+tv/playlist.m3u8
 
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023569/abcnews10/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023565/abcnews6/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master.m3u8
-ABC News Live,https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master.m3u8
-
-ABC News,https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
+ABC News1,https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023569/abcnews10/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023565/abcnews6/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master.m3u8
+ABC News,https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master.m3u8
+ABC News2,https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
 
 AFV en Español,https://linear-46.frequency.stream/dist/plex/46/hls/master/playlist.m3u8
 
