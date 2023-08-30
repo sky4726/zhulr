@@ -273,9 +273,6 @@ TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 
 美国频道,#genre#
 CNN,http://ip2121.com:8081/live/cnn/playlist.m3u8
-CNN,https://epg.pw/stream/98ebf64201ce164ed2cc010e4d0f7ae13bc2f1bc88cc3cb037ff014c88ccf9d4.ctv
-
-CNN Brasil,https://epg.pw/stream/3624cd5dd450bfbc78bf631799ff6be7af6675de74fb01d836723fa95c57211e.m3u8
 
 30A Darcizzle Offshore,https://30a-tv.com/darcizzle.m3u8
 
