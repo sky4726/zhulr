@@ -76,7 +76,7 @@
         {"name":"土菜","type":1,"url":"https://110.42.2.98:22222/api/mp4jiexifile.php?key=DuTmhnodh2iqXO00LQ&url="},
         {"name":"酷酷","type":1,"url":"http://box.realdou.cn/api/?api_id=4&vod_url=","header":{"user-agent":"okhttp/5.0.0-alpha.10"}},
         {"name":"探探","type":1,"url":"http://jiexi.lyyytv.cn/json.php?url="},
-        {"name":"追剧","type":1,"url":"http://1k.953365.cn/josn/index.php?ulr="},
+        {"name":"萌番","type":0,"url":"https://video1.beijcloud.com/player/?url="},
         {"name":"光速","type":0,"url":"https://www.gszyv.com/m3u8/?url="},
         {"name":"量子","type":0,"url":"https://lziplayer.com/?url="}
         ],
