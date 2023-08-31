@@ -124,6 +124,7 @@ CCTV17,http://hms3656nc3747353862.live.aikan.miguvideo.com/wh7f454c46tw119538137
 
 天津卫视,http://171.116.189.56:9999/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 天津卫视,https://live.goodiptv.club/api/cqyx.php?id=tianjinHD
+天津卫视,http://60.26.13.8:9901/tsfile/live/0135_1.m3u8
 
 安徽卫视,http://171.116.189.56:9999/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 安徽卫视,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226203/index.m3u8
@@ -140,7 +141,6 @@ CCTV17,http://hms3656nc3747353862.live.aikan.miguvideo.com/wh7f454c46tw119538137
 深圳卫视,https://live.goodiptv.club/api/cqyx.php?id=shenzhenHD
 
 湖北卫视,http://hms3655nc3747353868.live.aikan.miguvideo.com/wh7f454c46tw501427025_-970228725/migu/kailu/hubeiwshd/57/20220712/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=152.136.200.69&timestamp=20230830171831&ContentId=531261978&timezone=UTC&mtv_session=e86ff5e85aecadcebbcc98b232f3fa2b&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=7f8bf449d4e55cb390a48ec5938398cf
-湖北卫视,http://cyz32.livehbindex.hbcatv.cn/live/50000020273747628129718a5717b2dd.m3u8?bitrate=2300&pt=5
 
 黑龙江卫视,http://171.116.189.56:9999/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视,https://live.goodiptv.club/api/cqyx.php?id=heilongjiangHD
@@ -156,14 +156,11 @@ CCTV17,http://hms3656nc3747353862.live.aikan.miguvideo.com/wh7f454c46tw119538137
 
 江西卫视,http://171.116.189.56:9999/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 江西卫视,https://live.goodiptv.club/api/cqyx.php?id=jiangxiHD
-江西卫视,http://cyz32.livehbindex.hbcatv.cn/live/50000020728a439baf65ce94f8cf3e30.m3u8?bitrate=2300&pt=5
 
 河南卫视,http://171.116.189.56:9999/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 河南卫视,https://live.goodiptv.club/api/cqyx.php?id=henanHD
-河南卫视,http://cyz32.livehbindex.hbcatv.cn/live/500000201d7c47a8b9b127d69fb816ac.m3u8?bitrate=2300&pt=5
 
 河北卫视,http://171.116.189.56:9999/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-河北卫视,http://cyz32.livehbindex.hbcatv.cn/live/50000020d6be4c4ba70a4e3261b14544.m3u8?bitrate=2300&pt=5
 
 甘肃卫视,http://hms3660nc3747353859.live.aikan.miguvideo.com/wh7f454c46tw796974169_-922350213/envivo_v/2018/SD/gansu/1000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=152.136.200.69&timestamp=20230830172327&ContentId=531261933&timezone=UTC&mtv_session=a23c27d6e9f75673f364b7a9d7a3a9bc&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=348fa024b2ffa7ad1f59d48294d433f1
 
@@ -178,15 +175,23 @@ CCTV17,http://hms3656nc3747353862.live.aikan.miguvideo.com/wh7f454c46tw119538137
 
 重庆卫视,http://171.116.189.56:9999/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 重庆卫视,https://live.goodiptv.club/api/cqyx.php?id=chongqingHD
+重庆卫视,http://221.0.78.198:1681/hls/10238/index.m3u8
 
 云南卫视,http://222.71.90.218:8888/newlive/live/hls/39/live.m3u8
 云南卫视,http://221.0.78.198:1681/hls/10241/index.m3u8
 
 贵州卫视,http://171.116.189.56:9999/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 贵州卫视,https://live.goodiptv.club/api/cqyx.php?id=guizhouHD
+贵州卫视,http://221.0.78.198:1681/hls/10249/index.m3u8
 
 海南卫视,http://171.116.189.56:9999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 海南卫视,http://39.134.67.110/PLTV/88888888/224/3221225978/1.m3u8
+海南卫视,http://221.0.78.198:1681/hls/10262/index.m3u8
+
+少儿频道,#genre#
+少儿频道,http://220.231.188.200:8089/hls/25/index.m3u8
+
+金鹰卡通,http://221.0.78.198:1681/hls/10265/index.m3u8
 
 影视频道,#genre#
 CHC动作电影,http://219.140.210.177:4022/rtp/239.69.1.242:11094
@@ -245,6 +250,8 @@ CHC家庭影院,http://111.20.35.103:6610/yinhe/2/ch00000090990000002085/index.m
 酒染影视,http://mmitv.top/test/douyu.php?id=7550220
 芊珏影视,http://mmitv.top/test/douyu.php?id=8814650
 
+
+
 港澳台频道,#genre#
 翡翠台,http://r.jdshipin.com/qClQf
 翡翠台,http://113.64.147.60:8081/hls/67/index.m3u8
@@ -302,316 +309,3 @@ TVBRICS,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 耀才财经,http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
-
-新加坡频道,#genre#
-新加坡,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
-新加坡,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
-
-美国频道,#genre#
-CNN,http://ip2121.com:8081/live/cnn/playlist.m3u8
-
-FOX NEWS,http://fox-foxnewsnow-samsungus.amagi.
-
-30A Darcizzle Offshore,https://30a-tv.com/darcizzle.m3u8
-
-30A Investment Pitch,https://www.30a-tv.com/InvPit.m3u8
-
-30A Music,https://30a-tv.com/music.m3u8
-
-30A Sidewalks,https://30a-tv.com/sidewalks.m3u8
-
-30A The Beach Show,https://30a-tv.com/beachy.m3u8
-
-30A TV,https://30a-tv.com/feeds/xodglobal/30atv.m3u8
-
-3ABN Dare to Dream,https://moiptvhls-i.akamaihd.net/hls/live/652313/secure/master.m3u8
-
-3ABN French,https://3abn-live.akamaized.net/hls/live/2010546-b/French/master.m3u8
-
-3ABN Kids Network,https://3abn-live.akamaized.net/hls/live/2010550-b/Kids/master.m3u8
-
-3ABN Latino,http://uni5rtmp.tulix.tv:1935/bettervida/bettervida/playlist.m3u8
-3ABN Latino,https://3abn-live.akamaized.net/hls/live/2010547/Latino/playlist.m3u8
-
-3ABN Praise Him Music Network,https://3abn-live.akamaized.net/hls/live/2010551/Praise_Him/master.m3u8
-
-ABC 2 Baton Rouge LA,http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/chunklist_b1300000.m3u8
-ABC 2 Baton Rouge LA,http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/playlist.m3u8
-tv/playlist.m3u8
-
-ABC News1,https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023569/abcnews10/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023565/abcnews6/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master.m3u8
-ABC News,https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master.m3u8
-ABC News2,https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
-
-AFV en Español,https://linear-46.frequency.stream/dist/plex/46/hls/master/playlist.m3u8
-
-AFV,https://dai.google.com/linear/hls/event/18_lZXPySFa5_GRVEbOX_A/master.m3u8
-
-Al Horreya TV,http://media.smc-host.com:1935/alhorreya.tv/alhorreya.smil/playlist.m3u8
-Al Horreya TV,http://media.smc-host.com:1935/alhorreya.tv/mp4:alhorreya3/playlist.m3u8
-
-Al Hurra,https://mbnv-video-ingest.akamaized.net/hls/live/2038904/MBNV_ALHURRA_MAIN_HLS/merge.m3u8
-
-AL KARMA TV,https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8
-
-Aliento Vision,http://209.133.209.195:1935/AlientoSD/smil:AlientoSD.smil/playlist.m3u8
-
-Alkarma TV Australia,https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8
-
-Alkarma TV Family,https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8
-
-Alkarma TV Middle East,https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame1.smil/playlist.m3u8
-
-Alkarma TV Praise,https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmapa.smil/playlist.m3u8
-
-Alkarma TV Ta,https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmame2.smil/playlist.m3u8
-
-Almagd TV Middle East,https://597f64b67707a.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
-
-América TeVé,https://uni01rtmp.tulix.tv/americateve1/americateve1/playlist.m3u8
-
-American Classics,https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxamericanclassics/CDN/playlist.m3u8
-
-AMG TV,https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8
-
-Amga TV,https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8
-
-Architectural Digest,https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxarchitecturaldigest/CDN/playlist.m3u8
-
-Atlanta Channel,http://media4.tripsmarter.com:1935/LiveTV/ACVBHD/playlist.m3u8
-
-AWE,http://n1.klowdtv.net/live1/awe_720p/chunks.m3u8
-
-AXS TV Now,https://dikcfc9915kp8.cloudfront.net/hls/main.m3u8
-
-Galicia TV América,http://america-crtvg.flumotion.com/playlist.m3u8
-
-Galveston County TV,https://stream.swagit.com/live-edge/galvestontx/smil:hd-16x9-1-b/playlist.m3u8
-
-Game Show Network East,http://n1.klowdtv.net/live2/gsn_720p/chunks.m3u8
-
-GFN TV,https://d3jxchypmk8fja.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/GFNTV-Plex/169.m3u8
-
-Global Christian Network America,http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8
-AlbUK TV,http://albuk.dyndns.tv:1935/albuk/albuk.stream/playlist.m3u8
-
-AutoAllstars,http://78.129.253.189/tsstreamer/AutoAllstarsLDAI_SD.ts
-AutoAllstars,http://109.200.6.10/tsstreamer/AutoAllstarsLDAI_SD.ts
-
-AWE,http://78.129.150.52/tsstreamer/AWELDAI_SD.ts
-AWE,http://212.38.189.94/tsstreamer/AWELDAI_SD.ts
-
-BalleBalle,http://176.227.202.68/tsstreamer/BalleBalleLDAI_SD.ts
-BalleBalle,http://78.129.218.6/tsstreamer/BalleBalleLDAI_SD.ts
-
-韩国频道,#genre#
-MTN,http://moneytoday1.ktcdn.co.kr:1935/mtnlive/720/playlist.m3u8
-
-Job Plus TV,http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8
-
-Arirang,http://amdlive-ch01.ctnd.com.edgesuite.net:80/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
-Arirang,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/.m3u8
-Arirang,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-Arirang,http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch/master.m3u8
-Arirang,http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/chunklist.m3u8
-Arirang,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV60.m3u8
-Arirang,http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/.m3u8
-
-KBS1,http://ye23.vip/z7z8/2021/kbs2020.php?id=1
-
-KBS2,http://ye23.vip/z7z8/2021/kbs2020.php?id=2
-
-KBS World,https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/01.m3u8
-
-KCTV 광주,http://119.77.96.184:1935/chn05/chn05/chunklist_w1306745753.m3u8
-
-TBS Seoul,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
-
-국방国防TV,http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
-
-ABN HD,https://vod2.abn.co.kr/IPHONE/abn.m3u8
-
-CJ OnStyle,https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8
-CJ OnStyle+,https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8
-
-CJONSTYLE,http://mytv.dothome.co.kr/ch/catv/91.php
-CJONSTYLE+,http://mytv.dothome.co.kr/ch/catv/92.php
-CTS기독교TV,https://d34t5yjz1ooymj.cloudfront.net/out/v1/875039d5eba0478fa8375a06b3aa5a37/index.m3u8
-
-EBS+1,http://ebsonairios.ebs.co.kr/plus1tablet500k/tablet500k/plus1tablet500k.index.m3u8
-EBS+2,http://ebsonairios.ebs.co.kr/plus2tablet500k/tablet500k/plus2tablet500k.index.m3u8
-
-EBS1,http://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
-EBS1,http://ebsonairios.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8
-EBS1,http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/groundwavetablet500k.m3u8
-EBS1,http://ebsonairios.ebs.co.kr/groundwavetablet500k/tablet500k/playlist.m3u8
-
-EBS2,http://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
-EBS2,http://ebsonairios.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
-EBS2,http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8
-
-EBSE,http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-EBSE,http://ebsonairios.ebs.co.kr/plus3tablet500k/tablet500k/plus3tablet500k.index.m3u8
-
-EBS 兒童頻道,http://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
-EBS 兒童頻道,http://ebsonairios.ebs.co.kr/ebsutablet500k/_definst_/tablet500k/chunklist_w1965791004.m3u8
-EBS 兒童頻道,http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
-
-GS Shop,https://gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8
-
-Gugak TV 國樂放送,http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
-
-JIBS SBS,http://123.140.197.22/stream/1/play.m3u8
-
-KBC 광주방송 (SBS 光州),http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8
-KBS Drama,http://mytv.dothome.co.kr/ch/catv/2.php
-
-KBS Joy,http://mytv.dothome.co.kr/ch/catv/3.php
-
-KBS Kids,http://mytv.dothome.co.kr/ch/catv/6.php
-
-KBS LIFE,http://mytv.dothome.co.kr/ch/catv/5.php
-
-KBS LiveCam DokDo,http://kbs-dokdo.gscdn.com/dokdo_300/dokdo_300.stream/playlist.m3u8
-
-KBS Story,http://mytv.dothome.co.kr/ch/catv/4.php
-
-KBS WORLD,http://mytv.dothome.co.kr/ch/catv/7.php
-KBS WORLD,https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/01.m3u8
-
-KBS WORLD,https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
-KBS WORLD,https://kbsworld-ott.akamaized.net:443/hls/live/2002341/kbsworld/01.m3u8
-
-Korea Economy TV,https://allanf181.github.io/adaptive-streams/streams/kr/KoreaEconomyTV.m3u8
-
-Korea TV,https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
-
-MBC every1 k-COPS,https://ads.its-newid.net/api/manifest.m3u8?tp=samsung_tvplus&channel_name=mbcevery1k-cops&channel_id=newid_054&apikey=b97c7a7d0c82424bb607e141ef215779&auth=dda4572e-
-
-MBC 구해줘! 홈즈,https://d33jr5ezct2aqw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-doq9g5envaarv-prod/Channel_MBC_3.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=
-
-MBC 大田,https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
-
-MBC 나혼자산다,https://d3778iurtj3xv6.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kg9gdipudll7l-prod/Channel_MBC_7.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=
-
-MBC 釜山,http://stream.bsmbc.com/livetv/BusanMBC_TV_onairstream/playlist.m3u8
-
-MBC 라디오스타,https://dtdgcbd6j2fak.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n4zydfj68vgn1-prod/Channel_MBC_9.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=
-
-MBC 綜藝頻道,http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
-
-MBC 蔚山,https://5ddfd163bd00d.streamlock.net/nHDTV/nHDTV/playlist.m3u8
-
-MBC 무한도전,https://d10m2y49qo2prz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ti9izov8t0kyp-prod/Channel_MBC_1.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=
-
-MBC 麗水,https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
-
-MBC 신비한 TV 서프라이즈,https://d1acfb5b13qsdr.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-he05vyj1kinia-prod/Channel_MBC_4.m3u8?ads.device_did=%7BPSID
-
-MBC 어쩌다 발견한 하루,https://d3olsdkvjaij5t.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xr45ydzp0qwbr-prod/Channel_MBC_5.m3u8?ads.device_did=%7BPSID
-
-MBC 왔다! 장보리,https://d386gkzosr3i38.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fm713l3q6ryzr-prod/Channel_MBC_8.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=
-
-MBC 지붕뚫고 하이킥,https://dgaj785lmfjju.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jsnzm21r7lwrj-prod/Channel_MBC_10.m3u8?ads.device_did=%7BPSID
-
-MBC 해를 품은 달,https://d13bfaug2ipt96.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-49ujgh90ynpdw-prod/Channel_MBC_2.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=
-
-MBC,http://123.254.72.24:1935/tvlive/livestream2/playlist.m3u8
-
-MBC+,https://ads.its-newid.net/api/manifest.m3u8?tp=samsung_tvplus&channel_name=mbc+&channel_id=newid_055&apikey=b97c7a7d0c82424bb607e141ef215779&auth=48d483bb-2b2272fe-dc2d0f8a-
-
-MBN,http://mytv.dothome.co.kr/ch/catv/54.php
-
-MTN,http://183.110.27.87/mtnlive/_definst_/720/chunklist.m3u8
-MTN,http://183.110.27.87/mtnlive/720/playlist.m3u8
-
-NBS 韓國農業廣播,https://media.joycorp.co.kr:4443/live/live_720p/playlist.m3u8
-NBS 韓國農業廣播,https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8
-
-RedBull,http://mytv.dothome.co.kr/ch/catv/61.php
-
-SBS 강심장,https://dklmpoftme5ly.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ig8f3xt8vbpcg-prod/hls-harvester2-1293-prod/us-east-1/cc-ig8f3xt8vbpcg/master.m3u8?
-
-SBS 닥터스,https://d3qf0zy79zrp4j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jku0o3d6cdg6d-prod/hls-harvester2-1293-prod/us-east-1/cc-jku0o3d6cdg6d/master.m3u8?
-
-SBS 清州放送,http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8
-
-SBS 런닝맨,https://d3ctbhz5tcf42v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7g3mhwldqil59-prod/hls-harvester2-1293-prod/us-east-1/cc-7g3mhwldqil59/master.m3u8?
-
-SBS 스페셜,https://d9elvao5pl5dr.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l3cinzxwxwpnp-prod/hls-harvester2-1293-prod/us-east-1/cc-l3cinzxwxwpnp/master.m3u8?
-
-SBS 집사부일체,https://d2c6t9pg1qq2i.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xk9ndm117p4tj-prod/hls-harvester2-1293-prod/us-east-1/cc-xk9ndm117p4tj/master.m3u8?
-
-SBS 패밀리가 떴다,https://d1rio2j9o2hqtj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1nujk65i146oc-ssai-prd/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=
-
-TBS Seoul,https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
-
-TJB 대전방송,http://1.245.74.5:1935/live/tv/.m3u8
-
-TJBI SBS,http://1.245.74.5:1935/live/tv/chunklist_w1082057117.m3u8
-
-Tomato,http://etomatomobile.hscdn.com/etomato.dvr/livestream/playlist.m3u8
-
-Top Filme - Rakuten TV,https://54a2e96c06f84c56b7e137eeabe22edf.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Samsung-at_TopFree/playlist.m3u8?
-
-tvN THE K2,https://d32khooduen8y3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p170vbjf0s68a-ssai-prd/2e874342_9a2c_48e9_9066_7ab3a3284a80/hls/playlist.m3u8?
-
-tvN 꽃보다할배,https://d3kirm9c53tl5m.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-us244sbpf51mr-ssai-prd/1e735686_e190_4801_944d_651719fca85a/hls/playlist.m3u8?
-
-tvN 나의 아저씨,https://dp9vqmqe1b62.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rqup1fpzurgqx-ssai-prd/dc942d76_e776_4c34_8e0c_f09008912455/hls/playlist.m3u8?
-
-tvN 도깨비,https://d21dxaer0ypwk1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6m2cy2rylsvo-ssai-prd/54ac8e25_eb5a_4f10_ba20_ffb254f0a16c/hls/playlist.m3u8?
-
-tvN 라켓보이즈,https://dcqm3yrmhgffm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kl2somy43z7lq-ssai-prd/afb160a1_1669_46f6_aba5_e55f48c7b2ca/hls/playlist.m3u8?
-
-tvN 마인,https://d2zyqoz1zsj2mq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i9yul1lyegl6e-ssai-prd/6d07fe2a_003a_4879_acfc_44e3c3c10f03/hls/playlist.m3u8?
-
-tvN 멜랑꼴리아,https://d25mdvvpht3395.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p8ea370fl7r4f-ssai-prd/82f296fd_2916_45b7_b799_525a4226957a/hls/playlist.m3u8?
-
-tvN 철인왕후,https://dmnsygceaez9z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kugwkm0rtsyfv-ssai-prd/89a2b732_7d4e_4098_9b82_f8e829ab07f0/hls/playlist.m3u8?
-
-YTN와이티엔,http://mytv.dothome.co.kr/ch/catv/261.php
-
-小本生意,http://139.150.248.29:1935/smartlive/558/91258ac21591769e21f41b96f26d883e/playlist.m3u8
-
-韓國新聞,http://183.110.27.87/mtnlive/definst/720/chunklist.m3u8
-韓國新聞,http://moneytoday1.ktcdn.co.kr:1935/mtnlive/720/playlist.m3u8
-
-韓國職業廣播,http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8
-
-신박한 벙커,https://ads.its-newid.net/api/manifest.m3u8?tp=samsung_tvplus&channel_name=tbsflex&channel_id=newid_023&apikey=b97c7a7d0c82424bb607e141ef215779&auth=b5261d98-6282a756-e1877a85-
-
-연합뉴스TV,https://d159bkgw8gqbya.cloudfront.net/out/v1/78665f25586047cfb63902bad6486b6b/yonhap-hevc.m3u8
-
-중화TV 곡주부인,https://d18izuz3xw10qm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7d2zn3pthct37-ssai-prd/68bf80a2_aec4_494d_b2ef_63779ed40809/hls/playlist.m3u8?
-
-중화TV 장가행,https://d27qq4sc9v1h7c.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-dxfwub7u3zl2a-ssai-prd/328d5389_0716_4717_979f_372036a0d322/hls/playlist.m3u8?
-
-프란체스카,https://dxkp9eljtcams.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-i6xnah4o9mnn8-prod/Channel_MBC_6.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=
-
-현대홈쇼핑,https://livestreaming.hyundaihmall.com/cjpstp/live.stream/playlist.m3u8
-
-현대홈쇼핑+Shop,https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8
-
-日本频道,#genre#
-QVC Japan,https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
-
-Shop Channel,http://stream1.shopch.jp/HLS/out2/prog_index.m3u8
-
-Weather News,https://movie.mcas.jp/mcas/wn1_2/master.m3u8
-
-Tokyo MX,https://movie.mcas.jp/mcas/mx1_2/chunklist.m3u8
-
-日本テレビ,https://movie.mcas.jp/switcher/smil:mcas8.smil/chunklist_b1800000.m3u8
-
-東映チャンネル,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS218&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
-
-テレNEWS24,https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
