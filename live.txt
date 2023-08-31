@@ -252,10 +252,6 @@ HOY Infotainment,http://223.17.115.122:9981/stream/channelid/12?ticket=0FC132CAF
 
 HOY TV,http://223.17.115.122:9981/stream/channelid/14?ticket=3B77369FC3E79D7D5979DD13B089C965528AD673
 
-China Central Television Channel 1 (CCTV-1),http://223.17.115.122:9981/stream/channelid/5?ticket=3CE9ABB838A4CFA5900B3CE065B6EBA6F296345A
-
-China Global Television Network Documentary (CGTN Documentary),http://223.17.115.122:9981/stream/channelid/6?ticket=F0E423D3E61362E7CE9BCF90D3C3D3A4B6F08E4D
-
 J2,http://r.jdshipin.com/Nr5jq
 J2,http://223.17.115.122:9981/stream/channelid/11?ticket=A9A7A05D3F617370646DB263FEB0F6DE42F9512D
 J2,http://223.17.122.142:9981/stream/channelid/2082072924?ticket=988f0393442a8969bc55321243b839de6e792003&profile=pass
@@ -267,15 +263,13 @@ RTHK TV 31,http://223.17.115.122:9981/stream/channelid/4?ticket=E6581FB07D93D571
 RTHK TV 32,http://223.17.115.122:9981/stream/channelid/7?ticket=8C3B357F44B1CA231326585FC22979FDC2F8A352
 RTHK TV 32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
 
-TVB Finance Sports & Information Channel,http://223.17.115.122:9981/stream/channelid/10?ticket=97465BF1C4C654EF2DAD73D438A95535404C9D8E
-
-TVB News Channel,http://223.17.115.122:9981/stream/channelid/8?ticket=4D8112FCECE3587CDD278F2E2B06CC6351869BE2
-
 翡翠台,http://r.jdshipin.com/qClQf
 翡翠台,http://223.17.122.142:9981/stream/channelid/1425740866?ticket=4d71ca20ea7d51f743d233b7ff06f442730b8528&profile=pass
 翡翠台,http://113.117.74.20:8081/hls/25/index.m3u8
 
 无线新闻台,http://223.17.122.142:9981/stream/channelid/2051586642?ticket=573bd53607b7974a21b0abcf67330c1652227aec&profile=pass
+无线新闻台,http://223.17.115.122:9981/stream/channelid/8?ticket=4D8112FCECE3587CDD278F2E2B06CC6351869BE2
+财经体育资讯,http://223.17.115.122:9981/stream/channelid/10?ticket=97465BF1C4C654EF2DAD73D438A95535404C9D8E
 
 TVB星河,http://r.jdshipin.com/sXuuD
 TVB星河,http://113.64.147.60:8081/hls/135/index.m3u8
