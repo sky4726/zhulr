@@ -217,6 +217,12 @@ NewTV惊悚悬疑,http://111.40.196.32/PLTV/88888888/224/3221225638/index.m3u8
 NewTV动作电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
 NewTV动作电影,http://111.40.196.31/PLTV/88888888/224/3221225620/index.m3u8
 
+WBTV华纳影视 HD,http://yydns.us59.aihost9.top/ddns.php?id=119
+
+NOW星影,http://yydns.us59.aihost9.top/ddns.php?id=186
+
+NOW爆谷,http://yydns.us59.aihost9.top/ddns.php?id=187
+
 黑莓电影,http://39.134.65.173/PLTV/88888888/224/3221225681/index.m3u8
 黑莓电影,http://39.134.65.179/PLTV/88888888/224/3221225681/index.m3u8
 黑莓电影,http://39.134.65.175/PLTV/88888888/224/3221225681/index.m3u8
@@ -269,6 +275,7 @@ HOY Infotainment,http://223.17.115.122:9981/stream/channelid/12?ticket=0FC132CAF
 
 HOY TV,http://223.17.115.122:9981/stream/channelid/14?ticket=3B77369FC3E79D7D5979DD13B089C965528AD673
 
+J2,http://yydns.us59.aihost9.top/ddns.php?id=5
 J2,http://r.jdshipin.com/Nr5jq
 J2,http://223.17.115.122:9981/stream/channelid/11?ticket=A9A7A05D3F617370646DB263FEB0F6DE42F9512D
 J2,http://223.17.122.142:9981/stream/channelid/2082072924?ticket=988f0393442a8969bc55321243b839de6e792003&profile=pass
@@ -281,6 +288,7 @@ RTHK TV 32,http://223.17.115.122:9981/stream/channelid/7?ticket=8C3B357F44B1CA23
 RTHK TV 32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
 
 翡翠台,http://r.jdshipin.com/qClQf
+翡翠台,http://107.167.12.58:27347/livehttpplay?channel_id=20127
 翡翠台,http://223.17.122.142:9981/stream/channelid/1425740866?ticket=4d71ca20ea7d51f743d233b7ff06f442730b8528&profile=pass
 翡翠台,http://113.117.74.20:8081/hls/25/index.m3u8
 
@@ -319,12 +327,21 @@ TVB星河,http://113.117.74.12:8081/hls/135/index.m3u8
 耀才财经,http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
 
 台湾频道,#genre#
+TVBS新闻台,http://yydns.us59.aihost9.top/ddns.php?id=139
+
+TVBS,http://yydns.us59.aihost9.top/ddns.php?id=140
+
 台视,http://162.19.247.76:22222/live/taishi/index.m3u8
 
 中视,http://162.19.247.76:22222/live/zhongshi/index.m3u8
 
 华视,http://162.19.247.76:22222/live/huashi/index.m3u8
 
+中天新闻 FHD,http://yydns.us59.aihost9.top/ddns.php?id=141
+中天新闻2 FHD,http://yydns.us59.aihost9.top/ddns.php?id=142
+中视新闻 FHD,http://yydns.us59.aihost9.top/ddns.php?id=143
+
 中天娱乐,http://162.19.247.76:22222/live/ztyl/index.m3u8
 
 中天亚洲,http://162.19.247.76:22222/live/ztyz/index.m3u8
+
