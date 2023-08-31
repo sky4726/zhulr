@@ -175,23 +175,18 @@ CCTV17,http://hms3656nc3747353862.live.aikan.miguvideo.com/wh7f454c46tw119538137
 
 重庆卫视,http://171.116.189.56:9999/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 重庆卫视,https://live.goodiptv.club/api/cqyx.php?id=chongqingHD
-重庆卫视,http://221.0.78.198:1681/hls/10238/index.m3u8
 
 云南卫视,http://222.71.90.218:8888/newlive/live/hls/39/live.m3u8
 云南卫视,http://221.0.78.198:1681/hls/10241/index.m3u8
 
 贵州卫视,http://171.116.189.56:9999/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 贵州卫视,https://live.goodiptv.club/api/cqyx.php?id=guizhouHD
-贵州卫视,http://221.0.78.198:1681/hls/10249/index.m3u8
 
 海南卫视,http://171.116.189.56:9999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 海南卫视,http://39.134.67.110/PLTV/88888888/224/3221225978/1.m3u8
-海南卫视,http://221.0.78.198:1681/hls/10262/index.m3u8
 
 少儿频道,#genre#
 少儿频道,http://220.231.188.200:8089/hls/25/index.m3u8
-
-金鹰卡通,http://221.0.78.198:1681/hls/10265/index.m3u8
 
 影视频道,#genre#
 CHC动作电影,http://219.140.210.177:4022/rtp/239.69.1.242:11094
@@ -250,6 +245,40 @@ CHC家庭影院,http://111.20.35.103:6610/yinhe/2/ch00000090990000002085/index.m
 酒染影视,http://mmitv.top/test/douyu.php?id=7550220
 芊珏影视,http://mmitv.top/test/douyu.php?id=8814650
 
+香港特别行政区,#genre#
+HKIBC,http://223.17.115.122:9981/stream/channelid/13?ticket=81DA52FAD91B3D90FD2FEA62EC0F9D8E47A57F80
+HOY Infotainment,http://223.17.115.122:9981/stream/channelid/12?ticket=0FC132CAF15CAD4D39568D9E6845947275F9BB58
+HOY TV,http://223.17.115.122:9981/stream/channelid/14?ticket=3B77369FC3E79D7D5979DD13B089C965528AD673
+China Central Television Channel 1 (CCTV-1),http://223.17.115.122:9981/stream/channelid/5?ticket=3CE9ABB838A4CFA5900B3CE065B6EBA6F296345A
+China Global Television Network Documentary (CGTN Documentary),http://223.17.115.122:9981/stream/channelid/6?ticket=F0E423D3E61362E7CE9BCF90D3C3D3A4B6F08E4D
+J2,http://223.17.115.122:9981/stream/channelid/11?ticket=A9A7A05D3F617370646DB263FEB0F6DE42F9512D
+Jade,http://223.17.115.122:9981/stream/channelid/2?ticket=3AB669201EFF3C6A0188B3B4ECB7DC17B7EB3350
+Pearl,http://223.17.115.122:9981/stream/channelid/9?ticket=D0F1A769034B8A11FFA6A3B5A766BF68941EBA87
+RTHK TV,http://223.17.115.122:9981/stream/channelid/15?ticket=0AC91AD17D717BB024E2CBD7D32EC45CE27EA772
+RTHK TV 31 *,http://223.17.115.122:9981/stream/channelid/4?ticket=E6581FB07D93D5715F12BF6FD2A2CBAE5BE805AB
+RTHK TV 32 *,http://223.17.115.122:9981/stream/channelid/7?ticket=8C3B357F44B1CA231326585FC22979FDC2F8A352
+TVB Finance Sports & Information Channel,http://223.17.115.122:9981/stream/channelid/10?ticket=97465BF1C4C654EF2DAD73D438A95535404C9D8E
+TVB News Channel,http://223.17.115.122:9981/stream/channelid/8?ticket=4D8112FCECE3587CDD278F2E2B06CC6351869BE2
+ViuTV,http://223.17.115.122:9981/stream/channelid/1?ticket=2936C8C3B2839440534CAFBAC82E4B00B51A4F15
+ViuTVsix,http://223.17.115.122:9981/stream/channelid/3?ticket=7F04E7A529BBA46F990F0AA0D51D7E6D309C1404
+SZTVM01,http://223.17.122.142:9981/stream/channelid/1803281564?ticket=e1fa516874deeca92c9f5fc35077ff29b76fa9d2&profile=pass
+SZTVM02,http://223.17.122.142:9981/stream/channelid/1708806175?ticket=c85efeb504227085348d926c0819486f48b0b411&profile=pass
+SZTVM04,http://223.17.122.142:9981/stream/channelid/650367798?ticket=4ed60c9b9754ece0cd6e6bca9c26416c2f5316e7&profile=pass
+SZTVM05,http://223.17.122.142:9981/stream/channelid/441909661?ticket=8bb6d1d5c23af4d2765c9beb230eb66434de4d56&profile=pass
+港台電視 31,http://223.17.122.142:9981/stream/channelid/512708317?ticket=6c3a73ba28a70d662adae11784ad689b4d334d32&profile=pass
+港台電視 32,http://223.17.122.142:9981/stream/channelid/1947359012?ticket=e2c0c51f5d462574852a095b974812235247382d&profile=pass
+中央電視台綜合頻道（CCTV-1綜合),http://223.17.122.142:9981/stream/channelid/962050687?ticket=5f88f69f2a33ff7efb62080d48e265f3938e8e20&profile=pass
+中國環球電視網紀錄頻道 (CGTN紀錄頻道),http://223.17.122.142:9981/stream/channelid/1799638219?ticket=9ac77ad40832eec1bfca05703061b8f40ca3b628&profile=pass
+*香港國際財經台,http://223.17.122.142:9981/stream/channelid/1612555606?ticket=3fd2ea6397edbefbcfc1c85f389eb9edc672a5b8&profile=pass
+*HOY TV,http://223.17.122.142:9981/stream/channelid/481243043?ticket=5c835f44bc85fe37c9732f6ef9462391ac6ce340&profile=pass
+*HOY 資訊台,http://223.17.122.142:9981/stream/channelid/1268373787?ticket=fd42c375496897b255e62c9ac9740e93f75f6cca&profile=pass
+翡翠台,http://223.17.122.142:9981/stream/channelid/1425740866?ticket=4d71ca20ea7d51f743d233b7ff06f442730b8528&profile=pass
+J2台,http://223.17.122.142:9981/stream/channelid/2082072924?ticket=988f0393442a8969bc55321243b839de6e792003&profile=pass
+無綫新聞台,http://223.17.122.142:9981/stream/channelid/2051586642?ticket=573bd53607b7974a21b0abcf67330c1652227aec&profile=pass
+明珠台,http://223.17.122.142:9981/stream/channelid/1803382046?ticket=305785038c701d4404ab79c3adebdea975240c81&profile=pass
+無綫財經 體育 資訊台,http://223.17.122.142:9981/stream/channelid/1781676223?ticket=1951f24669548878a3a4af728097b23f5bf140da&profile=pass
+ViuTVsix,http://223.17.122.142:9981/stream/channelid/2134513294?ticket=7cbbea2728a5c8a05338e0bc43f42fb93419cac6&profile=pass
+ViuTV,http://223.17.122.142:9981/stream/channelid/1336932033?ticket=396a4ed37d25aa2da01624e96e8b29e394594795&profile=pass
 
 
 港澳台频道,#genre#
