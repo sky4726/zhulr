@@ -140,6 +140,7 @@ CCTV17,http://hms3656nc3747353862.live.aikan.miguvideo.com/wh7f454c46tw119538137
 深圳卫视,https://live.goodiptv.club/api/cqyx.php?id=shenzhenHD
 
 湖北卫视,http://hms3655nc3747353868.live.aikan.miguvideo.com/wh7f454c46tw501427025_-970228725/migu/kailu/hubeiwshd/57/20220712/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=152.136.200.69&timestamp=20230830171831&ContentId=531261978&timezone=UTC&mtv_session=e86ff5e85aecadcebbcc98b232f3fa2b&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=7f8bf449d4e55cb390a48ec5938398cf
+湖北卫视,http://cyz32.livehbindex.hbcatv.cn/live/50000020273747628129718a5717b2dd.m3u8?bitrate=2300&pt=5
 
 黑龙江卫视,http://171.116.189.56:9999/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视,https://live.goodiptv.club/api/cqyx.php?id=heilongjiangHD
@@ -155,11 +156,14 @@ CCTV17,http://hms3656nc3747353862.live.aikan.miguvideo.com/wh7f454c46tw119538137
 
 江西卫视,http://171.116.189.56:9999/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 江西卫视,https://live.goodiptv.club/api/cqyx.php?id=jiangxiHD
+江西卫视,http://cyz32.livehbindex.hbcatv.cn/live/50000020728a439baf65ce94f8cf3e30.m3u8?bitrate=2300&pt=5
 
 河南卫视,http://171.116.189.56:9999/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 河南卫视,https://live.goodiptv.club/api/cqyx.php?id=henanHD
+河南卫视,http://cyz32.livehbindex.hbcatv.cn/live/500000201d7c47a8b9b127d69fb816ac.m3u8?bitrate=2300&pt=5
 
 河北卫视,http://171.116.189.56:9999/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
+河北卫视,http://cyz32.livehbindex.hbcatv.cn/live/50000020d6be4c4ba70a4e3261b14544.m3u8?bitrate=2300&pt=5
 
 甘肃卫视,http://hms3660nc3747353859.live.aikan.miguvideo.com/wh7f454c46tw796974169_-922350213/envivo_v/2018/SD/gansu/1000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=152.136.200.69&timestamp=20230830172327&ContentId=531261933&timezone=UTC&mtv_session=a23c27d6e9f75673f364b7a9d7a3a9bc&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=348fa024b2ffa7ad1f59d48294d433f1
 
