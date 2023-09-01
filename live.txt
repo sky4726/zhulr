@@ -405,11 +405,11 @@ http://223.17.115.122:9981/stream/channelid/13?ticket=81DA52FAD91B3D90FD2FEA62EC
 http://223.17.115.122:9981/stream/channelid/12?ticket=0FC132CAF15CAD4D39568D9E6845947275F9BB58
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/HOY-TV.png" group-title="香港频道",HOY-TV
 http://223.17.115.122:9981/stream/channelid/14?ticket=3B77369FC3E79D7D5979DD13B089C965528AD673
-#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港频道",J2
+#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="" group-title="香港频道",J2
 http://r.jdshipin.com/Nr5jq
-#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港频道",J2
+#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="" group-title="香港频道",J2
 http://223.17.115.122:9981/stream/channelid/11?ticket=A9A7A05D3F617370646DB263FEB0F6DE42F9512D
-#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBJ2.png" group-title="香港频道",J2
+#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="" group-title="香港频道",J2
 http://223.17.122.142:9981/stream/channelid/2082072924?ticket=988f0393442a8969bc55321243b839de6e792003&profile=pass
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/RTHK.png" group-title="香港频道",RTHK
 http://223.17.115.122:9981/stream/channelid/15?ticket=0AC91AD17D717BB024E2CBD7D32EC45CE27EA772
@@ -419,15 +419,15 @@ http://223.17.115.122:9981/stream/channelid/4?ticket=E6581FB07D93D5715F12BF6FD2A
 http://223.17.115.122:9981/stream/channelid/7?ticket=8C3B357F44B1CA231326585FC22979FDC2F8A352
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",RTHK32
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="香港频道",翡翠台
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="" group-title="香港频道",翡翠台
 http://r.jdshipin.com/qClQf
-#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="香港频道",翡翠台
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="" group-title="香港频道",翡翠台
 http://223.17.122.142:9981/stream/channelid/1425740866?ticket=4d71ca20ea7d51f743d233b7ff06f442730b8528&profile=pass
-#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="香港频道",翡翠台
+#EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="" group-title="香港频道",翡翠台
 http://113.117.74.20:8081/hls/25/index.m3u8
-#EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png" group-title="香港频道",无线新闻台
+#EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="" group-title="香港频道",无线新闻台
 http://223.17.122.142:9981/stream/channelid/2051586642?ticket=573bd53607b7974a21b0abcf67330c1652227aec&profile=pass
-#EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png" group-title="香港频道",无线新闻台
+#EXTINF:-1 tvg-id="130" tvg-name="无线新闻" tvg-logo="" group-title="香港频道",无线新闻台
 http://223.17.115.122:9981/stream/channelid/8?ticket=4D8112FCECE3587CDD278F2E2B06CC6351869BE2
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",财经体育资讯
 http://223.17.115.122:9981/stream/channelid/10?ticket=97465BF1C4C654EF2DAD73D438A95535404C9D8E
@@ -441,31 +441,31 @@ http://113.117.74.12:8081/hls/135/index.m3u8
 http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",面包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB明珠台.png" group-title="香港频道",明珠台
+#EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="" group-title="香港频道",明珠台
 http://r.jdshipin.com/ZQ4kN
-#EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB明珠台.png" group-title="香港频道",明珠台
+#EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="" group-title="香港频道",明珠台
 http://nsszds.f3322.net:8081/hls/26/index.
-#EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB明珠台.png" group-title="香港频道",明珠台
+#EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="" group-title="香港频道",明珠台
 http://223.17.122.142:9981/stream/channelid/1803382046?ticket=305785038c701d4404ab79c3adebdea975240c81&profile=pass
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="香港频道",凤凰资讯台
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="" group-title="香港频道",凤凰资讯台
 http://r.jdshipin.com/0Rp07
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="香港频道",凤凰资讯台
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="" group-title="香港频道",凤凰资讯台
 http://kkwk1122.top/fh.php?id=fhzx
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="香港频道",凤凰资讯台
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="" group-title="香港频道",凤凰资讯台
 http://113.64.147.60:8081/hls/36/index.m3u8
-#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="香港频道",凤凰中文台
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="" group-title="香港频道",凤凰中文台
 http://kkwk1122.top/fh.php?id=fhzw
-#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="香港频道",凤凰中文台
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="" group-title="香港频道",凤凰中文台
 http://113.64.147.60:8081/hls/37/index.m3u8
-#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="香港频道",凤凰中文台
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="" group-title="香港频道",凤凰中文台
 http://113.64.147.152:8081/hls/37/index.m3u8
 #EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="香港频道",凤凰香港台
 http://kkwk1122.top/fh.php?id=fhhk
-#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="香港频道",凤凰香港台
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="" group-title="香港频道",凤凰香港台
 http://113.117.74.12:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="香港频道",凤凰香港台
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="" group-title="香港频道",凤凰香港台
 http://113.64.147.60:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="香港频道",凤凰香港台
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="" group-title="香港频道",凤凰香港台
 http://113.64.147.152:8081/hls/38/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",耀才财经
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
