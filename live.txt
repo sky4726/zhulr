@@ -1,4 +1,5 @@
-#EXTM3U
+#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV1
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226231/index.m3u8
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="/tb1/CCTV/CCTV1.png" group-title="央视频道",CCTV1
@@ -341,11 +342,13 @@ http://39.134.67.110/PLTV/88888888/224/3221225978/1.m3u8
 https://cntv.sbs/tv?auth=230830&id=ssws
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/深圳少儿频道.png" group-title="少儿频道",深圳少儿频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="少儿频道",山东少儿频道
+http://119.164.216.162:9901/tsfile/live/1006_1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="少儿频道",深圳少儿频道
 http://220.231.188.200:8089/hls/25/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/黑莓动画.png" group-title="少儿频道",黑莓动画
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="少儿频道",黑莓动画
 http://111.40.196.36/PLTV/88888888/224/3221225628/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/黑莓动画.png" group-title="少儿频道",黑莓动画
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="少儿频道",黑莓动画
 http://39.134.65.179/PLTV/88888888/224/3221225529/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="少儿频道",黑莓动画
 http://39.134.65.177/PLTV/88888888/224/3221225529/index.m3u8
