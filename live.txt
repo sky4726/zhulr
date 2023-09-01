@@ -315,7 +315,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
 http://111.40.196.32/PLTV/88888888/224/3221225638/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/NewTV动作电影.png" group-title="影视频道",NewTV动作电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/NewTV电影.png" group-title="影视频道",NewTV动作电影
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/NewTV动作电影.png" group-title="影视频道",NewTV动作电影
 http://111.40.196.31/PLTV/88888888/224/3221225620/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/黑莓电影.png" group-title="影视频道",黑莓电影
 http://39.134.65.173/PLTV/88888888/224/3221225681/index.m3u8
@@ -325,7 +325,7 @@ http://39.134.65.179/PLTV/88888888/224/3221225681/index.m3u8
 http://39.134.65.175/PLTV/88888888/224/3221225681/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/峨眉电影.png" group-title="影视频道",峨眉电影
 http://183.223.157.33:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="73" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/1905电影.png" group-title="影视频道",1905电影
+#EXTINF:-1 tvg-id="73" tvg-name="" tvg-logo="" group-title="影视频道",1905电影
 http://angtv.cn/test/1905.php
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",邵氏影院
 http://mmitv.top/test/douyu.php?id=4246519
