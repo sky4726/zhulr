@@ -362,9 +362,9 @@ http://39.134.65.166/PLTV/88888888/224/3221225529/index.m3u8
 https://cntv.sbs/tv?auth=230830&id=hhxd
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="少儿频道",动漫秀场 
 https://cntv.sbs/tv?auth=230830&id=dmxc
-#EXTINF:-1 tvg-id="青春动漫" tvg-name="青春动漫" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="少儿频道",青春动漫
+#EXTINF:-1 tvg-id="青春动漫" tvg-name="青春动漫" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="少儿频道",青春动漫
 https://cntv.sbs/tv?auth=230830&id=qcdm
-#EXTINF:-1 tvg-id="宝宝动画" tvg-name="宝宝动画" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="少儿频道",宝宝动画
+#EXTINF:-1 tvg-id="宝宝动画" tvg-name="宝宝动画" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="少儿频道",宝宝动画
 https://cntv.sbs/tv?auth=230830&id=bbdh
 
 
@@ -410,17 +410,17 @@ http://39.134.65.175/PLTV/88888888/224/3221225681/index.m3u8
 http://183.223.157.33:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="73" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/1905电影.png" group-title="影视频道",1905电影
 http://angtv.cn/test/1905.php
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="影视频道",华语影院
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="影视频道",华语影院
 https://cntv.sbs/tv?auth=230830&id=hyyy
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="影视频道",星光影院
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="影视频道",星光影院
 https://cntv.sbs/tv?auth=230830&id=xgyy
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="影视频道",谍战剧场
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="影视频道",谍战剧场
 https://cntv.sbs/tv?auth=230830&id=dzjc
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="影视频道",全球大片
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="影视频道",全球大片
 https://cntv.sbs/tv?auth=230830&id=qqdp
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="影视频道",热门剧场
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="影视频道",热门剧场
 https://cntv.sbs/tv?auth=230830&id=rmjc
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="影视频道",热门综艺
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="影视频道",热门综艺
 https://cntv.sbs/tv?auth=230830&id=rmzy
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",邵氏影院
 http://mmitv.top/test/douyu.php?id=4246519
@@ -544,11 +544,11 @@ http://r.jdshipin.com/ZQ4kN
 http://nsszds.f3322.net:8081/hls/26/index.
 #EXTINF:-1 tvg-id="127" tvg-name="明珠台" tvg-logo="/tb1/gt/TVB明珠台.png" group-title="香港频道",明珠台
 http://223.17.122.142:9981/stream/channelid/1803382046?ticket=305785038c701d4404ab79c3adebdea975240c81&profile=pass
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="/tb1/gt/fenghuangzixun.png" group-title="香港频道",凤凰资讯台
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="" group-title="香港频道",凤凰资讯台
 http://r.jdshipin.com/0Rp07
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="/tb1/gt/fenghuangzixun.png" group-title="香港频道",凤凰资讯台
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="" group-title="香港频道",凤凰资讯台
 http://kkwk1122.top/fh.php?id=fhzx
-#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="/tb1/gt/fenghuangzixun.png" group-title="香港频道",凤凰资讯台
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="" group-title="香港频道",凤凰资讯台
 http://113.64.147.60:8081/hls/36/index.m3u8
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="" group-title="香港频道",凤凰中文台
 http://kkwk1122.top/fh.php?id=fhzw
@@ -560,19 +560,19 @@ http://113.64.147.60:8081/hls/37/index.m3u8
 http://113.64.147.152:8081/hls/37/index.m3u8
 #EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="" group-title="香港频道",凤凰香港台
 http://kkwk1122.top/fh.php?id=fhhk
-#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="/tb1/gt/fenghuangxianggang.png" group-title="香港频道",凤凰香港台
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="" group-title="香港频道",凤凰香港台
 http://113.117.74.12:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="/tb1/gt/fenghuangxianggang.png" group-title="香港频道",凤凰香港台
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="" group-title="香港频道",凤凰香港台
 http://113.64.147.60:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="/tb1/gt/fenghuangxianggang.png" group-title="香港频道",凤凰香港台
+#EXTINF:-1 tvg-id="143" tvg-name="凤凰香港" tvg-logo="" group-title="香港频道",凤凰香港台
 http://113.64.147.152:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",耀才财经
+#EXTINF:-1 tvg-id="144" tvg-name="耀才财经" tvg-logo="" group-title="香港频道",耀才财经
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",耀才财经
+#EXTINF:-1 tvg-id="144" tvg-name="耀才财经" tvg-logo="" group-title="香港频道",耀才财经
 http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",耀才财经
+#EXTINF:-1 tvg-id="144" tvg-name="耀才财经" tvg-logo="" group-title="香港频道",耀才财经
 https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",耀才财经
+#EXTINF:-1 tvg-id="144" tvg-name="耀才财经" tvg-logo="" group-title="香港频道",耀才财经
 http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8
 
 
