@@ -481,7 +481,7 @@ http://162.19.247.76:22222/live/taishi/index.m3u8
 http://162.19.247.76:22222/live/zhongshi/index.m3u8
 #EXTINF:-1 tvg-id="6030" tvg-name="华视" tvg-logo="/tb1/gt/CTS.png" group-title="台湾频道",华视
 http://162.19.247.76:22222/live/huashi/index.m3u8
-#EXTINF:-1 tvg-id="6057" tvg-name="中天娱乐台" tvg-logo="/tb1/gt/CtiEntertainment.png" group-title="台湾频道",中天娱乐
+#EXTINF:-1 tvg-id="6057" tvg-name="中天娱乐台" tvg-logo="/tb1/gt/CtiEntertainment.png" group-title="台湾频道",中天娱乐台
 http://162.19.247.76:22222/live/ztyl/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/中天亚洲.png" group-title="台湾频道",中天亚洲
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/中天亚洲台.png" group-title="台湾频道",中天亚洲台
 http://162.19.247.76:22222/live/ztyz/index.m3u8
