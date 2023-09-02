@@ -356,9 +356,9 @@ https://cntv.sbs/tv?auth=230830&id=rmjc
 https://cntv.sbs/tv?auth=230830&id=rmzy
 
 
-#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1084/37/7c96090110880e88916b11e4a18cf9_180_135.jpg?1526894329" group-title="虎牙直播", 周星星
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1084/37/7c96090110880e88916b11e4a18cf9_180_135.jpg?1526894329" group-title="虎牙直播", 周星驰
 https://www.goodiptv.club/huya/11342412
-#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1027/86/3816fff1eef0e4c346fc840b627740_180_135.jpg" group-title="虎牙直播", SMG最强大脑
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1027/86/3816fff1eef0e4c346fc840b627740_180_135.jpg" group-title="虎牙直播", 极限挑战
 https://www.goodiptv.club/huya/11352914
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1059/19/c8b2b615c871a759aca8a01e398d2e_180_135.jpg" group-title="虎牙直播", 蜡笔小新
 https://www.goodiptv.club/huya/29123870
