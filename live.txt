@@ -354,79 +354,38 @@ https://cntv.sbs/tv?auth=230830&id=qqdp
 https://cntv.sbs/tv?auth=230830&id=rmjc
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="影视频道",热门综艺
 https://cntv.sbs/tv?auth=230830&id=rmzy
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",邵氏影院
-http://mmitv.top/test/douyu.php?id=4246519
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",吃米滴虫
-http://mmitv.top/test/douyu.php?id=315457
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",高分电影
-http://mmitv.top/test/douyu.php?id=7254536
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",豆瓣高分
-http://mmitv.top/test/douyu.php?id=8770422
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",漫威影院
-http://mmitv.top/test/douyu.php?id=6140589
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",特辑电影
-http://mmitv.top/test/douyu.php?id=3637778
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",粤语电影
-http://mmitv.top/test/douyu.php?id=1226741
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",喜剧电影
-http://mmitv.top/test/douyu.php?id=323876
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",恐怖电影
-http://mmitv.top/test/douyu.php?id=218859
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",恐怖鬼怪
-http://mmitv.top/test/douyu.php?id=1165374
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",童年阴影
-http://mmitv.top/test/douyu.php?id=2935323
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",惊悚电影
-http://mmitv.top/test/douyu.php?id=96577
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",粤语电影
-http://mmitv.top/test/douyu.php?id=6566671
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",华语影视
-http://mmitv.top/test/douyu.php?id=3928
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",神乐影视
-http://mmitv.top/test/douyu.php?id=85894
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",冰冰影厅
-http://mmitv.top/test/douyu.php?id=74374
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",刀刀影院
-http://mmitv.top/test/douyu.php?id=747764
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",奶虫影院
-http://mmitv.top/test/douyu.php?id=263824
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",贝爷壹厅
-http://mmitv.top/test/douyu.php?id=252802
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",贝爷贰厅
-http://mmitv.top/test/douyu.php?id=4332
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",贝爷叁厅
-http://mmitv.top/test/douyu.php?id=36337
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",云宝影院
-http://mmitv.top/test/douyu.php?id=7305938
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",花卷影院
-http://mmitv.top/test/douyu.php?id=52787
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",菜园小饼
-http://mmitv.top/test/douyu.php?id=1735337
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",橙记港剧
-http://mmitv.top/test/douyu.php?id=4549169
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",大宝影视
-http://mmitv.top/test/douyu.php?id=805235
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",蚂蚱影视
-http://mmitv.top/test/douyu.php?id=6079455
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",怡宝影视
-http://mmitv.top/test/douyu.php?id=434971
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",圆子影视
-http://mmitv.top/test/douyu.php?id=6566658
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",贝贝影视
-http://mmitv.top/test/douyu.php?id=431460
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",可乐影视
-http://mmitv.top/test/douyu.php?id=20415
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",下饭神剧
-http://mmitv.top/test/douyu.php?id=276200
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",古装神剧
-http://mmitv.top/test/douyu.php?id=338759
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",晚湾影视
-http://mmitv.top/test/douyu.php?id=9461178
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",酒染影视
-http://mmitv.top/test/douyu.php?id=7550220
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/斗鱼.png" group-title="影视频道",芊珏影视
-http://mmitv.top/test/douyu.php?id=8814650
 
+
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1050/42/28f36f4d0767fb6efc42c1c1940e1c_180_135.jpg?1561358214" group-title="虎牙直播", 阿斗归来了
+https://www.goodiptv.club/huya/13303478
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1084/37/7c96090110880e88916b11e4a18cf9_180_135.jpg?1526894329" group-title="虎牙直播", 周星星
+https://www.goodiptv.club/huya/11342412
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1027/86/3816fff1eef0e4c346fc840b627740_180_135.jpg" group-title="虎牙直播", SMG最强大脑
+https://www.goodiptv.club/huya/11352914
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1081/9e/65115e9fb3108fcb101361c8ab9dd7_180_135.jpg" group-title="虎牙直播", 小木子先生丶
+https://www.goodiptv.club/huya/11342396
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1098/5b/401b693bfad319a15519690c508375_180_135.jpg?1446036147" group-title="虎牙直播", 薛教授
+https://www.goodiptv.club/huya/11342385
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1027/ab/c18ff61c89d1d8d1b23b6a664f96ef_180_135.jpg" group-title="虎牙直播", 柠檬树下你和我
+https://www.goodiptv.club/huya/11352892
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1053/5e/6f611ef062e410f78e8799e75cb60f_180_135.jpg?1612508471" group-title="虎牙直播", 还我瓢瓢拳
+https://www.goodiptv.club/huya/21059578
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1003/d3/7bbf32d9dacbcd6290c615cdb18514_180_135.jpg?1445854501" group-title="虎牙直播", 红茶妹妹
+https://www.goodiptv.club/huya/11336592
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1099/f6/53aafc173b24d0c336faac2e49b822_180_135.jpg?1445851392" group-title="虎牙直播", 武林萌主唐小姐
+https://www.goodiptv.club/huya/11336726
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1072/3b/97f3408f7186b83502b1c437c769c6_180_135.jpg?1583602181" group-title="虎牙直播", 陈泽希
+https://www.goodiptv.club/huya/21411905
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1080/29/688e85c4509728831c578c7517e0f7_180_135.jpg?1447838636" group-title="虎牙直播", 痞子帅叔叔
+https://www.goodiptv.club/huya/11342433
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1054/1b/e658e859484cb9a062f05b1b542393_180_135.jpg?1542873828" group-title="虎牙直播", 四次元先生
+https://www.goodiptv.club/huya/11602071
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1084/e7/973a4388a3a04c8b0d140b88dd6d92_180_135.jpg" group-title="虎牙直播", 心疼得抱住胖胖的自己
+https://www.goodiptv.club/huya/11342425
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1075/87/af19fa9fa44e5119ecbcb0685fd343_180_135.jpg" group-title="虎牙直播", 刑罚梅乾
+https://www.goodiptv.club/huya/691257
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1040/4f/0c824cf49488cf39e2694da26ca1a4_180_135.jpg?1617966040" group-title="虎牙直播", 小驴影视
+https://www.goodiptv.club/huya/24531382
 
 #EXTINF:-1 tvg-id="7117" tvg-name="香港国际财经台" tvg-logo="/tb1/gt/hkguojicaijing.png" group-title="香港频道",HKIBC
 http://223.17.115.122:9981/stream/channelid/13?ticket=81DA52FAD91B3D90FD2FEA62EC0F9D8E47A57F80
