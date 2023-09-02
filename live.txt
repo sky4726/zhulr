@@ -390,7 +390,7 @@ https://www.goodiptv.club/huya/11352919
 https://www.goodiptv.club/huya/11352944
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1041/7d/9207d1a3ef105d6a498e4543887427_180_135.jpg" group-title="虎牙直播", 我是詹密
 https://www.goodiptv.club/huya/11342439
-#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1071/70/90dcf84517b4239b242e109d6fa28c_180_135.jpg?0" group-title="虎牙频道", 荒野达人
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1071/70/90dcf84517b4239b242e109d6fa28c_180_135.jpg?0" group-title="虎牙直播", 荒野达人
 https://www.goodiptv.club/huya/11352975
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1065/1e/1261519283866330b97e12fb4e7526_180_135.jpg?1449121445" group-title="虎牙直播", 萌新司机
 https://www.goodiptv.club/huya/11352881
