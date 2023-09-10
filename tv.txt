@@ -56,13 +56,12 @@
 {"key":"罐子影视","name":"罐子影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.gsjtlxy.top/xgapp.php/v3/"},
 {
       "key": "Qtv",
-      "name": "🐧┃腾讯┃4K",
+      "name": "腾讯",
       "type": 3,
       "api": "csp_Qtv",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 0
       "jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431"
     },
 
