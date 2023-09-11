@@ -26,7 +26,7 @@
 "sites":[
 {"key":"久梦","name":"久梦","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://43.139.139.17:4433/api.php/app/"},
 {"key":"落日阁","name":"落日阁","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.lggys.cn/api.php/app/"},
-{"key":"HOHO","name":"HOHO","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://hoho.tv/api.php/app/"},
+{"key":"HOHO","name":"HOHO","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://hoho.tv/api.php/app/"}
 ],
 
 "parses":[
