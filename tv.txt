@@ -69,7 +69,7 @@
         {"name":"Json轮询","type":2,"url":"Sequence"},
         {"name":"LR","type":1,"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url="},
         {"name":"迷你","type":1,"url":"https://vip.mosangkeji.com/api/?key=afcQ0C7vUiNOy4tnvG&url="},
-        {"name":"腾讯","type":1,"url":"http://119.91.31.224:82/txqq.php?url=","ext":{"flag": ["qq","腾讯"]}},
+        {"name":"腾讯","type":1,"url":"http://119.91.31.224:82/txqq.php?url=","ext":{"flag":["qq","QQ","腾讯视频","腾讯"]}},
         {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
         {"name":"奇奇","type":1,"url":"http://42.157.128.109:2323/CH/zy/qiqi.php?url="},
         {"name":"玉米","type":1,"url":"http://42.157.128.109:2323/CH/zy/Yumi.php?url="},
