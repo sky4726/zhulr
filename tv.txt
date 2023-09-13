@@ -48,7 +48,7 @@
 {"key":"看看剧","name":"看看剧","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kankanju.cc/api.php/app/"},
 {"key":"热剧猫","name":"热剧猫","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://v.rjumao.com/api.php/app/"},
 {"key":"毛毛子","name":"毛毛子","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ys.qtw.asia/lvdou_api.php/v1.vod"},
-{"key":"嘉良影视","name":"嘉良影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v2/"},
+{"key":"嘉良影视","name":"嘉良影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cms.jialiangos.com/api.php/app/"},
 {"key":"明帝影视","name":"明帝影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ys.md214.cn/api.php/app/"},
 {"key":"圆涂影视","name":"圆涂影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://m51.gotto.top/api.php/v1.vod"},
 {"key":"咪咪影视","name":"咪咪影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://mp4.ghlyys.com/api.php/app/"},
