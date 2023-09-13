@@ -73,7 +73,6 @@
         {"name":"腾腾","type":1,"url":"http://119.91.31.224:82/txqq.php?url=","ext":{"flag":["qq","QQ","qq 预告及花絮","腾讯视频","腾讯"]}},
         {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
         {"name":"猫咪","type":1,"url":"http://221.229.173.30:8808/jhjson/daoyongsiquanjia.php?url="},
-        {"name":"优酷","type":1,"url":"http://42.51.37.161:5678/json/520239app9/gf2.php?url="},
         {"name":"奇奇","type":1,"url":"http://42.157.128.109:2323/CH/zy/qiqi.php?url="},
         {"name":"玉米","type":1,"url":"http://jx.wogg.link:63/jiexi/饭特析.php?url="},
         {"name":"土菜","type":1,"url":"https://110.42.2.98:22222/api/mp4jiexifile.php?key=DuTmhnodh2iqXO00LQ&url="},
