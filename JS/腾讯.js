@@ -6,7 +6,7 @@ var rule = {
     searchUrl:'/x/search/?q=**&stag=fypage',
     multi:1,
     url:'/x/bu/pagesheet/list?_all=1&append=1&channel=fyclass&listpage=1&offset=((fypage-1)*21)&pagesize=21&iarea=-1',
-    filter_url:'sort={{fl.sort or 18}}&year={{fl.year}}&iyear={{fl.iyear}}&ipay={{fl.ipay}}&ifeature={{fl.ifeature}}&charge={{fl.charge}}&characteristic={{fl.characteristic}}',
+    filter_url:'sort={{fl.sort or 75}}&year={{fl.year}}&iyear={{fl.iyear}}&ipay={{fl.ipay}}&ifeature={{fl.ifeature}}&charge={{fl.charge}}&characteristic={{fl.characteristic}}',
     filter:{'tv': [
      {'key': 'ifeature', 'name': '类型', 'value': [{'n': '全部', 'v': '-1'}, {'n': '爱情', 'v': '1'}, {'n': '古装', 'v': '2'}, {'n': '悬疑', 'v': '3'}, {'n': '都市', 'v': '4'}, {'n': '家庭', 'v': '5'}, {'n': '喜剧', 'v': '6'}, {'n': '传奇', 'v': '7'}, {'n': '武侠', 'v': '8'}, {'n': '军旅', 'v': '9'}, {'n': '权谋', 'v': '10'}, {'n': '革命', 'v': '11'}, {'n': '现实', 'v': '13'}, {'n': '青春', 'v': '14'}, {'n': '猎奇', 'v': '15'}, {'n': '科幻', 'v': '16'}, {'n': '竞技', 'v': '17'}, {'n': '玄幻', 'v': '18'}]},
      {'key': 'iyear', 'name': '年代', 'value': [{'n': '全部', 'v': '-1'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '00年代', 'v': '2000'}, {'n': '更早', 'v': '99'}]},
