@@ -12,7 +12,7 @@
 {"name":"极速","hosts":["vip.js","s2.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\r*\n*[\s\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]}],
 
 "sites":[
-{"key":"极速","name":"极速","api":"https://jszyapi.com/api.php/provide/vod/from/jsm3u8","type":1,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"极速","name":"极速","api":"https://jszyapi.com/api.php/provide/vod/","type":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"少泽","name":"少泽","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://yszj.cm/xgapp.php/v2/"},
 {"key":"看剧吧","name":"看剧吧","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://app.ishen520.com/api.php/v1.vod"},
 {"key":"555电影","name":"555电影","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://555dy3.com/api.php/app/"},
