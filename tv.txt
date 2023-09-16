@@ -77,8 +77,10 @@
         {"name":"玉米","type":1,"url":"http://jx.wogg.link:63/jiexi/饭特析.php?url="},
         {"name":"毛毛","type":1,"url":"http://jx.daenys.vip:2587/tjxdsg.php?url="},
         {"name":"酷酷","type":1,"url":"http://box.realdou.cn/api/?api_id=4&vod_url=","header":{"user-agent":"okhttp/5.0.0-alpha.10"}},
+        {"name":"美美","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
         {"name":"海鸥","type":1,"url":"http://htp.behds.cn/json/520239app9/lib3.php?url="},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
+        {"name":"打捞","type":0,"url":"https://vip.bljiex.com/?v="},
         {"name":"光速","type":0,"url":"https://www.gszyv.com/m3u8/?url="},
         {"name":"量子","type":0,"url":"https://lziplayer.com/?url="}
         ],
