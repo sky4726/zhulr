@@ -25,7 +25,6 @@
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"./JS/drpy.min.js","ext":"./JS/豆瓣.js"},
 {"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":1,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":"http://127.0.0.1:9978/file/TVBox/bili.txt"},"jar":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"},
-//{"key":"北极狐","name":"北极狐","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"热剧猫","name":"热剧猫","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://v.aaaa0.top:2525/api.php/app/"},
 {"key":"次元城","name":"次元城","type":3,"api":"csp_Cycdm","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.95189371.cn/ciyuancheng.php/v6/"},
@@ -82,7 +81,7 @@
         {"name":"酷酷","type":1,"url":"http://103.73.163.111/zy.php?url="},
         {"name":"多多","type":1,"url":"http://111.173.118.253:9898/api/?key=Viqr04XesPmxDDQaRv&url="},
         {"name":"玉石","type":1,"url":"http://175.178.183.192:84/api/?key=f3913eb3f85a8298b3e6e427b8712b2e&url="},
-        {"name":"圆涂","type":1,"url":"http://newjiexi.gotto.xyz/keyu4.php?url=","User-Agent":"okhttp/4.1.0"},
+        {"name":"圆涂","type":1,"url":"http://newjiexi.gotto.xyz/keyu4.php?url=","ext":{"User-Agent":"okhttp/4.1.0"}},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         {"name":"打捞","type":0,"url":"https://vip.bljiex.com/?v="},
         {"name":"光速","type":0,"url":"https://www.gszyv.com/m3u8/?url="},
