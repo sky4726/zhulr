@@ -69,7 +69,7 @@
 "parses":[
         {"name":"解析聚合","type":3,"url":"Demo"},
         {"name":"Json轮询","type":2,"url":"Sequence"},
-        {"name":"LR","type":1,"url":"http://27.124.4.42:4567/jhjson/ceshi.php?url="},
+        {"name":"LR","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2283&my=ijknsvwBFHNRSTVZ03&url="},
         {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
         {"name":"猫咪","type":1,"url":"https://jxjson.cf/json.php?url="},
         {"name":"毛毛","type":1,"url":"http://jx.daenys.vip:2587/tjxdsg.php?url="},
