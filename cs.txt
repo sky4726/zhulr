@@ -13,7 +13,7 @@
 
 "sites":[
 {"key":"电影先生","name":"电影先生","type":3,"playerType":2,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://app.dianyi.ng/api.php/v1.vod/"},
-{"key":"大师兄","name":"大师兄","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":{"json":"http://sdk.alibaba.com.ailbaba.me/dsx.php/v6/","header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
+{"key":"大师兄","name":"大师兄","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://sdk.alibaba.com.ailbaba.me/dsx.php/v6/","header":{"User-Agent":"Dart/2.14 (dart:io)"}},
 {"key":"少泽","name":"少泽","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://yszj.cm/xgapp.php/v2/"},
 {"key":"看剧吧","name":"看剧吧","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://app.ishen520.com/api.php/v1.vod"},
 {"key":"555电影","name":"555电影","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://555dy3.com/api.php/app/"},
