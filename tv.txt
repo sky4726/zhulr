@@ -35,7 +35,7 @@
 {"key":"探探","name":"探探","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ytcms.lyyytv.cn/api.php/app/"},
 {"key":"腾讯","name":"腾讯","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/腾讯.js"},
 {"key":"荐片","name":"荐片","type":3,"api":"./JS/drpy.min.js","playerType":1,"ext":"./JS/荐片.js"},
-{"key":"玩偶弹幕版","name":"玩偶哥哥","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","filter":"./JS/玩偶哥哥.json","jar":"https://ghproxy.net/https://raw.githubusercontent.com/lllyin/assets/master/928.jpg","danmu":true}},
+{"key":"玩偶弹幕版","name":"玩偶哥哥","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","filter":"./JS/玩偶哥哥.json","jar":"https://ghproxy.net/https://raw.githubusercontent.com/lllyin/assets/master/928.jpg;md5;7c4e630d2991bdc5ac8089b963b0d98e","danmu":true}},
 {"key":"酷酷","name":"酷酷","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://ys.realdou.cn:16285/api.php/app/"},
 {"key":"乐迪","name":"乐迪","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
 {"key":"布衣","name":"布衣","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://byyy5.com/api.php/app/"},
