@@ -296,6 +296,8 @@ https://cntv.sbs/tv?auth=230927&id=hhxd
 https://cntv.sbs/tv?auth=230927&id=dmxc
 #EXTINF:-1 tvg-id="青春动漫" tvg-name="青春动漫" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="少儿频道",青春动漫
 https://cntv.sbs/tv?auth=230927&id=qcdm
+#EXTINF:-1 tvg-id="蜡笔小新" tvg-name="蜡笔小新" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/蜡笔小新.png" group-title="少儿频道",蜡笔小新
+http://123.56.103.89/gslb/channel/stream?region=440000&isp=mobile&tm=1696049880&uuid=7c876cb080c7ed9ef2790706d1bfb12a&sign=9cce20684572b678c69d23eaef9dd33e&ver=1.0.8&channel_id=zj-byaad3vtcev4
 #EXTINF:-1 tvg-id="宝宝动画" tvg-name="宝宝动画" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/BesTV.png" group-title="少儿频道",宝宝动画
 https://cntv.sbs/tv?auth=230927&id=bbdh
 
