@@ -24,6 +24,7 @@
 
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"./JS/drpy.min.js","ext":"./JS/豆瓣.js"},
+{"key":"Aid","name":"🚑急救教学","type":3,"api": "csp_FirstAid","searchable":0,"quickSearch":0,"style":{"type":"rect","ratio":4},"gridview":"0-0-4.1"},
 {"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":1,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":"http://127.0.0.1:9978/file/TVBox/bili.txt"},"jar":"./jar/928.jar"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"热剧猫","name":"热剧猫","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://v.aaaa0.top:2525/api.php/app/"},
