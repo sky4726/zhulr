@@ -475,7 +475,7 @@ https://www.goodiptv.club/douyu/8317926
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202012/ad7a03ce2b8e497bb19aa26f63c6bac4_big.jpg" group-title="解说频道", 史君说剧
 https://www.goodiptv.club/douyu/9419771
 
-
+/*
 #EXTINF:-1 tvg-id="7117" tvg-name="香港国际财经台" tvg-logo="/tb1/gt/hkguojicaijing.png" group-title="香港频道",HKIBC
 http://223.17.115.122:9981/stream/channelid/13?ticket=81DA52FAD91B3D90FD2FEA62EC0F9D8E47A57F80
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/HOY资讯台.png" group-title="香港频道",HOY Infotainment
@@ -484,16 +484,10 @@ http://223.17.115.122:9981/stream/channelid/12?ticket=0FC132CAF15CAD4D39568D9E68
 http://223.17.115.122:9981/stream/channelid/14?ticket=3B77369FC3E79D7D5979DD13B089C965528AD673
 #EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="/tb1/gt/TVBJ2.png" group-title="香港频道",J2
 http://r.jdshipin.com/Nr5jq
-#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="/tb1/gt/TVBJ2.png" group-title="香港频道",J2
-http://223.17.115.122:9981/stream/channelid/11?ticket=A9A7A05D3F617370646DB263FEB0F6DE42F9512D
-#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="/tb1/gt/TVBJ2.png" group-title="香港频道",J2
-http://223.17.122.142:9981/stream/channelid/2082072924?ticket=988f0393442a8969bc55321243b839de6e792003&profile=pass
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/RTHK.png" group-title="香港频道",RTHK
 http://223.17.115.122:9981/stream/channelid/15?ticket=0AC91AD17D717BB024E2CBD7D32EC45CE27EA772
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/RTHK31.png" group-title="香港频道",RTHK31
 http://223.17.115.122:9981/stream/channelid/4?ticket=E6581FB07D93D5715F12BF6FD2A2CBAE5BE805AB
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/RTHK32.png" group-title="香港频道",RTHK32
-http://223.17.115.122:9981/stream/channelid/7?ticket=8C3B357F44B1CA231326585FC22979FDC2F8A352
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港频道",RTHK32
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="126" tvg-name="翡翠台" tvg-logo="/tb1/gt/TVB翡翠台.png" group-title="香港频道",翡翠台
@@ -572,4 +566,4 @@ https://cntv.sbs/4gtv?id=litv-ftv13
 https://cntv.sbs/4gtv?id=4gtv-4gtv001
 #EXTINF:-1 tvg-id="民视综艺台" tvg-name="民视综艺台" tvg-logo="" group-title="台湾频道",民视综艺台
 https://cntv.sbs/4gtv?id=4gtv-4gtv004
-
+*\
