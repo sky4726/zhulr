@@ -1,8 +1,8 @@
 var rule = {
     title:'荐片',
-    //host:'http://api2.rinhome.com',
-    host:'http://yjpapipxblwdohpakljwg.hxhzs.com',
-    homeUrl:'http://yjpapipxblwdohpakljwg.hxhzs.com/api/tag/hand?code=unknown032a9204ce305d95&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
+    host:'http://api2.rinhome.com',
+    //host:'http://yjpapipxblwdohpakljwg.hxhzs.com',
+    homeUrl:'/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
 	url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
     class_name:'电影&电视剧&动漫&综艺',
     class_url:'1&2&3&4',
