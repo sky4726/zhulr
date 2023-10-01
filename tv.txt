@@ -68,9 +68,7 @@
 "parses":[
         {"name":"解析聚合","type":3,"url":"Demo"},
         {"name":"Json轮询","type":2,"url":"Sequence"},
-        {"name":"LR","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2283&my=ijknsvwBFHNRSTVZ03&url="},
-        {"name":"左岸","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
-        {"name":"猫咪","type":1,"url":"https://jxjson.cf/json.php?url="},
+        {"name":"LR","type":1,"url":"https://jxjson.cf/json.php?url="},
         {"name":"毛毛","type":1,"url":"http://jx.daenys.vip:2587/tjxdsg.php?url="},
         {"name":"奇奇","type":1,"url":"https://jx.xn--2qux23cmstnvb.com/api/?key=kqbMl0BF9i7sdLCKtr&url="},
         {"name":"玉米","type":1,"url":"http://61.147.93.21:8090/index.php?url="},
@@ -80,6 +78,8 @@
         {"name":"兔子","type":1,"url":"https://110.42.2.98:22222/api/?key=hfvyOMn2IvniuVmayY&url="},
         {"name":"多多","type":1,"url":"http://111.173.118.253:9898/api/?key=Viqr04XesPmxDDQaRv&url="},
         {"name":"圆涂","type":1,"url":"http://newjiexi.gotto.xyz/keyu4.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
+        {"name":"海棠","type":0,"url":"https://jx.yangtu.top/?url="},
+        {"name":"曲奇","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
         {"name":"光速","type":0,"url":"https://www.gszyv.com/m3u8/?url="},
         {"name":"量子","type":0,"url":"https://lziplayer.com/?url="}
