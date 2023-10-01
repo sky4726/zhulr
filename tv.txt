@@ -75,7 +75,7 @@
         {"name":"玉米","type":1,"url":"http://61.147.93.21:8090/index.php?url="},
         {"name":"小米","type":1,"url":"https://jiexi.fshnf.com/api/?cat_ext=eyJoZWFkZXIiOiB7IlVzZXItQWdlbnQiOiIiLCJDb29raWUiOiJDb29raWU6QkRVU1M9cDVjbXc1TWpRd1JVcC1ZMUZxTldJek1XTm1aMXBFY0ZGTGIwOHRaakZRVTBsRGNUbGpPVmc1VlZORVpFSnJTVUZCUVVGQkpDUUFBQUFBQVFBQUFBRUFBQUF1d1lkLXp0S3dyckc4czl0TlNXNXBBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCS0FxR1FTZ0toa2ZsOyAifSwiZmxhZyI6&key=7ee08b132a80e1f9528e62486714618b&url="},
         {"name":"世界","type":1,"url":"http://175.178.183.192:84/api/?key=f3913eb3f85a8298b3e6e427b8712b2e&url="},
-        //{"name":"追忆","type":1,"url":"http://115.231.220.36:9999/jx/tvbox/1314.php?url="},
+        {"name":"追忆","type":1,"url":"http://115.231.220.36:9999/jx/tvbox/2969297279.php?url="},
         {"name":"多多","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
         {"name":"圆涂","type":1,"url":"http://newjiexi.gotto.xyz/keyu4.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
         {"name":"海棠","type":0,"url":"https://jx.yangtu.top/?url="},
