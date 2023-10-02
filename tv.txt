@@ -77,7 +77,7 @@
         {"name":"世世","type":1,"url":"http://175.178.183.192:84/api/?key=f3913eb3f85a8298b3e6e427b8712b2e&url="},
         {"name":"追追","type":1,"url":"http://115.231.220.36:9999/jx/tvbox/xty.php?url="},
         {"name":"多多","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
-        {"name":"包子","type":1,"url":"https://lt..jonwer.cn/home/api?type=ys&uid=763289&key=acfmnpqxyDGHILUVWX&url=","ext":{"header":{"User-Agent":"okhttp/4.11.0"}}},
+        {"name":"包子","type":1,"url":"http://103.73.163.111/zy.php?url=},
         {"name":"海棠","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"曲奇","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
