@@ -28,7 +28,7 @@
 {"key":"Aid","name":"急救","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":0,"style":{"type":"rect","ratio":3.8},"gridview":"0-0-4.1"},
 {"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":1,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":"http://127.0.0.1:9978/file/TVBox/bili.txt"},"jar":"./jar/928.jar"},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
-{"key":"热剧猫","name":"热剧猫","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://v.aaaa0.top:2525/api.php/app/","playUrl":"http://jx.daenys.vip:2587/tjxdsg.php?url="},
+{"key":"热剧猫","name":"热剧猫","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://v.aaaa0.top:2525/api.php/app/"},
 {"key":"次元城","name":"次元城","type":3,"api":"csp_Cycdm","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.95189371.cn/ciyuancheng.php/v6/"},
 {"key":"追追","name":"追追","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://222.211.73.157:1122/api.php/app/"},
 {"key":"玩偶","name":"玩偶","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
