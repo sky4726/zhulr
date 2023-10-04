@@ -54,7 +54,7 @@ class Spider(Spider):
         'showLiveFilterTag': '0',
         #主页标签排序, 未登录或cookie失效时自动隐藏动态、收藏、关注、历史
         'cateManual': [
-            "推荐",
+            
             "影视",
             "直播",
             "动态",
@@ -183,7 +183,7 @@ class Spider(Spider):
         return result
 
     # 用户cookies
-    userid = csrf = ''
+    userid = csrf = 'http://127.0.0.1:9978/file/TVBox/bili.txt'
     session_master = session()
     session_vip = session()
     session_fake = session()
