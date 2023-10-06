@@ -1,6 +1,7 @@
 {
 "spider":"./jar/spider.jar",
 "wallpaper":"https://api.likepoems.com/img/bing",
+"warningText":"LR:接口为公益接口,切勿上当受骗！",
   "lives": [
     {
       "name": "直播",
