@@ -1,4 +1,4 @@
-{//接口为公益接口，卖的全是骗子！ 接口仅用于学习交流
+{//接口为公益接口，卖的全是骗子！ 接口仅用于学习交流 ©LR
 "spider":"./jar/spider.jar",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "warningText":"LR:接口为公益接口,切勿上当受骗!",
@@ -31,8 +31,8 @@
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"热剧猫","name":"热剧猫","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://v.aaaa0.top:2525/api.php/app/"},
 {"key":"次元城","name":"次元城","type":3,"api":"csp_Cycdm","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.95189371.cn/ciyuancheng.php/v6/"},
-{"key":"追忆","name":"追忆","type":3,"api":"csp_Appto","playerType":2,"ext":"|NZWNwN0ZXZE02WTRreHpXY2ZmNjJwY0RjWGlZN2ZmQWF8aHR0cDovLzIyMi4yMTEuNzMuMTU3OjExMjIvYXBwdG8vdjE"},
-{"key":"米诺","name":"米诺","type":3,"api":"csp_Appto","playerType":2,"ext":"|mcjJlcmV6VXF4a2pwMUMzbG1JcUJ0THpscW9YaE5MaDd8aHR0cDovL2Ntcy5rdWJveXMudG9wL2FwcHRvL3Yx"},
+{"key":"追忆","name":"追忆","type":3,"api":"csp_Appto","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"|NZWNwN0ZXZE02WTRreHpXY2ZmNjJwY0RjWGlZN2ZmQWF8aHR0cDovLzIyMi4yMTEuNzMuMTU3OjExMjIvYXBwdG8vdjE"},
+{"key":"米诺","name":"米诺","type":3,"api":"csp_Appto","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"|mcjJlcmV6VXF4a2pwMUMzbG1JcUJ0THpscW9YaE5MaDd8aHR0cDovL2Ntcy5rdWJveXMudG9wL2FwcHRvL3Yx"},
 //{"key":"追追","name":"追追","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://222.211.73.157:1122/api.php/app/"},
 {"key":"玩偶","name":"玩偶","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
 {"key":"世界","name":"世界","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://yycms.77ev.cn/api.php/app/"},
