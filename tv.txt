@@ -59,7 +59,7 @@
 {"key":"毛毛子","name":"毛毛子","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ys.qtw.asia/lvdou_api.php/v1.vod"},
 {"key":"五五五","name":"五五五","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://555dy3.com/api.php/app/","header":{"user-agent":"okhttp/5.0.0-alpha.10"}},
 {"key":"好戏网","name":"好戏网","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/好戏网.js"},
-{"key":"圣城影视","name":"圣城影视","type":3,"api":"csp_SC1080","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://www.sc1080.top/","jar":"./jar/spider备用.jar"},
+{"key":"圣城影视","name":"圣城影视","type":3,"api":"csp_SC1080","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.sc1080.top/","jar":"./jar/spider备用.jar"},
 {"key":"快看影视","name":"快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider备用.jar"},
 {"key":"南瓜影视","name":"南瓜影视","type":3,"api":"csp_NanGua","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider备用.jar"},
 {"key":"嘉靓影视","name":"嘉靓影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cms.jialiangos.com/api.php/app/"},
