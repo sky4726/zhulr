@@ -54,7 +54,6 @@
 {"key":"LIBVIO","name":"LIBVIO","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/LIBVIO.js"},
 {"key":"VoFlix","name":"VOFLIX","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/Voflix.js"},
 {"key":"萌蛋蛋","name":"萌蛋蛋","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v2/"},
-{"key":"一起看","name":"一起看","type":3,"api":"csp_YQKAPP","ext":"https://api-aws.ctdy.cc","jar":"./jar/spider备用.jar"},
 {"key":"毛毛子","name":"毛毛子","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ys.qtw.asia/lvdou_api.php/v1.vod"},
 {"key":"五五五","name":"五五五","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://555dy3.com/api.php/app/","header":{"user-agent":"okhttp/5.0.0-alpha.10"}},
 {"key":"好戏网","name":"好戏网","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/好戏网.js"},
