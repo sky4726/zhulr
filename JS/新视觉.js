@@ -33,7 +33,7 @@ var rule={
 	一级:'.module-items .module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
 	二级:{"title":"h1&&Text;.tag-link&&Text",
 	"img":".module-item-pic&&img&&data-src",
-	"desc":".module-item-text&&Text;.module-info-tag&&Text;video-info-items:eq(2)&&.video-info-item&&Text;.video-info-items:eq(1)&&.video-info-item&&Text;.video-info-items:eq(0)&&.video-info-item&&Text",
+	"desc":".module-item-text&&Text;.video-info-items:eq(2)&&.video-info-item&&Text;video-info-items:eq(2)&&.video-info-item&&Text;.video-info-items:eq(1)&&.video-info-item&&Text;.video-info-items:eq(0)&&.video-info-item&&Text",
 	"content":".vod_content&&Text",
 	"tabs":".module-tab-item",
 	"lists":".module-player-list:eq(#id)&&.scroll-content&&a"},
