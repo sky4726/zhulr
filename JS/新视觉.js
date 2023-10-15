@@ -15,7 +15,11 @@ var rule={
         4:{cateId:'4'},
         3:{cateId:'3'}
     },
-	searchUrl:'/vodsearch/**----------fypage---.html',
+	searchUrl:'/vod-so/**----------fypage---.html',
+	headers: {
+                'User-Agent': 'UC_UA',
+                'Cookie': 'cf_clearance=pKuxsR_nxyb8B3cenGz7Lw0Z4T_lCPY0d6Ys9XZOmAM-1697339446-0-1-550d412b.31693665.20c1ecb-150.0.0; PHPSESSID=2d8aa0egmblmjolu6nnqhle76k; clothes=white'
+            },
 	searchable:1,//是否启用全局搜索,
 	quickSearch:1,//是否启用快速搜索,
 	filterable:1,//是否启用分类筛选,
@@ -27,6 +31,11 @@ var rule={
 	推荐:'.module-list;.module-items&&.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
 	double:true, // 推荐内容是否双层定位
 	一级:'.module-items .module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
-	二级:{"title":"h1&&Text;.tag-link&&Text","img":".module-item-pic&&img&&data-src","desc":".video-info-items:eq(-2)&&Text;.video-info-items:eq(-1)&&Text;.video-info-items:eq(-2)&&Text;.video-info-items:eq(1)&&.video-info-item&&Text;.video-info-items:eq(0)&&.video-info-item&&Text","content":".vod_content&&Text","tabs":".module-tab-item","lists":".module-player-list:eq(#id)&&.scroll-content&&a"},
-	搜索:'.module-items .module-search-item;a&&title;img&&data-src;.video-serial&&Text;a&&href',
+	二级:{"title":"h1&&Text;.tag-link&&Text",
+	"img":".module-item-pic&&img&&data-src",
+	"desc":".module-item-text&&Text;.module-info-tag&&Text;video-info-items:eq(2)&&.video-info-item&&Text;.video-info-items:eq(1)&&.video-info-item&&Text;.video-info-items:eq(0)&&.video-info-item&&Text",
+	"content":".vod_content&&Text",
+	"tabs":".module-tab-item",
+	"lists":".module-player-list:eq(#id)&&.scroll-content&&a"},
+	搜索:'.module-items .module-search-item;.video-serial&&title;img&&data-src;.video-serial&&Text;a&&href',
 }
