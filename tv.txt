@@ -22,6 +22,7 @@
 {"name":"暴风","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"极速","hosts":["jszy","s2.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\r*\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"蚂蚁","hosts":["v\.cdnlz.*\.com"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"索尼","hosts":["suonizy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"火山","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"抖音",hosts":["douyin.com"],"regex":["is_play_url="]}],
@@ -75,13 +76,13 @@
 {"key":"南瓜影视","name":"南瓜影视","type":3,"api":"csp_NanGua","searchable":1,"quickSearch":0,"filterable":1,"jar":"./jar/spider备用.jar"},
 
 #云盘
-{"key":"影巢","name":"影巢｜云盘","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/fm.jar"},
-{"key":"校长","name":"校长｜云盘","type":3,"api":"csp_XiaoZhang","jar":"./jar/1019.jar","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/fm.jar"},
-{"key":"纸条","name":"纸条｜云盘","type":3,"api":"csp_XiaoZhiTiao","jar":"./jar/1019.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": true}},
-{"key":"七夜","name":"七夜｜云盘","type":3,"api":"csp_Dovx","jar":"./jar/1019.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": true}},
-{"key":"盘搜","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": true}},
-{"key":"易搜","name":"易搜｜云盘","type":3,"api":"csp_YiSo","jar":"./jar/1019.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": true}},
-{"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/fm.jar"},
+{"key":"影巢","name":"影巢｜云盘","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":0,"ext":"./tok.txt","jar":"./jar/fm.jar"},
+{"key":"校长","name":"校长｜云盘","type":3,"api":"csp_XiaoZhang","jar":"./jar/1019.jar","searchable":1,"quickSearch":1,"filterable":0,"ext":"./tok.txt","jar":"./jar/fm.jar"},
+{"key":"纸条","name":"纸条｜云盘","type":3,"api":"csp_XiaoZhiTiao","jar":"./jar/1019.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"./tok.txt", "danmu": true}},
+{"key":"七夜","name":"七夜｜云盘","type":3,"api":"csp_Dovx","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"./tok.txt", "danmu": true}},
+{"key":"盘搜","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"./tok.txt", "danmu": true}},
+{"key":"易搜","name":"易搜｜云盘","type":3,"api":"csp_YiSo","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"./tok.txt", "danmu": true}},
+{"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":{"token":"./tok.txt", "danmu": true},"jar":"./jar/fm.jar"},
 {"key":"LR","name":"数据来源于互联网｜LR","type":3,"api":"csp_KungFu404","searchable":1,"quickSearch":0,"filterable":0,"jar":"https://weixine.net/alibaba.jar"}
 ],
 
