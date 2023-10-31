@@ -10,7 +10,8 @@
     
     "影片状态":"状态：&&</p>",
     
-    "搜索url":"http://www.98dsw.com/search.php;post;searchword={wd}",
+    //"搜索url":"http://www.98dsw.com/search.php;post;searchword={wd}",
+    "搜索url":"http://www.98dsw.com/search.php?searchword={wd}",
     
     "线路数组":"<h3 class=\"title\">&&/h3>",
     
