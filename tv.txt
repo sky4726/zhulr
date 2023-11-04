@@ -96,7 +96,7 @@
         {"name":"海滩","type":0,"url":"https://okjx.cc/?url="},
         {"name":"海棠","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url="},
-        {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
+        {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="}
         ],
 
 "flags":
