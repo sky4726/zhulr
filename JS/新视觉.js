@@ -15,7 +15,7 @@ var rule={
         4:{cateId:'4'},
         3:{cateId:'3'}
     },
-	searchUrl:'/vod-so/**----------fypage---.html',
+	searchUrl:'/vod-soso/**----------fypage---.html',
 	headers: {
                 'User-Agent': 'UC_UA',
                 'Cookie': 'cf_clearance=pKuxsR_nxyb8B3cenGz7Lw0Z4T_lCPY0d6Ys9XZOmAM-1697339446-0-1-550d412b.31693665.20c1ecb-150.0.0; PHPSESSID=2d8aa0egmblmjolu6nnqhle76k; clothes=white'
