@@ -18,7 +18,7 @@ var rule={
 	searchUrl:'/vod-soso/**----------fypage---.html',
 	headers: {
                 'User-Agent': 'UC_UA',
-                'Cookie': 'cf_clearance=pKuxsR_nxyb8B3cenGz7Lw0Z4T_lCPY0d6Ys9XZOmAM-1697339446-0-1-550d412b.31693665.20c1ecb-150.0.0; PHPSESSID=2d8aa0egmblmjolu6nnqhle76k; clothes=white'
+                'Cookie': 'PHPSESSID=odq2l1lfiue3s1glifk32kqv2m; clothes=white'
             },
 	searchable:1,//是否启用全局搜索,
 	quickSearch:1,//是否启用快速搜索,
