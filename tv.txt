@@ -88,15 +88,14 @@
 "parses":[
         {"name":"解析聚合","type":3,"url":"Demo"},
         {"name":"Json轮询","type":2,"url":"Sequence"},
-        {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
-        {"name":"奇奇","type":1,"url":"http://api.tyun77.cn/api.php/provide/parserUrl?url="},
+        {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url=","ext":{"header":{"User-Agent": "okhttp/3.12.0"}}},
+        {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
         {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/json.php?url="},
-        {"name":"剧圈","type":1,"url":"http://42.157.128.109:2323/CH/app/tv.php?url="},
-        {"name":"巧巧","type":1,"url":"http://pandown.pro/app/kkdy.php?url="},
-        {"name":"海滩","type":0,"url":"https://okjx.cc/?url="},
-        {"name":"海棠","type":0,"url":"https://jx.yangtu.top/?url="},
-        {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url="},
-        {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="}
+        {"name":"剧圈","type":1,"url":"http://42.157.128.109:2323/CH/app/tv.php?url=","ext":{"header":{"User-Agent": "okhttp/3.12.0"}}},
+        {"name":"海滩","type":0,"url":"https://yinshi.eatuo.com/index.php/mvod/jx2?url=","ext":{"header":{"User-Agent": "okhttp/3.12.0"}}},
+        {"name":"海棠","type":0,"url":"https://jx.yangtu.top/?url=","ext":{"header":{"User-Agent": "okhttp/3.12.0"}}},
+        {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url=","ext":{"header":{"User-Agent": "okhttp/3.12.0"}}},
+        {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"header":{"User-Agent": "okhttp/3.12.0"}}}
         ],
 
 "flags":
