@@ -99,7 +99,7 @@
 {"name":"极速","hosts":["jszy","s2.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\r*\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"索尼","hosts":["suonizy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"蜗牛","hosts":["vip.123pan.cn","rescdn.wuxivlog.cn"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-{"name":"星空","hosts":["xinz.xn--654a.cc"],"regex":["#EXT-X-DISCONTINUITY\r*\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"非凡","hosts":["vip.ffzyread1"],"regex":["#EXT-X-DISCONTINUITY\r*\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"火山","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"抖音",hosts":["douyin.com"],"regex":["is_play_url="]}],
 
