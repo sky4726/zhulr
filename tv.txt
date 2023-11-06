@@ -64,16 +64,15 @@
 {"key":"速看影视","name":"速看影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://sk100.tv/api.php/app/"},
 {"key":"罐子影视","name":"罐子影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.gsjtlxy.top/xgapp.php/v3/"},
 {"key":"大米星球","name":"大米星球","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大米星球.js"},
-{"key":"南瓜影视","name":"南瓜影视","type":3,"api":"csp_NanGua","searchable":1,"quickSearch":0,"filterable":1,"jar":"./jar/spider备用.jar"},
 
 #云盘
 {"key":"玩偶","name":"玩偶｜网盘","type":3,"jar":"./jar/1013.jar","api": "csp_Wogg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","filter": "./JS/玩偶哥哥.json","danmu": false}},
 {"key":"校长","name":"校长｜云盘","type":3,"api":"csp_XiaoZhang","jar":"./jar/1019.jar","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/fm.jar"},
-{"key":"纸条","name":"纸条｜云盘","type":3,"api":"csp_XiaoZhiTiao","jar":"./jar/1019.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": false}},
-{"key":"七夜","name":"七夜｜云盘","type":3,"api":"csp_Dovx","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": false}},
-{"key":"盘搜","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": false}},
-{"key":"易搜","name":"易搜｜云盘","type":3,"api":"csp_YiSo","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": false}},
-{"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt", "danmu": false},"jar":"./jar/fm.jar"},
+{"key":"纸条","name":"纸条｜云盘","type":3,"api":"csp_XiaoZhiTiao","jar":"./jar/1019.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
+{"key":"七夜","name":"七夜｜云盘","type":3,"api":"csp_Dovx","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
+{"key":"盘搜","name":"盘搜｜云盘","type":3,"api":"csp_PanSou","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
+{"key":"易搜","name":"易搜｜云盘","type":3,"api":"csp_YiSo","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
+{"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/fm.jar"},
 {"key":"LR","name":"数据来源于互联网｜LR","type":3,"api":"csp_KungFu404","searchable":1,"jar":"https://weixine.net/alibaba.jar"}
 ],
 
@@ -83,7 +82,6 @@
         {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
         {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
         {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="},
-        {"name":"剧圈","type":1,"url":"http://42.157.128.109:2323/CH/app/tv.php?url=","ext":{"header":{"User-Agent":"okhttp/4.11.0"}}},
         {"name":"海滩","type":1,"url":"https://yinshi.eatuo.com/index.php/mvod/jx2?url=","ext":{"header":{"User-Agent":"okhttp/3.12.0"}}},
         {"name":"海棠","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url="},
