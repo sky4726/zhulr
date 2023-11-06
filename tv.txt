@@ -82,7 +82,9 @@
         {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
         {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
         {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="},
-        {"name":"海棠","type":0,"url":"https://jx.yangtu.top/?url="},
+        {"name":"米米","type":1,"url":"http://api.888484.xyz/jiexi/米太硬.php?url="},
+        {"name":"米尔","type":1,"url":"http://luoye.shop/jiexi/米太硬.php?url="},
+        {"name":"沿途","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="}
         ],
@@ -97,6 +99,7 @@
 {"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"蜗牛","hosts":["vip.123pan.cn","rescdn.wuxivlog.cn"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"索尼","hosts":["snzycdn","suonizy"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8.333333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"沿途","hosts":["jx.yangtu.top"],"regex":["download4.caiyun.feixin.10086.cn","/servlet/"]},
 {"name":"火山","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"抖音",hosts":["douyin.com"],"regex":["is_play_url="]}],
 
