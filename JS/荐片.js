@@ -1,22 +1,25 @@
 var rule = {
     title:'荐片',
-    host:'http://api2.rinhome.com',
-    //host:'http://api2.a.nbddy.com',
+    //host:'http://api2.rinhome.com',
+    host:'http://api2.a.nbddy.com',
     homeUrl:'/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
 	url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
     class_name:'电影&电视剧&动漫&综艺',
     class_url:'1&2&3&4',
     detailUrl:'http://api2.a.nbddy.com/api/node/detail?channel=wandoujia&id=fyid',//二级详情拼接链接(json格式用)
     searchUrl:'/api/video/search?key=**&page=fypage',
-    playerType:1,
     searchable:1,
     quickSearch:1,
     filterable:1,
-    filter:{'1': [{'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '0'}, {'n': '2023', 'v': '153'}, {'n': '2022', 'v': '101'}, {'n': '2021', 'v': '118'}, {'n': '2020', 'v': '16'}, {'n': '2019', 'v': '7'}, {'n': '2018', 'v': '2'}, {'n': '2017', 'v': '3'}, {'n': '2016', 'v': '22'}]}, {'key': 'sort', 'name': '排序', 'value': [{'n': '热门', 'v': 'hot'}, {'n': '评分', 'v': 'rating'}, {'n': '更新', 'v': 'update'}]}], '2': [{'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '0'}, {'n': '2023', 'v': '153'}, {'n': '2022', 'v': '101'}, {'n': '2021', 'v': '118'}, {'n': '2020', 'v': '16'}, {'n': '2019', 'v': '7'}, {'n': '2018', 'v': '2'}, {'n': '2017', 'v': '3'}, {'n': '2016', 'v': '22'}]}, {'key': 'sort', 'name': '排序', 'value': [{'n': '热门', 'v': 'hot'}, {'n': '评分', 'v': 'rating'}, {'n': '更新', 'v': 'update'}]}], '3': [{'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '0'}, {'n': '2023', 'v': '153'}, {'n': '2022', 'v': '101'}, {'n': '2021', 'v': '118'}, {'n': '2020', 'v': '16'}, {'n': '2019', 'v': '7'}, {'n': '2018', 'v': '2'}, {'n': '2017', 'v': '3'}, {'n': '2016', 'v': '22'}]}, {'key': 'sort', 'name': '排序', 'value': [{'n': '热门', 'v': 'hot'}, {'n': '评分', 'v': 'rating'}, {'n': '更新', 'v': 'update'}]}], '4': [{'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '0'}, {'n': '2023', 'v': '153'}, {'n': '2022', 'v': '101'}, {'n': '2021', 'v': '118'}, {'n': '2020', 'v': '16'}, {'n': '2019', 'v': '7'}, {'n': '2018', 'v': '2'}, {'n': '2017', 'v': '3'}, {'n': '2016', 'v': '22'}]}, {'key': 'sort', 'name': '排序', 'value': [{'n': '热门', 'v': 'hot'}, {'n': '评分', 'v': 'rating'}, {'n': '更新', 'v': 'update'}]}]},
+    filter:{
+    '1': [{'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '0'}, {'n': '2023', 'v': '153'}, {'n': '2022', 'v': '101'}, {'n': '2021', 'v': '118'}, {'n': '2020', 'v': '16'}, {'n': '2019', 'v': '7'}, {'n': '2018', 'v': '2'}, {'n': '2017', 'v': '3'}, {'n': '2016', 'v': '22'}]}, {'key': 'sort', 'name': '排序', 'value': [{'n': '热门', 'v': 'hot'}, {'n': '评分', 'v': 'rating'}, {'n': '更新', 'v': 'update'}]}], 
+    '2': [{'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '0'}, {'n': '2023', 'v': '153'}, {'n': '2022', 'v': '101'}, {'n': '2021', 'v': '118'}, {'n': '2020', 'v': '16'}, {'n': '2019', 'v': '7'}, {'n': '2018', 'v': '2'}, {'n': '2017', 'v': '3'}, {'n': '2016', 'v': '22'}]}, {'key': 'sort', 'name': '排序', 'value': [{'n': '热门', 'v': 'hot'}, {'n': '评分', 'v': 'rating'}, {'n': '更新', 'v': 'update'}]}], 
+    '3': [{'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '0'}, {'n': '2023', 'v': '153'}, {'n': '2022', 'v': '101'}, {'n': '2021', 'v': '118'}, {'n': '2020', 'v': '16'}, {'n': '2019', 'v': '7'}, {'n': '2018', 'v': '2'}, {'n': '2017', 'v': '3'}, {'n': '2016', 'v': '22'}]}, {'key': 'sort', 'name': '排序', 'value': [{'n': '热门', 'v': 'hot'}, {'n': '评分', 'v': 'rating'}, {'n': '更新', 'v': 'update'}]}], 
+    '4': [{'key': 'year', 'name': '年代', 'value': [{'n': '全部', 'v': '0'}, {'n': '2023', 'v': '153'}, {'n': '2022', 'v': '101'}, {'n': '2021', 'v': '118'}, {'n': '2020', 'v': '16'}, {'n': '2019', 'v': '7'}, {'n': '2018', 'v': '2'}, {'n': '2017', 'v': '3'}, {'n': '2016', 'v': '22'}]}, {'key': 'sort', 'name': '排序', 'value': [{'n': '热门', 'v': 'hot'}, {'n': '评分', 'v': 'rating'}, {'n': '更新', 'v': 'update'}]}]},
     filter_url:'sort={{fl.sort or "hot"}}&year={{fl.year or "0"}}',
     headers:{
 		'User-Agent':'jianpian-android/362',
-		'JPAUTH':'3ovxpAU0GbvsghHBluD0mHpDNFsihG2ufh5yjmkQ56Sy'
+		'JPAUTH':'832jFajOcyw3fkQy8G7WAZ/gSKk8L/MHQ1ENmT97atOj'
 	},
     timeout:5000,
     limit:8,
@@ -43,23 +46,23 @@ var rule = {
     tabs:`js:
             TABS = [];
             if (html.data.have_ftp_ur == 1) {
-                TABS.push("超清[观影后,记得清理缓存]")
+                TABS.push("蓝光")
             }
             if (html.data.have_m3u8_ur == 1) {
-                TABS.push("普清")
+                TABS.push("高清[观影后,记得清理缓存]")
             }
         `,
         lists:`js:
             log(TABS);
             LISTS = [];
             TABS.forEach(function(tab) {
-                if (/超清/.test(tab)) {
+                if (/蓝光/.test(tab)) {
                     let ftp = html.data.new_ftp_list;
                     let d = ftp.map(function(it) {
                         return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
                     });
                     LISTS.push(d)
-                } else if (/普清/.test(tab)) {
+                } else if (/高清/.test(tab)) {
                     let m3u8 = html.data.new_m3u8_list;
                     let d = m3u8.map(function(it) {
                         return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
