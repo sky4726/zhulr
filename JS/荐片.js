@@ -1,13 +1,14 @@
 var rule = {
     title:'荐片',
-    host:'http://api2.rinhome.com',
-    //host:'http://yjpapipxblwdohpakljwg.hxhzs.com',
+    //host:'http://api2.rinhome.com',
+    host:'http://api2.a.nbddy.com',
     homeUrl:'/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
 	url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
     class_name:'电影&电视剧&动漫&综艺',
     class_url:'1&2&3&4',
     detailUrl:'/api/node/detail?channel=wandoujia&id=fyid',//二级详情拼接链接(json格式用)
     searchUrl:'/api/video/search?key=**&page=fypage',
+    playerType:1,
     searchable:1,
     quickSearch:1,
     filterable:1,
@@ -15,7 +16,7 @@ var rule = {
     filter_url:'sort={{fl.sort or "hot"}}&year={{fl.year or "0"}}',
     headers:{
 		'User-Agent':'jianpian-android/362',
-		'JPAUTH':'csmrZ18yV/zLdsbTJmSnXe1EN+L7l1gBaKvJOk/U3IZm'
+		'JPAUTH':'3ovxpAU0GbvsghHBluD0mHpDNFsihG2ufh5yjmkQ56Sy'
 	},
     timeout:5000,
     limit:8,
