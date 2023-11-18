@@ -72,7 +72,7 @@
 
 #云盘
 {"key":"玩偶","name":"玩偶｜云盘","type":3,"jar":"./jar/1013.jar","api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","filter": "./JS/玩偶哥哥.json","danmu": false}},
-{"key":"表哥","name":"玩玩｜云盘","type":3,"jar":"./jar/1013.jar","api":"csp_Wobg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","danmu": false}},
+{"key":"表哥","name":"表哥｜云盘","type":3,"jar":"./jar/1013.jar","api":"csp_Wobg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","danmu": false}},
 {"key":"校长","name":"校长｜云盘","type":3,"api":"csp_XiaoZhang","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/fm.jar"},
 {"key":"纸条","name":"纸条｜云盘","type":3,"api":"csp_XiaoZhiTiao","jar":"./jar/1019.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
 {"key":"七夜","name":"七夜｜云盘","type":3,"api":"csp_Dovx","jar":"./jar/fm.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
