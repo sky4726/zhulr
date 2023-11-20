@@ -20,6 +20,26 @@
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"./JS/drpy.min.js","ext":"./JS/豆瓣.js"},
 {"key":"bilibili","name":"Bilibili","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":"http://127.0.0.1:9978/file/TVBox/bili.txt"},"jar":"./jar/928.jar"},
+{"key":"AList","name":"AList","type":3,"jar":"./jar/1013.jar","playerType":1,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,
+"ext":{"vodPic":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/蜡笔小新.png?ref_type=heads",
+"drives":[
+    {
+    "name": "托盘",
+    "server": "https://pan.mediy.cn/"
+    },
+    {
+      "name": "七米蓝",
+      "server": "https://al.chirmyram.com"
+    },
+    {
+      "name": "樓檬蓼茶",
+      "server": "http://175.178.16.226:62494/"
+    },
+    {
+      "name": "秋雨",
+      "server": "https://share.qiuyu.org/"
+    }
+]}},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"圆周率","name":"圆周率","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
 {"key":"橘子","name":"橘子","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"nbOdUoFXWvBmYlNj/qG8q6ytWFIZwtQPtFFI3cwHTOjM7FKVzTbwY0UHQEImlWb/pHq5gMm6LS2HhJI1m5+/s20tWUHsfJ1BIc4rlkWL5xqOQ/EhgcwCwcKi7ECmsFCBAxb69vZB0qXeElk+GDnHEPxoiB3EqjFfAJ88lClO/fKiZKGBnTdyRVG8VAvmercLgiklQwl6jSHVHanEdkZhMj2jIUEKsVeBWOocRzhJ/7457CvmQd/kLyTabYHJ+jrT7m4iVCnGDL7Aw5W+yeOF8FoH2zfTBBARd0o/8ACk+C7pbFTHI3HbjgiBWatiYevYz8buFQdxmSyXA1kgq5hi8WQ5f/STXW4vtO2ZfbVvEHE4T4MKyb1Cs9Hd0daU/Hb1dukLo9sV7fIisMWkr0UuDvYJJMq6xBU5vnFqxYwp59NsgGK/lc6P7oYWERiZWW6Oe/aVFSapfWILTqV1/UBrsjmgtK8XZTvY4hWh0khKyxwpdyQkQ1JzXfB+CHtM3cPXMKEol3PP9XoMLy4K93+/AH2ty15mcmpBfzip4mZmy8r0g+yV8vqaanhRcBDEvZMy0SgWW59YgbavdsNm7TeIrs/WasVtLrLeRPn5jvlc/Q4FXfx320XO3LI0jMqA0f++gQjCUvfsB3wdi29Sv7NYtMqj8ltg23bzuHg2lfZG+nM8=","jar":"./jar/spider备用.jar"},
@@ -74,26 +94,6 @@
 {"key":"大米星球","name":"大米星球","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大米星球.js"},
 
 #云盘
-{"key":"AList","name":"AList","type":3,"jar":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;364c0f012e73a8801a69900fc25ae9c1","playerType":1,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,
-"ext":{"vodPic":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/蜡笔小新.png?ref_type=heads",
-"drives":[
-    {
-    "name": "托盘",
-    "server": "https://pan.mediy.cn/"
-    },
-    {
-      "name": "七米蓝",
-      "server": "https://al.chirmyram.com"
-    },
-    {
-      "name": "樓檬蓼茶",
-      "server": "http://175.178.16.226:62494/"
-    },
-    {
-      "name": "秋雨",
-      "server": "https://share.qiuyu.org/"
-    }
-]}},
 {"key":"玩偶","name":"玩偶｜云盘","type":3,"jar":"./jar/1013.jar","api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","filter": "./JS/玩偶哥哥.json","danmu": false}},
 {"key":"表哥","name":"表哥｜云盘","type":3,"jar":"./jar/1013.jar","api":"csp_Wobg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","filter": "./JS/玩偶哥哥.json","danmu": false}},
 {"key":"校长","name":"校长｜云盘","type":3,"api":"csp_XiaoZhang","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/fm.jar"},
