@@ -44,6 +44,7 @@
 {"key":"芒果","name":"芒果","type":3,"api":"./JS/drpy.min.js","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/芒果.js"},
 {"key":"奇艺","name":"奇艺","type":3,"api":"./JS/drpy.min.js","playerType":2,"searchable":1,"quickSearch":0,"filterable":1,"ext":"./JS/爱奇.js"},
 {"key":"优酷","name":"优酷","type":3,"api":"./JS/drpy.min.js","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/优酷.js"},
+{"key":"左岸","name":"左岸","type":3,"api":"./JS/drpy.min.js","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/左岸.js"},
 {"key":"emoFun","name":"emoFun","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://one3.emofun.top/mogai_api.php/v1.vod"},
 {"key":"Cokemv","name":"Cokemv","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cokemv.org/xgapp.php/v3/"},
 {"key":"HDmoli","name":"HDmoli","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/HDmoli.js"},
@@ -73,6 +74,26 @@
 {"key":"大米星球","name":"大米星球","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大米星球.js"},
 
 #云盘
+{"key":"AList","name":"AList｜云盘","type":3,"jar":"./jar/1013.jar","playerType":2,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,
+"ext":{"vodPic":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/蜡笔小新.png?ref_type=heads",
+"drives":[
+    {
+    "name": "托盘",
+    "server": "https://pan.mediy.cn/"
+    },
+    {
+      "name": "七米蓝",
+      "server": "https://al.chirmyram.com"
+    },
+    {
+      "name": "神族九帝",
+      "server": "https://alist.shenzjd.com"
+    },
+    {
+      "name": "梓澪",
+      "server": "https://zi0.cc"
+    }
+]}},
 {"key":"玩偶","name":"玩偶｜云盘","type":3,"jar":"./jar/1013.jar","api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","filter": "./JS/玩偶哥哥.json","danmu": false}},
 {"key":"表哥","name":"表哥｜云盘","type":3,"jar":"./jar/1013.jar","api":"csp_Wobg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","filter": "./JS/玩偶哥哥.json","danmu": false}},
 {"key":"校长","name":"校长｜云盘","type":3,"api":"csp_XiaoZhang","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/fm.jar"},
@@ -90,7 +111,7 @@
         {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
         {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
         {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="},
-        {"name":"米米","type":1,"url":"http://api.888484.xyz/jiexi/米太硬.php?url="},
+        {"name":"米米","type":1,"url":"http://110.42.3.71:5000/api/jiexi/common?Key=scR2SCxYQGqNWKLltR&url="},
         {"name":"沿途","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="}
