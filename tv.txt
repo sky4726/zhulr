@@ -74,7 +74,7 @@
 {"key":"大米星球","name":"大米星球","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大米星球.js"},
 
 #云盘
-{"key":"AList","name":"AList","type":3,"jar":"./jar/1023.jar","playerType":1,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,
+{"key":"AList","name":"AList","type":3,"jar":"./jar/fm.jar","playerType":1,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,
 "ext":{"vodPic":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/蜡笔小新.png?ref_type=heads",
 "drives":[
     {
