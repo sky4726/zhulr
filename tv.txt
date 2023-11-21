@@ -28,6 +28,10 @@
     "server": "https://pan.mediy.cn/"
     },
     {
+      "name": "蓼茶",
+      "server": "http://175.178.16.226:62494/"
+    },
+    {
       "name": "柯南",
       "server": "https://alist.523.monster/"
     },
@@ -38,11 +42,7 @@
     {
       "name": "七米蓝",
       "server": "https://al.chirmyram.com/"
-    },
-    {
-      "name": "樓檬蓼茶",
-      "server": "http://175.178.16.226:62494/"
-    },
+    }
 ]}},
 {"key":"迷你库","name":"迷你库","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"圆周率","name":"圆周率","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
