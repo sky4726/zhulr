@@ -24,6 +24,10 @@
 "ext":{"vodPic":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/蜡笔小新.png?ref_type=heads",
 "drives":[
     {
+      "name": "Ecve",
+      "server": "https://pan.ecve.cn/"
+    },
+    {
     "name": "托盘",
     "server": "https://pan.mediy.cn/"
     },
@@ -36,24 +40,16 @@
       "server": "https://alist.523.monster/"
     },
     {
-      "name": "小雅",
-      "server": "http://alist.xiaoya.pro/"
-    },
-    {
-      "name": "Ecve",
-      "server": "https://pan.ecve.cn/"
-    },
-    {
       "name": "秋雨",
       "server": "https://share.qiuyu.org/"
     },
     {
       "name": "老谭",
-      "server": "https://pan.cqtjy.cn/"
+      "server": "https://pan.cqtjy.cn/ali"
     },
     {
-      "name": "雨呢",
-      "server": "https://pan.clun.top/"
+      "name": "小雅",
+      "server": "http://alist.xiaoya.pro/"
     },
     {
       "name": "七米蓝",
