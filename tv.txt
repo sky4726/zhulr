@@ -36,8 +36,20 @@
       "server": "https://alist.523.monster/"
     },
     {
+      "name": "Sodaz",
+      "server": "https://pan.sodaz.xyz/"
+    },
+    {
+      "name": "Ecve",
+      "server": "https://pan.ecve.cn/"
+    },
+    {
       "name": "秋雨",
       "server": "https://share.qiuyu.org/"
+    },
+    {
+      "name": "科技园",
+      "server": "https://pan.kejicode.cn/"
     },
     {
       "name": "七米蓝",
