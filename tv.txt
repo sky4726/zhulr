@@ -45,7 +45,8 @@
     },
     {
       "name": "老谭",
-      "server": "https://pan.cqtjy.cn/ali"
+      "server": "https://pan.cqtjy.cn/",
+      "startPage": "ali"
     },
     {
       "name": "小雅",
