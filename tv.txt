@@ -124,7 +124,7 @@
         {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
         {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
         {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="},
-        {"name":"米米","type":1,"url":"http://110.42.3.71:5000/api/jiexi/common?Key=scR2SCxYQGqNWKLltR&url="},
+        {"name":"米米","type":1,"url":"http://103.42.31.123:5821/jx/?url="},
         {"name":"沿途","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="}
