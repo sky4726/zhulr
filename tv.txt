@@ -47,6 +47,7 @@
 {"key":"毛驴","name":"毛驴｜影视","api":"csp_Maolv","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.maolvys.com/","jar":"./jar/fm.jar"},
 {"key":"星奇","name":"星奇｜影视","type":3,"api":"csp_Appto","searchable":1,"quickSearch":1,"filterable":1,"ext":"DRKzxyMKvtSwY8KlZf2E0UaodOFwpc55fZ8i/57cIgQJHQLy6PnKLAAj9UrkpoexlNCAomzVttbI6D6TEnlHNVDqRhIQqGlHt8m6PjVxP7PSlmraDar52uqEU7UXaaV+UGqz0bc9q95VVRMK4uX5l674wT+p5Cp2QGr1D24Uz7QNkA6GgkDGW/ezLoYsXUCc7xsDK5ev51cJxn0cIJClFysrOGsTvyLYjYIF2ktu+F36QVcAsAvA6Jpyz2hSTlWadidOt2m81TA5yrfAKjBILuQ63gcnyXh6SH9VjER5dL2KD8iTVBAN3L9TlQqDHPr64N0D6mAldXLMYJM/RrTUznCbIno7V/eTT+YqnLWNekVigNB8Q7Fp3WgMYfk73VYcOqPKO2qwQWyJqaQDW4Uo7nFrQWttqYAwWEDhjM/ABuYLkLX9V83/QFOPkhBJZ+eQoqsiVP3ZugFGB5/XuVZkoYWaG00BRQ3j55vTflJ2ne0WQcFAj6GcYNLodkII4Ji53kVoL+w55Cc9PmtSR1tynlWDylYBfkJbtDOJSuEUKDnKiD/ZFqMAejQFV9EcZr1g6QbLIf/FRldeLYRxsYsWPFc2STqEdgGA+osyO/zzyaeZLH5AJ02l7kKyMxKMPaRF2MGX1DPnZHrbXA4u0A5Vy3M3IMFNZaR0f08C4KDDi1xY=","jar":"./jar/fm.jar"},
 {"key":"左岸","name":"左岸｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://json.vip999.fun:4567/api.php/app/"},
+{"key":"低端","name":"低端｜影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/低端影视.js"},
 {"key":"LIBVIO","name":"LIB｜影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/LIBVIO.js"},
 {"key":"emoFun","name":"Eun｜影视","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://one3.emofun.top/mogai_api.php/v1.vod"},
 {"key":"Cokemv","name":"可乐｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cokemv.org/xgapp.php/v3/"},
@@ -115,7 +116,7 @@
         {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
         {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
         {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="},
-        {"name":"米米","type":1,"url":"http://103.42.31.123:5821/jx/?url="},
+        {"name":"米米","type":1,"url":"http://103.42.31.123:5821/jx/?url= "},
         {"name":"阳图","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="}
