@@ -100,7 +100,7 @@ if (/getvddr/.test(purl)) {
 var rule={
     title:'ddys',
     host:'https://ddys.info',
-    hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});HOST = jsp.pdfh(html,"a:eq(1)&&href")',
+    hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});HOST = jsp.pdfh(html,"a:eq(0)&&href")',
     url:'/fyclass/page/fypage/',
     searchUrl:'/?s=**&post_type=post',
     searchable:2,
