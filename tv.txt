@@ -103,7 +103,7 @@
 ]}},
 {"key":"纸条","name":"纸条｜云盘","type":3,"api":"csp_XiaoZhiTiao","jar":"./jar/1125.jjar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
 {"key":"七夜","name":"七夜｜云盘","type":3,"api":"csp_Dovx","jar":"./jar/1125.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
-{"key":"盘搜","name":"盘搜｜云盘","type":3,"api":"csp_PanSearch","jar":"./jar/1125.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
+{"key":"盘搜","name":"盘搜｜云盘","type":3,"api":"csp_PanSearch","jar":"./jar/1013.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
 {"key":"易搜","name":"易搜｜云盘","type":3,"api":"csp_YiSo","jar":"./jar/1125.jar","searchable":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
 {"key":"云搜","name":"云搜｜云盘","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt","jar":"./jar/1125.jar"},
 {"key":"LR","name":"数据来源于互联网｜LR","type":3,"api":"csp_KungFu404","searchable":1,"jar":"https://weixine.net/alibaba.jar"}
