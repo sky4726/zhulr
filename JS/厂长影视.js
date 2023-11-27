@@ -9,7 +9,7 @@ var rule={
     searchable:1,
     filterable:1,
     headers:{
-        'User-Agent': 'Mozilla/5.0(Windows NT 10.0;Win64;x64)AppleWebKit/AppleWebKit537.36 (KHTML,like Gecko)Chrome/117.0.0.0 Safari/537.36',
+        'User-Agent': 'MOBILE_UA',
         'Cookie': 'myannoun=1; cf_clearance=pojWu9MPhNCLWJpt35N7zfRu1GfACpPftdc3HWahGoc-1701080379-0-1-ef25ee04.1c8c2efc.85ab8473-150.0.0'
     },
     class_name:'电影&电视剧&动漫',
