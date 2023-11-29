@@ -121,6 +121,7 @@
         {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/json1.php?url="},
         {"name":"米米","type":1,"url":"http://103.42.31.123:5821/jx/?url= "},
         {"name":"阳图","type":0,"url":"https://jx.yangtu.top/?url="},
+        {"name":"星河","type":0,"url":"https://jx.xmflv.com/?url="},
         {"name":"浩大","type":0,"url":"https://jx.777jiexi.com/player/?url="},
         {"name":"宇宙","type":0,"url":"https://jx.jsonplayer.com/player/?url="}
         ],
