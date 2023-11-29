@@ -30,6 +30,7 @@
 {"key":"雨晴","name":"雨晴｜影视","type":3,"api":"csp_AppYsV2","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://43.154.162.194/ruifenglb_api.php/v1.vod"},
 {"key":"多云","name":"多云｜影视","type":3,"api":"csp_AppYsV2","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ttsp.live/api.php/app/"},
 {"key":"飞鱼","name":"飞鱼｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://103.42.31.123:5820/api.php/app/"},
+{"key":"菲菲","name":"菲菲｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://154.12.21.186:119/api.php/app/"},
 {"key":"王朝","name":"王朝｜影视","type":3,"api":"csp_Yswc","searchable":1,"quickSearch":1,"filterable":1,"ext":"","jar":"http://cdn.qiaoji8.com/fix0804.jar;md5;f71431362b88ce020d9854eb9166841b"},
 
 #动漫
