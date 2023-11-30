@@ -119,7 +119,7 @@
         {"name":"Json轮询","type":2,"url":"Sequence"},
         {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
         {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
-        {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/wudi.php?url="},
+        {"name":"妙妙","type":1,"url":"http"},
         {"name":"米米","type":1,"url":"http://103.42.31.123:5821/jx/?url= "},
         {"name":"阳图","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"星河","type":0,"url":"https://jx.xmflv.com/?url="},
