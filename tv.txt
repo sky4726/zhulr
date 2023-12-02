@@ -115,9 +115,9 @@
 "parses":[
         {"name":"解析聚合","type":3,"url":"Demo"},
         {"name":"Json轮询","type":2,"url":"Sequence"},
-        {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果"]}},
+        {"name":"LR","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url="},
         {"name":"奇奇","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url="},
-        {"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/wudi.php?url=","ext":{"flag":["tnmb","seven","yzm","aliyun","RJuMao","xinvip","XAL","qiqi","XALS","YuMi-vip"]}},
+        //{"name":"妙妙","type":1,"url":"https://www.qiaoji8.com/tvbox/wudi.php?url=","ext":{"flag":["tnmb","seven","yzm","aliyun","RJuMao","xinvip","XAL","qiqi","XALS","YuMi-vip"]}},
         {"name":"米米","type":1,"url":"http://103.42.31.123:5821/jx/?url="},
         {"name":"阳图","type":0,"url":"https://jx.yangtu.top/?url="},
         {"name":"星河","type":0,"url":"https://jx.xmflv.com/?url="},
