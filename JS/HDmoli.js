@@ -21,6 +21,6 @@ var rule = {
         41:{cateId:'41',by:'time'}
     },
     searchUrl:'/search.php?page=fypage&searchword=**&searchtype=',
-    搜索: '#searchList li;a&&title;.lazyload&&data-original;a&&href;.thumb&&span:eq(2)&&Text',
+    搜索: '#searchList li;a&&title;.lazyload&&data-original;.thumb&&span:eq(2)&&Text;a&&href',
     class_parse: '.myui-header__menu li;a&&Text;a&&href;.*/index(\\d+).html',
 }
