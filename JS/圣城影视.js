@@ -7,7 +7,7 @@ var rule = {
      quickSearch: 1,//是否启用快速搜索,
      filterable: 0,//是否启用分类筛选,
      headers: {
-       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+       'User-Agent': 'MOBILE_UA'
      },
      cate_exclude: '网址',
      class_parse: '.nav-menu-items&&li;a&&Text;a&&href;.*/(.*?).html',
