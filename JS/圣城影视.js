@@ -1,29 +1,29 @@
-{
-   title: '圣城影视',
-   host: 'https://sc1080.top',
-   searchUrl: '/index.php/vod/search/page/fypage/wd/**/',
-   url: '/index.php/vod/type/id/fyclass/page/fypage.html',
-   headers: {
-       'User-Agent': 'MOBILE_UA'
-   },
-   timeout: 5000,
-   class_parse: '#nav-bar li;a&&Text;a&&href;id/(.*?)/',
-   limit: 40,
-   play_parse: true,
-   lazy: '',
-   推荐: '.list-a.size;li;a&&title;.lazy&&data-original;.bt&&Text;a&&href',
-   double: true,
-   一级: '.list-a&&li;a&&title;.lazy&&data-original;.list-remarks&&Text;a&&href',
-   二级: {
-       "title": "h2&&Text;.deployment&&Text",
-       "img": ".lazy&&data-original",
-       "desc": ".deployment&&Text",
-       "content": ".ec-show&&Text",
-       "tabs": "#tag&&a",
-       "lists": ".play_list_box:eq(#id)&&li"
-   },
-   搜索: '.search-list;a&&title;.lazy&&data-original;.deployment&&Text;a&&href',
-   searchable: 2,//是否启用全局搜索,
-   quickSearch: 0,//是否启用快速搜索,
-   filterable: 0,//是否启用分类筛选,
-},
+var rule = {
+     title: '圣城影视',
+     host: 'https://www.sc1080.top',
+     searchUrl: '/index.php/vod/search/page/fypage/wd/**.html',
+     url: '/index.php/vod/show/id/fyclass/page/fypage.html',
+     searchable: 2,//是否启用全局搜索,
+     quickSearch: 1,//是否启用快速搜索,
+     filterable: 0,//是否启用分类筛选,
+     headers: {
+       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
+     },
+     cate_exclude: '网址',
+     class_parse: '.nav-menu-items&&li;a&&Text;a&&href;.*/(.*?).html',
+     play_parse: true,
+     lazy: '',
+     limit: 6,
+     推荐: '.module-list;.module-items&&.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
+     double: true, // 推荐内容是否双层定位
+     一级: '.module-items .module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
+     二级: {
+         "title": "h1&&Text;.tag-link&&Text",
+         "img": ".module-item-pic&&img&&data-src",
+         "desc": ".video-info-items:eq(3)&&Text;.video-info-items:eq(2)&&Text;.video-infs&&Text;.video-info-item:eq(1)&&Text;.video-info-items:eq(0)&&Text",
+          "content": ".vod_content&&Text",
+          "tabs": ".module-tab-item",
+          "lists": ".module-player-list:eq(#id)&&.scroll-content&&a"
+     },
+     搜索: '.module-items .module-search-item;img&&alt;img&&data-src;.video-serial&&Text;a&&href',
+    }
