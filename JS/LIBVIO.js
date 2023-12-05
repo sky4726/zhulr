@@ -45,9 +45,7 @@ if (/https/.test(paurl)) {
 		parse: 0
 	}
 }`,
-	searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+	searchUrl:'/search/-------------.html?wd=**&submit=',
 	detailUrl:'/detail/fyid.html', //非必填,二级详情拼接链接
-	// detailUrl:'/detail_fyid.html', //非必填,二级详情拼接链接
-	// searchUrl:'/search/**----------fypage---.html',
-	搜索:'json:list;name;pic;;id',
+	搜索:'.lazyload;a&&title;a&&href;.pic-text&&Text',
 }
