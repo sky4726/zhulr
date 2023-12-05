@@ -1,6 +1,6 @@
 // 永久网址：https://libvio.app
 muban.首图2.二级.title = 'h1&&Text;.data:eq(0)&&Text'
-muban.首图2.二级.desc = '.stui-content__detail&&p:eq(3)&&Text;.data:eq(1)&&Text;.data:eq(4)&&Text'
+muban.首图2.二级.desc = '.data.hidden-xs&&Text;;;.data:eq(1)&&Text;.data:eq(4)&&Text'
 muban.首图2.二级.content = '.detail-content&&Text'
 var rule = {
 	title:'LIBVIO',
