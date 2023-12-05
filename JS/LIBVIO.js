@@ -48,5 +48,6 @@ if (/https/.test(paurl)) {
 	searchUrl:'/search/-------------.html?wd=**&submit=',
 	detailUrl:'/detail/fyid.html', //非必填,二级详情拼接链接
 	//搜索:'.stui-vodlist__box;a&&title;a&&href;.pic-text&&Text',
-	搜索: 'ul.stui-vodlist&&li;a&&title;.lazyload&&data-original;.pic-text&&Text;.stui-vodlist__box&&href',
+	搜索: 'ul.stui-vodlist&&li;a&&title;.lazyload&&data-original;lazyload&&href;.pic-text&&Text',
+	//搜索1: 'ul.stui-vodlist&&li;a&&title;.lazyload&&data-original;.text-muted&&Text;a&&href;.text-muted:eq(-1)&&Text',
 }
