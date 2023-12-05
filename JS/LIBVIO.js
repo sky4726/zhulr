@@ -47,5 +47,5 @@ if (/https/.test(paurl)) {
 }`,
 	searchUrl:'/search/-------------.html?wd=**&submit=',
 	detailUrl:'/detail/fyid.html', //非必填,二级详情拼接链接
-	搜索: 'ul.stui-vodlist&&li;a&&title;.lazyload&&data-original;.text-muted&&Text;a&&href;.text-muted:eq(0)&&Text',
+	搜索: 'ul.stui-vodlist&&li;a&&title;.lazyload&&data-original;.pic–text&&Text;a&&href,
 }
