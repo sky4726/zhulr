@@ -1,6 +1,6 @@
 // 永久网址：https://libvio.app
 muban.首图2.二级.title = 'h1&&Text;.data:eq(0)&&Text'
-muban.首图2.二级.desc = '.data.hidden-xs&&Text;;;.data:eq(1)&&Text;.data:eq(4)&&Text'
+muban.首图2.二级.desc = '.stui-content__detail&&p:eq(3)&&Text;.stui-content__detail&&p:eq(0)&&Text' 
 muban.首图2.二级.content = '.detail-content&&Text'
 var rule = {
 	title:'LIBVIO',
@@ -27,7 +27,7 @@ var rule = {
 	},
 	class_parse:'.stui-header__menu li:gt(0):lt(7);a&&Text;a&&href;/(\\d+).html',
 	// class_parse:'.stui-header__menu li;a&&Text;a&&href;/.*_(\\d+).html',
-	tab_exclude:'夸克网盘|百度云盘',
+	tab_exclude:'夸克网盘|百度云盘|UC网盘',
 	pagecount:{"27":1},
 	lazy:`js: var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
 var url = html.url;
