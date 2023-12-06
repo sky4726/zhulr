@@ -1,10 +1,10 @@
-muban.mxpro.二级.desc = '.module-info-content:(2)&&Text;;;.module-info-item-content:eq(1)&&Text;.module-info-item-content:eq(0)&&Text';
+muban.mxpro.二级.desc = '.module-info-content:(4)&&Text;;;.module-info-item-content:eq(2)&&Text;.module-info-item-content:eq(0)&&Text';
 muban.mxpro.二级.img = '.lazyload&&src';
 var rule = {
 	title:'蓝蓝影视',
 	模板:'mxpro',
 	host:'https://lgysw.cn',
-	url:'/vodshow/fyclassfyfilter.html',
+	url:'/vodtype/fyclass/',
 	searchable: 2,//是否启用全局搜索,
     quickSearch: 1,//是否启用快速搜索,
     filterable: 0,//是否启用分类筛选,
