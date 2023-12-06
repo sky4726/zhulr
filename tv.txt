@@ -38,6 +38,7 @@
 {"key":"LIBVIO","name":"LIB｜影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/LIBVIO.js"},
 {"key":"emoFun","name":"Eun｜影视","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://one3.emofun.top/mogai_api.php/v1.vod"},
 {"key":"王朝","name":"王朝｜影视","type":3,"api":"csp_Yswc","searchable":1,"quickSearch":1,"filterable":1,"ext":"","jar":"http://cdn.qiaoji8.com/fix0804.jar;md5;f71431362b88ce020d9854eb9166841b"},
+{"key":"蓝蓝","name":"蓝蓝｜影视","type":3,"api":"./JS/drpy.min.js","playerType":1,"searchable":1,"changeable":1,"ext":"./JS/蓝蓝影视.js"},
 {"key":"云播","name":"云播｜影视","type":3,"api":"csp_Skapp","playerType":2,"ext":"CWL+IfA5s3TICYJ8lk+lYcjPA/WXNYE4LRTfUSa9I+X9ibZY05syLe/O7u2miaiYRiSaKE51xQOxm38YeL27jRUyF6+GJKVQArnP7QbC+qw2okju8YACfPzD3rpQo8uckl2rQh925A6lp4VD0ELHJrUvDGTlojwKtynX78d5E88HbdSsCV5pIueNPH5+z42FBt21KGN5lnE7/qqEGpSyFzbARD4aWuhSHsun7GQU9yaXZn0F4l4o2YYaEvRtsz4z9Mo8+7aj2nZsCkFWLNpgv6kzFNohSTWVDkajg5aj6s7d8CPNIvvC+gr0zm79fuuvNQF6NfaiBOrvTwamMJa3F3w==","jar":"./jar/fm.jar"},
 
 #动漫
