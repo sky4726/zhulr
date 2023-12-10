@@ -53,7 +53,7 @@ var rule={
     二级:{
         "title": "h1&&Text;.moviedteail_list li&&a&&Text",
         "img": "div.dyimg img&&src",
-        "desc": ".moviedteail_list li:eq(10) a&&Text;.moviedteail_list li:eq(2) a&&Text;.moviedteail_list li:eq(1) a&&Text;.moviedteail_list li span:eq(7)&&Text;.moviedteail_list li span:eq(5)&&Text",
+        "desc": ".moviedteail_list li:eq(10) a&&Text;.moviedteail_list li:eq(2) a&&Text;.moviedteail_list li:eq(1) a&&Text;.moviedteail_list li span&nbsp;&nbsp:eq(7)&&Text;.moviedteail_list li span:eq(5)&&Text",
         "content": ".yp_context&&Text",
         "tabs": ".mi_paly_box span",
         "lists": ".paly_list_btn:eq(#id) a"
