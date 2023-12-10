@@ -12,8 +12,8 @@ var rule={
         'User-Agent': 'MOBILE_UA',
         'Cookie': 'myannoun=1; cf_clearance=pojWu9MPhNCLWJpt35N7zfRu1GfACpPftdc3HWahGoc-1701080379-0-1-ef25ee04.1c8c2efc.85ab8473-150.0.0'
     },
-    class_name:'电影&电视剧&动漫',
-    class_url:'movie_bt_series/dyy&dsj&dm',
+    class_name:'豆瓣电影top250&电影&美剧&韩剧&动漫',
+    class_url:'dbtop250&movie_bt_series/dyy&meijutt&hanjutv&dm',
 	play_parse:true,
     lazy:`js:
         pdfh = jsp.pdfh;
@@ -49,7 +49,7 @@ var rule={
 	`,
     推荐:'.bt_img;ul&&li;*;*;*;*',
     double:true,
-    一级:'.bt_img&&ul&&li;h3.dytit&&Text;img.lazy&&data-original;.jidi&&Text;a&&href',
+    一级:'.bt_img&&ul&&li;h3.dytit&&Text;img.lazy&&data-original;.jidi&&Text;.hdinfo&&Text;a&&href',
     二级:{
         "title": "h1&&Text;.moviedteail_list li&&a&&Text",
         "img": "div.dyimg img&&src",
