@@ -363,8 +363,10 @@ http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/sswshd8m/8000
 https://pullsstv90080111.ssws.tv/live/SSTV20220729.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="广东",广东珠海
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="广东",广东珠江
 http://zteres.sn.chinamobile.com:6060/000000001000/2000000003000000033/1.m3u8?channel-id=hnbblive&Contentid=2000000003000000033&livemode=1&stbId=3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="广东",广东珠江
+http://r.jdshipin.com/sE5vO
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="广东",大湾区卫视
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226218/index.m3u8
 
