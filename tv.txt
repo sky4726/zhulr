@@ -13,7 +13,7 @@
       },
       "epg": "http://api.cntv.cn/epg/epginfo?serviceId=cbox&c={name}&d={date}",
       "logo": "https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/{name}.png"
-    }
+    },
     {
       "name": "国外",
       "type": 0,
