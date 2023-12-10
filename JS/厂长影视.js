@@ -49,7 +49,7 @@ var rule={
 	`,
     推荐:'.bt_img;ul&&li;*;*;*;*',
     double:true,
-    一级:'.bt_img&&ul&&li;h3.dytit&&Text;img.lazy&&data-original;.jidi&&Text&.hdinfo&&Text;a&&href',
+    一级:'.bt_img&&ul&&li;h3.dytit&&Text;img.lazy&&data-original;.jidi&&Text .hdinfo&&Text;a&&href',
     二级:{
         "title": "h1&&Text;.moviedteail_list li&&a&&Text",
         "img": "div.dyimg img&&src",
