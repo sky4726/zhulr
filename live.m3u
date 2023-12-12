@@ -272,7 +272,7 @@ https://live.goodiptv.club/api/cqyx.php?id=shenzhenHD
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="/tv/广西卫视.png" group-title="卫视",广西卫视
 http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/gxwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="/tv/广西卫视.png" group-title="卫视",广西卫视
-https://live.goodiptv.club/api/cqyx.php?id=guangxiHD
+https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
 #EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="/tb1/ws/heilongjiang.png" group-title="卫视",黑龙江卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
 #EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="/tb1/ws/heilongjiang.png" group-title="卫视",黑龙江卫视
@@ -312,7 +312,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
 #EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="/tb1/ws/henan.png" group-title="卫视",河南卫视
 http://180.97.247.27:8088/liveplay-kk.rtxapp.com/live/program/live/hnwshd8m/8000000/mnf.m3u8
 #EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="/tb1/ws/henan.png" group-title="卫视",河南卫视
-https://live.goodiptv.club/api/cqyx.php?id=henanHD
+https://live.goodiptv.club/api/bestv.php?id=hnwshd8m/8000000
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="/tv/河北卫视.png" group-title="卫视",河北卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226406/index.m3u8
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="/tv/河北卫视.png" group-title="卫视",河北卫视
