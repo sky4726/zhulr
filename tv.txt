@@ -15,13 +15,20 @@
       "logo": "https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/{name}.png"
     },
     {
+      "name": "IPV6",
+      "type": 0,
+      "url": "https://gh.con.sh/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Safari/537.36"
+      },},
+    {
       "name": "国外",
       "type": 0,
       "url": "https://gh.con.sh/https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
       "playerType": 1,
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.163 Safari/537.36"
-      }}
+    }}
   ],
 
 "sites":[
