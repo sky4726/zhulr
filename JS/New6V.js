@@ -55,7 +55,7 @@ var rule = {
 			let i = 1;
 			TABS.forEach(function(tab) {
 				if (/磁力播放/.test(tab)) {
-					var d = pdfa(html, '.context&&.firstRow:eq(#id)&&a');
+					var d = pdfa(html, '.context&&td');
 					d = d.map(function(it) {
 						var title = pdfh(it, 'a&&Text');
 						var burl = pd(it, 'a&&href');
