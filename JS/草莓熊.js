@@ -1,7 +1,6 @@
 var rule = {
 	title:'草莓熊',
 	host:'https://www.cilixiong.com',
-	homeUrl:'/top250/index.html',
 	// url: '/fyclass/index_(fypage-1).html',
 	url: '/fyclassfyfilter-(fypage-1).html',
 	filter_url:'-{{fl.class or "0"}}-{{fl.area or "0"}}',
@@ -17,8 +16,8 @@ var rule = {
 		'User-Agent': 'MOBILE_UA'
 	},
 	timeout:5000,
-	class_name:'电影&剧集&豆瓣电影Top250',
-	class_url:'1&2&/top250/',
+	class_name:'电影&剧集&豆瓣电影Top250&IMDB Top250',
+	class_url:'1&2&/top250/&/s/imdbtop250/',
 	play_parse:true,
 	lazy:'',
 	limit:6,
@@ -62,33 +61,9 @@ var rule = {
 		img:'.rounded-2&&src',
 		content:'.mv_card_box&&Text',
 		tabs:'js:TABS = ["磁力播放[观影后,记得清理缓存]"]',
-		lists:`js:
-		log(TABS);
-		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
-		LISTS = [];
-		var dd=[];
-		TABS.forEach(function(tab) {
-			if (/磁力播放/.test(tab)) {
-				var d = pdfa(html, '.mv_down&&a[href^="magnet:"]');
-				d = d.map(function(it) {
-					var title = pdfh(it, 'Text');
-					log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-					var url = pd(it, 'href');
-					log('url >>>>>>>>>>>>>>>>>>>>>>>>>>' + url);
-					return title + '$' + url
-				});
-				LISTS.push(d)
-			} else if (/在线预览/.test(tab)) {
-				var d = pd(html, 'iframe&&src');
-				if (d) {
-					d=['第一集在线播放预览$' + d]
-				} else {
-					d=['没有预览不要点$']
-				}
-				LISTS.push(d)
-			}
-		});
-		`,
+		lists:'.mv_down:eq(#id)&&.border-bottom',
+		list_text:'a&&Text',
+		list_url:'a&&href',
 	},
 	搜索:'.col;h2&&Text;.card-img&&url;.me-auto&&Text;a&&href',
 }
