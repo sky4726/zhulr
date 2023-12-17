@@ -53,6 +53,7 @@
 {"key":"荐片","name":"荐片｜磁力","type":3,"api":"./JS/drpy.min.js","playerType":1,"searchable":1,"filterable":1,"changeable":1,"ext":"./JS/荐片.js"},
 {"key":"草莓熊","name":"草莓｜磁力","type":3,"api":"./JS/drpy.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"./JS/草莓熊.js"},
 {"key":"奇奇","name":"奇奇｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"filterable":1,"changeable":1,"ext":"./JS/奇奇2.js"},
+{"key":"部落","name":"部落｜磁力","type":3,"api":"./JS/drpy.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"./JS/BT部落.js"},
 {"key":"天堂","name":"天堂｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"filterable":1,"changeable":1,"ext":"./JS/BT天堂.js"},
 {"key":"新6v","name":"新V｜磁力","type":3,"api":"./JS/drpy.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"./JS/New6V.js"},
 {"key":"王朝","name":"王朝｜影视","type":3,"api":"csp_Yswc","searchable":1,"quickSearch":1,"filterable":1,"ext":"","jar":"http://cdn.qiaoji8.com/fix0804.jar;md5;f71431362b88ce020d9854eb9166841b"},
