@@ -49,7 +49,6 @@
 {"key":"厂长","name":"厂长｜影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/厂长影视.js"},
 {"key":"HDmoli","name":"魔力｜影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/HDmoli.js"},
 {"key":"LIBVIO","name":"LIB｜影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/LIBVIO.js"},
-{"key":"emoFun","name":"Eun｜影视","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://one3.emofun.top/mogai_api.php/v1.vod"},
 {"key":"荐片","name":"荐片｜磁力","type":3,"api":"./JS/drpy.min.js","playerType":1,"searchable":1,"filterable":1,"changeable":1,"ext":"./JS/荐片.js"},
 {"key":"草莓熊","name":"草莓｜磁力","type":3,"api":"./JS/drpy.min.js","searchable":1,"filterable":1,"changeable":1,"ext":"./JS/草莓熊.js"},
 {"key":"奇奇","name":"奇奇｜磁力","type":3,"api":"csp_XYQHiker","searchable":1,"filterable":1,"changeable":1,"ext":"./JS/奇奇2.js"},
@@ -80,6 +79,7 @@
 {"key":"MOFLIX","name":"魔方｜影视","type":3,"api":"./JS/drpy.min.js","playerType":1,"searchable":1,"changeable":1,"ext":"./JS/MOFLIX.js"},
 {"key":"宅腐影视","name":"宅腐｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.zhaifutvapp.com/ruifenglb_api.php/v1.vod"},
 {"key":"罐子影视","name":"罐子｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.gsjtlxy.top/xgapp.php/v3/"},
+{"key":"emoFun","name":"感情｜影视","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://154.31.2.112:8871/mogai_api.php/v1.vod"},
 {"key":"大米星球","name":"大米｜影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/大米星球.js"},
 
 #云盘
