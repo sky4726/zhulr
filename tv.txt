@@ -138,8 +138,8 @@
         {"name":"米米","type":1,"url":"https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url="},
         {"name":"巧巧","type":1,"url":"https://www.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["XAL","xinvip"]}},
         {"name":"星河","type":0,"url":"https://jx.xmflv.com/?url="},
-        {"name":"七七","type":0,"url":"https://jx.777jiexi.com/player/?url="},
-        {"name":"紫云 ","type":0,"url":"http://w.ziyuan6.top/player/?url="},
+        {"name":"野人","type":0,"url":"https://jx.playerjy.com/?url="},
+        {"name":"七七","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="},
         {"name":"可乐","type":0,"url":"https://www.ecmys.com/player/art.php?url="}
         ],
 
