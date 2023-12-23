@@ -32,10 +32,10 @@
   ],
 
 "sites":[
-{"key":"豆瓣","name":"豆瓣｜评分","type":3,"api":"./JS/drpy.min.js","ext":"./JS/豆瓣.js"},
-{"key":"Aid","name":"急救｜指南","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": {"type": "rect", "ratio":3.8},"jar":"./jar/fan.txt"},
-{"key":"bilibili","name":"哔哩｜娱乐","type":3,"api":"csp_Bili","jar":"./jar/928.jar","searchable":1,"quickSearch":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":"http://127.0.0.1:9978/file/TVBox/bili.txt"}},
-{"key":"Kanqiu","name":"看球｜体育","type":3,"api":"csp_Kanqiu","searchable":0,"quickSearch":0,"changeable":0,"jar":"./jar/1125.jar","style":{"type":"list"}},
+{"key":"豆瓣","name":"豆瓣｜评分","type":3,"api":"csp_Douban","ext":"./JS/豆瓣.js"},
+{"key":"Aid","name":"急救｜指南","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": {"type": "rect", "ratio":3.8}},
+{"key":"bilibili","name":"哔哩｜娱乐","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"ext":{"json":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/哔哩哔哩.json","cookie":"http://127.0.0.1:9978/file/TVBox/bili.txt"}},
+{"key":"Kanqiu","name":"看球｜体育","type":3,"api":"csp_Kanqiu","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"}},
 {"key":"迷你库","name":"迷你｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"圆周率","name":"率率｜影视","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
 {"key":"嘉良","name":"嘉良｜影视","type":3,"api":"./JS/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/嘉良影视.js"},
@@ -43,6 +43,8 @@
 {"key":"影探","name":"影探｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://wipcms.lyyytv.cn/api.php/app/"},
 {"key":"蝴蝶","name":"蝴蝶｜影视","type":3,"api":"csp_Hudie","playerType":2,"ext":"https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b","jar":"./jar/fm.jar"},
 {"key":"晴天","name":"晴天｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://43.154.162.194/ruifenglb_api.php/v1.vod"},
+{"key":"96","name":"九六｜影视","type":3,"api":"csp_Cs1369","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.cs1369.com"},
+{"key":"独播","name":"独播｜影视","type":3,"api":"csp_XPathMacFilter","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/独播库.js"},
 {"key":"圣城","name":"圣城｜影视","type":3,"api":"./JS/drpy.min.js","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./JS/圣城影视.js"},
 {"key":"乐迪","name":"乐迪｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
 {"key":"蚂蚁","name":"蚂蚁｜影视","type":3,"api":"csp_Mayiys","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"ext":"http://rzys.xyz","jar":"./jar/spider备用.jar"},
@@ -63,7 +65,7 @@
 {"key":"嘶哩","name":"嘶哩｜动漫","type":3,"api":"csp_Skapp","searchable":1,"quickSearch":1,"playerType":2,"filterable":1,"ext":"wf7jTHTllmPx90cSfqYsxOFbNiEn/OOwcQMioXntTCgGo6loj/amsxwUNfJPF2W00I+ZJzSan7pD3OPqeGn1/3CaJLZhzh/OtQFo7cJf/AA/LRGchJ/NNsdu8c3HeY8X3ic+nAYiOFIT7HiLfqFnBom04dCSbujoxb0RoT6iYiZSArenzm5E5lEpGHD/KltmbDpcX9Lkxj+9HnF/okAhK8nsUmta/Jrnk40HP7cZodP3QGeLUpeoOCQZzw++LuS9iYZSentZVKL9q/puBZ78nhjx4fw94cM1SbG0rcAB9vwZr4z9YYNRythGAfNeOsMgRpAOnZH8K5JuWFoADNhHLMA==","jar":"./jar/fm.jar"},
 {"key":"次元","name":"次元｜动漫","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/次元城动漫.js"},
 {"key":"五八","name":"五八｜动漫","type":3,"api":"./JS/drpy.min.js","searchable":1,"changeable":1,"ext":"./JS/58动漫.js"},
-{"key":"巴士","name":"巴士｜动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://dm84.vip","jar":"./jar/fm.jar"},
+{"key":"巴士","name":"巴士｜动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://dm84.vip"},
 
 {"key":"Cokemv","name":"可乐｜影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cokemv.org/xgapp.php/v3/"},
 {"key":"涛涛剧","name":"涛涛｜影视","type":3,"api":"csp_AppYsV2","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://43.129.187.120:8090/ruifenglb_api.php/v1.vod"},
@@ -85,7 +87,7 @@
 #云盘
 {"key":"玩偶","name":"玩偶｜云盘","type":3,"jar":"./jar/1125.jar","api":"csp_Wogg","searchable":1,"filterable":1,"playerType":2,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","filter": "./JS/玩偶哥哥.json","danmu": false}},
 {"key":"表哥","name":"表哥｜云盘","type":3,"api":"csp_Wobg","searchable":1,"filterable":1,"changeable":0,"ext": {"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","filter": "./JS/玩偶哥哥.json","danmu": false}},
-{"key":"AList","name":"小雅｜云盘","type":3,"jar":"./jar/1013.jar","api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,
+{"key":"AList","name":"小雅｜云盘","type":3,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,
 "ext":{"vodPic":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/ing/蜡笔小新.png?ref_type=heads",
 "drives":[
     {
